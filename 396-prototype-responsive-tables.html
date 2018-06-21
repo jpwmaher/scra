@@ -1,0 +1,172 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>SCRa - responsive prototype concepts</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/scra.css">
+    <link rel="stylesheet" href="css/scra-396.css">
+    <link rel="stylesheet" href="css/foundation-icons.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<style>
+    .responsive-card-table {
+        border-collapse: collapse;
+    }
+
+    .responsive-card-table.unstriped tbody {
+        background-color: transparent;
+    }
+
+    .responsive-card-table th {
+        background-color: #768692;
+    }
+
+    .responsive-card-table tr,
+    .responsive-card-table th,
+    .responsive-card-table td {
+        border: 1px solid #f0f0f0;
+    }
+
+    @media screen and (max-width: 640px) {
+        .responsive-card-table {}
+        .responsive-card-table thead tr {
+            position: absolute;
+            top: -9999em;
+            left: -9999em;
+        }
+        .responsive-card-table tr {
+            border: 1px solid #f0f0f0;
+            display: block;
+        }
+        .responsive-card-table tr+tr {
+            margin-top: 1.5rem;
+        }
+        .responsive-card-table td {
+            border: none;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border-bottom: 1px solid #f0f0f0;
+            padding-left: 50%;
+            position: relative;
+        }
+        .responsive-card-table td:before {
+            content: attr(data-label);
+            display: inline-block;
+            font-weight: bold;
+            line-height: 1.5;
+            margin-left: -100%;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        .responsive-card-table td:after {
+            content: '';
+            position: absolute;
+            background: #ccc;
+            width: 45%;
+            height: 95%;
+            left: 1px;
+            top: 1px;
+            z-index: 0;
+            color: white;
+        }
+    }
+
+</style>
+
+<body>
+
+    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a>
+
+    <div id="masthead-2" class="grid-container full">
+        <div id="masthead-menu" class="grid-container">
+            <div class="grid-x grid-padding-x grid-margin-x">
+                <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="large">
+                    <!-- <button class="menu-icon" type="button" data-toggle="responsive-menu"></button> -->
+                    <div class="title-bar-title"><a href="index-396.html"><img src="/img/nhs-digital-logo-left.jpg" style="height: 20px;"> </a> &nbsp; Summary Care Record application</div>
+                </div>
+
+                <div class="top-bar" id="responsive-menu">
+                    <div class="top-bar-left">
+                        <ul class="dropdown menu show-for-large">
+                            <li><a href="index-396.html" style="padding: 0px;"><img src="/img/nhs-digital-logo-left.jpg" style="height: 40px;"></a></li>
+                            <li class="menu-text">Summary Care Record application</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell">
+                <h1>Responsive table examples</h1>
+                <small>Shrink the browser window to see how the tables behave at different screen widths</small><br/><br/>
+                <h5>1. Responsive table to card pattern</h5>
+                <table class="responsive-card-table unstriped">
+                    <thead>
+                        <tr>
+                            <th>Date prescribed</th>
+                            <th>Details</th>
+                            <th>Instructions</th>
+                            <th>Dosage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Date prescribed">15 Aug 2017</td>
+                            <td data-label="Details">Amoxicillin 500mg</td>
+                            <td data-label="Instructions">Take 1 three times/day</td>
+                            <td data-label="Dosage">15 capsules</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Date prescribed">15 Aug 2017</td>
+                            <td data-label="Details">Amoxicillin 500mg</td>
+                            <td data-label="Instructions">Take 1 three times/day</td>
+                            <td data-label="Dosage">15 capsules</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Date prescribed">15 Aug 2017</td>
+                            <td data-label="Details">Amoxicillin 500mg</td>
+                            <td data-label="Instructions">Take 1 three times/day</td>
+                            <td data-label="Dosage">15 capsules</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Date prescribed">15 Aug 2017</td>
+                            <td data-label="Details">Amoxicillin 500mg</td>
+                            <td data-label="Instructions">Take 1 three times/day</td>
+                            <td data-label="Dosage">15 capsules</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/vendor/top.js"></script>
+    <script src="js/vendor/patient-float.js"></script>
+</body>
+
+</html>

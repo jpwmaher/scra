@@ -1,0 +1,959 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>396 - SCRa - responsive prototype concepts</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/scra.css">
+    <link rel="stylesheet" href="css/scra-396.css">
+    <link rel="stylesheet" href="css/foundation-icons.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<style>
+    table {
+        min-width: 100%;
+    }
+
+</style>
+
+<body>
+
+    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float">Mr. William Shakespeare | 17-Apr-1969</span>
+
+    <div id="masthead-2" class="grid-container full">
+        <div id="masthead-menu" class="grid-container">
+            <div class="grid-x grid-padding-x grid-margin-x">
+                <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="large">
+                    <!-- <button class="menu-icon" type="button" data-toggle="responsive-menu"></button> -->
+                    <div class="title-bar-title"><a href="index-396.html"><img src="/img/nhs-digital-logo-left.jpg" style="height: 20px;"> </a> &nbsp; Summary Care Record application</div>
+                    <div class="auto cell"><button class="button hollow tiny" style="float: right; position: relative; right: 0px; margin-bottom: 0px;">Find patient</button>
+                    </div>
+                </div>
+
+                <div class="top-bar" id="responsive-menu">
+                    <div class="top-bar-left">
+                        <ul class="dropdown menu show-for-large">
+                            <li><a href="index-396.html" style="padding: 0px;"><img src="/img/nhs-digital-logo-left.jpg" style="height: 40px;"></a></li>
+                            <li class="menu-text">Summary Care Record application</li>
+                        </ul>
+                    </div>
+                    <div class="top-bar-right">
+                        <ul class="dropdown menu" data-dropdown-menu>
+                            <li><button class="button hollow show-for-medium">Find patient</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div id="patient-summary" class="grid-x grid-padding-x">
+            <div id="summary-name" class="small-6 medium-shrink cell small-order-1 summary-panel">
+                <span class="summary-label">Full name:</span><br/><span class="summary-info">William Shakespeare</span>
+            </div>
+            <div id="summary-gender" class="small-6 medium-shrink cell small-order-3 summary-panel">
+                <span class="summary-label">Gender:</span><br/><span class="summary-info">Male</span>
+            </div>
+            <div id="summary-dob" class="small-6 medium-shrink cell small-order-4 summary-panel">
+                <span class="summary-label">DOB:</span><br/><span class="summary-info">17-Apr-1969</span>
+            </div>
+            <div id="summary-nhs" class="small-6 medium-shrink cell small-order-5 summary-panel">
+                <span class="summary-label">NHS No:</span><br/><span class="summary-info">123 456 7890</span>
+            </div>
+            <div id="summary-address" class="medium-auto small-12 cell small-order-6 medium-order-6 summary-panel">
+                <span class="summary-label">Address:</span><br/><span class="summary-info">1 Henley Street, Stratford-upon-Avon, Warwickshire</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="tab-wrapper" class="grid-container">
+        <div id="tabbies" class="grid-x" data-equalizer>
+            <div class="large-4 medium-4 small-6 cell">
+                <a href="396-prototype-b-patient-details.html" class="button tabby tabby-inactive" data-equalizer-watch>Patient details</a>
+            </div>
+            <!--  <div class="large-2 medium-2 small-6 cell">
+                <a href="#" class="button button tabby tabby-inactive" style="width: 100%;" data-equalizer-watch>Chargeable status</a>
+            </div>
+            <div class="large-2 medium-2 small-6 cell">
+                <a href="#" class="button button tabby tabby-inactive" style="width: 100%;" data-equalizer-watch>Child care alert <span class="badge alert">&nbsp;</span></a>
+            </div>
+            <div class="large-2 medium-2 small-6 cell">
+                <a href="#" class="button button tabby tabby-inactive" style="width: 100%;" data-equalizer-watch>FGM</a>
+            </div>
+            <div class="large-2 medium-2 small-6 cell">
+                  <a href="#" class="button button tabby tabby-inactive" style="width: 100%;" data-equalizer-watch>RA <span class="badge secondary">&nbsp;</span></a>
+            </div> -->
+            <div class="large-4 medium-4 small-6 cell">
+                <a data-open="exampleModal1" class="button button tabby tabby-active" style="width: 100%;" data-equalizer-watch>Summary Care Record<br><span class="summary-label">+ Additional information</span></a>
+            </div>
+            <div class="large-4 medium-4 small-6 cell show-for-medium">
+                <a class="button button tabby tabby-no-tab" style="width: 100%;" data-equalizer-watch> </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="content-wrapper" class="grid-container">
+        <div class="grid-x">
+            <div id="in-page-nav" class="medium-3 large-3 cell " data-sticky-container>
+                <div id="in-page-nav-inner" class="sticky" data-sticky data-top-anchor="in-page-content:top" data-btm-anchor="in-page-content:bottom">
+                    <span class="panel-label">Menu:</span>
+                    <ol class="vertical menu sticky" data-magellan>
+                        <li><a href="#first">Allergies &amp; Sensitivities</a></li>
+                        <li><a href="#second">Acute Medications</a></li>
+                        <li><a href="#third">Current Repeat Medications</a></li>
+                        <li><a href="#fourth">Past Repeat Medications</a></li>
+                        <li><a href="#fifth">Diagnoses</a></li>
+                        <li><a href="#sixth">Problems &amp; issues</a></li>
+                        <li><a href="#seventh">Observations</a></li>
+                        <li><a href="#eighth">Treatments</a></li>
+                        <li><a href="#ninth">Results</a></li>
+                        <li><a href="#tenth">Care events</a></li>
+                        <li><a href="#eleventh">Advice to Patients &amp; Carers</a></li>
+                        <li><a href="#twelfth">Personal Preferences</a></li>
+                        <li><a href="#thirteenth">Services, Care Professionals &amp; Carers</a></li>
+                        <li><a href="#fourteenth">Social &amp; Personal Circumstances</a></li>
+                    </ol>
+                    <br/>
+                </div>
+            </div>
+
+            <div id="in-page-content" class="large-9 medium-9 cell">
+
+                <div class="callout primary">
+                    <h3 id="Disclaimer">Sourced from the patient's General Practice record. This summary may not include all the information pertinent to this patient.</h3>
+                    <p id="CreateTime">Summary created: 27 May 2015 16:42</p>
+                    <p id="RegistrationStartedStatement" class="HighlightedStatement">At the time this record was created, this patient had recently registered with the GP Practice. GP Summary information may not be complete.</p>
+                    <p id="WithheldCREItemsHeaderStatement" class="HighlightedStatement">One or more entries have been deliberately withheld from this GP Summary.</p>
+                    <p id="Author">Created by: RADFORD, Michelle (Mrs)</p>
+                    <p id="Practice">DR DK NANDI'S PRACTICE, 342 Troy Road, Horsforth, Leeds LS18 5TN</p>
+                </div>
+
+                <section id="first" class="info-section" data-magellan-target="first">
+
+                    <br />
+
+                    <h4>Allergies &amp; Sensitivities</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="Allergies" summary="This table includes information about this patient\'s allergies and adverse reactions" class="hover">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Certainty</th>
+                                    <th>Severity</th>
+                                    <th>Supporting Information</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td>15 Jun 2010</td>
+                                    <td>Adverse reaction to erythromycin</td>
+                                    <td/>
+                                    <td/>
+                                    <td>severe vomiting</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+
+                </section>
+
+                <section id="second" class="info-section" data-magellan-target="second">
+                    <br />
+                    <h4>Acute Medication (issued in the last 12 months)</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="AcuteMeds" summary="This table includes information about this patient's acute medications.">
+                            <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Date</th>
+                                    <th>Medication Item</th>
+                                    <th>Dosage Instructions</th>
+                                    <th>Quantity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td>Acute Medication</td>
+                                    <td>Prescribed: 12 Dec 2014</td>
+                                    <td>Bisoprolol 1.25mg tablets</td>
+                                    <td>take one daily</td>
+                                    <td>28 tablet</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>Acute Medication</td>
+                                    <td>Prescribed: 09 Dec 2014</td>
+                                    <td>Flucloxacillin 250mg capsules</td>
+                                    <td>take one 4 times/day</td>
+                                    <td>28 capsule</td>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>Acute Medication</td>
+                                    <td>Prescribed: 08 Aug 2014</td>
+                                    <td>Flucloxacillin 250mg capsules</td>
+                                    <td>take one 4 times/day</td>
+                                    <td>28 capsule</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>Acute Medication</td>
+                                    <td>Prescribed: 29 Jul 2014</td>
+                                    <td>Co-amoxiclav 250mg/125mg tablets</td>
+                                    <td>take one 3 times/day</td>
+                                    <td>21 tablet</td>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>Acute Medication</td>
+                                    <td>Prescribed: 30 Jun 2014</td>
+                                    <td>Co-amoxiclav 250mg/125mg tablets</td>
+                                    <td>take one 3 times/day</td>
+                                    <td>15 tablet</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>Acute Medication</td>
+                                    <td>Prescribed: 02 Jun 2014</td>
+                                    <td>Ciprofloxacin 250mg tablets</td>
+                                    <td>take one twice daily</td>
+                                    <td>10 tablet</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <section id="third" class="info-section" data-magellan-target="third">
+                    <br />
+                    <h4>Current Repeat Medication</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="RepeatMeds" summary="This table includes information about this patient\'s current repeat medications.">
+                            <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Date</th>
+                                    <th>Medication Item</th>
+                                    <th>Dosage Instructions</th>
+                                    <th>Quantity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td>Repeat Medication</td>
+                                    <td>Last Issued: 12 Dec 2014</td>
+                                    <td>Citalopram 20mg tablets</td>
+                                    <td>One to be taken each day</td>
+                                    <td>28 tablet</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>Repeat Medication</td>
+                                    <td>Last Issued: 12 Dec 2014</td>
+                                    <td>Clopidogrel 75mg tablets</td>
+                                    <td>take one once daily</td>
+                                    <td>28 tablet</td>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>Repeat Medication</td>
+                                    <td>Last Issued: 12 Dec 2014</td>
+                                    <td>Colecalciferol 200unit / Calcium carbonate 1.25g chewable tablets</td>
+                                    <td>One to be taken each day</td>
+                                    <td>112 tablet</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>Repeat Medication</td>
+                                    <td>Last Issued: 12 Dec 2014</td>
+                                    <td>Digoxin 62.5microgram tablets</td>
+                                    <td>take one daily</td>
+                                    <td>28 tablet</td>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>Repeat Medication</td>
+                                    <td>Last Issued: 12 Dec 2014</td>
+                                    <td>Hydrocortisone 1% / Clotrimazole 1% cream</td>
+                                    <td>Apply evenly and sparingly no more than twice each day</td>
+                                    <td>30 gram</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>Repeat Medication</td>
+                                    <td>Last Issued: 04 Dec 2014</td>
+                                    <td>Latanoprost 50micrograms/ml eye drops</td>
+                                    <td>one drop to be used at night in the affected eye</td>
+                                    <td>2.5 ml</td>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>Repeat Medication</td>
+                                    <td>Last Issued: 30 Sep 2014</td>
+                                    <td>Aymes Shake powder (Flavour Not Specified)</td>
+                                    <td>one to be taken between meals</td>
+                                    <td>1596 gram</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>Repeat Medication</td>
+                                    <td>Last Issued: 30 Sep 2014</td>
+                                    <td>CareSens N testing strips (Spirit Healthcare Ltd)</td>
+                                    <td>use as directed</td>
+                                    <td>50 strip</td>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>Repeat Medication</td>
+                                    <td>Last Issued: 02 Jul 2014</td>
+                                    <td>Zerobase 11% cream (Thornton &amp; Ross Ltd)</td>
+                                    <td>Apply to dry skin areas two or three times daily and rub in well</td>
+                                    <td>50 gram</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <section id="fourth" class="info-section" data-magellan-target="fourth">
+                    <br />
+                    <h4>Past Repeat Medication (discontinued in the last 6 months)</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="DiscRepeatMeds" summary="This table includes information about this patient\'s past repeat medications.">
+                            <tbody>
+                                <tr>
+                                    <td>The Discontinued Repeat Medications are not included in this summary. This patient may have had repeat medications discontinued that are not shown here.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <section id="fifth" class="info-section" data-magellan-target="fifth">
+                    <br />
+                    <h4>Diagnoses</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="Diagnoses">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Value</th>
+                                    <th>Supporting Information</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td style="min-width: 120px;">12 Dec 2014</td>
+                                    <td>Candidal vulvovaginitis</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>06 Jan 2014</td>
+                                    <td>Diabetic retinopathy</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>06 Jan 2014</td>
+                                    <td>Glaucoma</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>17 Dec 2013</td>
+                                    <td>Recurrent urinary tract infection</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>06 Sep 2013</td>
+                                    <td>Type II diabetes mellitus with persistent microalbuminuria</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>28 Nov 2012</td>
+                                    <td>Chronic kidney disease stage 3</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>06 Jan 2012</td>
+                                    <td>Mixed anxiety and depressive disorder</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>01 Mar 2011</td>
+                                    <td>Mitral regurgitation</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>01 Mar 2011</td>
+                                    <td>Tricuspid regurgitation</td>
+                                    <td/>
+                                    <td>see report</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>01 Jan 2011</td>
+                                    <td>Atrial fibrillation</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>19 May 2010</td>
+                                    <td>Basal cell carcinoma</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>19 Jan 2010</td>
+                                    <td>Heart failure</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>19 Jan 2009</td>
+                                    <td>Eczema</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>19 May 2007</td>
+                                    <td>Cataract</td>
+                                    <td/>
+                                    <td>Laterality: Left</td>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>27 Jan 2006</td>
+                                    <td>Squamous cell carcinoma</td>
+                                    <td/>
+                                    <td>Fully excised invasive squamous cell carcinoma on the chin of patient. No cervical lymphadenopathy. Histology confirmed a keratoacanthomatous squamous cell carcinoma.</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>08 May 2002</td>
+                                    <td>Type II diabetes mellitus</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>08 May 2002</td>
+                                    <td>Type II diabetes mellitus</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>08 Jan 2002</td>
+                                    <td>Hypercholesterolaemia</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>08 Jan 2002</td>
+                                    <td>Hypercholesterolaemia</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>01 May 2001</td>
+                                    <td>Uterine prolapse</td>
+                                    <td/>
+                                    <td>Has had the prolapse for many years but has become more prominent in early Feb 2001</td>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>01 Dec 1985</td>
+                                    <td>Essential hypertension</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>01 Jan 1985</td>
+                                    <td>Solar keratosis</td>
+                                    <td/>
+                                    <td>nose (letter dated 25/01/85) states curetted</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <section id="sixth" class="info-section" data-magellan-target="sixth">
+                    <br />
+                    <h4>Problems &amp; issues</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="Problems">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Value</th>
+                                    <th>Supporting Information</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td>12 Dec 2014</td>
+                                    <td>Candidal vulvovaginitis</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>06 Jan 2014</td>
+                                    <td>Diabetic retinopathy</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>06 Jan 2014</td>
+                                    <td>Glaucoma</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>06 Sep 2013</td>
+                                    <td>Type II diabetes mellitus with persistent microalbuminuria</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>08 Jan 2013</td>
+                                    <td>GSF status green</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>28 Nov 2012</td>
+                                    <td>Chronic kidney disease stage 3</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>09 Jan 2012</td>
+                                    <td>Patient's next of kin</td>
+                                    <td/>
+                                    <td>Daughter's tel number is xxxx xxxxxxx</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>01 Jan 2011</td>
+                                    <td>Atrial fibrillation</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>19 Jan 2010</td>
+                                    <td>Heart failure</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>08 May 2002</td>
+                                    <td>Type II diabetes mellitus</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>08 Jan 2002</td>
+                                    <td>Hypercholesterolaemia</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>01 Dec 1985</td>
+                                    <td>Essential hypertension</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <section id="seventh" class="info-section" data-magellan-target="seventh">
+                    <br />
+                    <h4>Observations</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="Observations">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Value</th>
+                                    <th>Supporting Information</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td>08 Jan 2013</td>
+                                    <td>GSF status green</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <section id="eighth" class="info-section" data-magellan-target="eighth">
+                    <br />
+                    <h4>Treatments</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="Treatments">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Value</th>
+                                    <th>Supporting Information</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td>07 Oct 2014</td>
+                                    <td>Influenza vaccine</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>02 Jun 2014</td>
+                                    <td>Admission avoidance care started</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>02 Oct 2013</td>
+                                    <td>Influenza vaccine</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>10 Oct 2012</td>
+                                    <td>Influenza vaccine</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>19 May 2010</td>
+                                    <td>Excision biopsy of basal cell carcinoma</td>
+                                    <td/>
+                                    <td>Right cheek</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>19 Oct 2009</td>
+                                    <td>Influenza vaccine</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>01 Oct 2008</td>
+                                    <td>Influenza vaccine</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>01 Oct 2007</td>
+                                    <td>Influenza vaccine</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>01 Oct 2005</td>
+                                    <td>Excision biopsy of basal cell carcinoma</td>
+                                    <td/>
+                                    <td>left side of forehead</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>17 Aug 2001</td>
+                                    <td>Repair of vaginal prolapse and amputation of cervix uteri</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>19 May 1997</td>
+                                    <td>First hepatitis A and typhoid vaccination</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>02 Oct 1995</td>
+                                    <td>Second hepatitis A and typhoid vaccination</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>04 Mar 1995</td>
+                                    <td>First hepatitis A and typhoid vaccination</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>24 Feb 1995</td>
+                                    <td>Third polio vaccination</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>30 Jan 1995</td>
+                                    <td>Second polio vaccination</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>09 Jan 1995</td>
+                                    <td>First polio vaccination</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <section id="ninth" class="info-section" data-magellan-target="ninth">
+                    <br />
+                    <h4>Results</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="Results">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Value</th>
+                                    <th>Supporting Information</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td>02 Mar 2011</td>
+                                    <td>Echocardiogram abnormal</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <section id="tenth" class="info-section" data-magellan-target="tenth">
+                    <br />
+                    <h4>Care events</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="Events">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Value</th>
+                                    <th>Supporting Information</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td>08 Dec 2014</td>
+                                    <td>Seen by continence nurse</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <section id="eleventh" class="info-section" data-magellan-target="eleventh">
+                    <br />
+                    <h4>Provision of Advice &amp; Information to Patients &amp; Carers</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="Advice">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Value</th>
+                                    <th>Supporting Information</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td>03 Jul 2014</td>
+                                    <td>Preferred place of death: discussed with family</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <section id="twelfth" class="info-section" data-magellan-target="twelfth">
+                    <br />
+                    <h4>Personal Preferences</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="Preferences">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Value</th>
+                                    <th>Supporting Information</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td>30 Jul 2014</td>
+                                    <td>Not for resuscitation</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>30 Jul 2014</td>
+                                    <td>Preferred place of care - care home</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>30 Jan 2013</td>
+                                    <td>Preferred place of death: patient undecided</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <section id="thirteenth" class="info-section" data-magellan-target="thirteenth">
+                    <br />
+                    <h4>Services, Care Professionals and Carers</h4>
+                    <br />
+                    <p id="WithheldCREItemsHeaderStatement" class="HighlightedStatement">One or more entries have been deliberately withheld from this GP Summary.</p>
+                    <br/>
+                    <div class="table-scroll">
+                        <table id="Services">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Value</th>
+                                    <th>Supporting Information</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td>08 Dec 2014</td>
+                                    <td>Chiropody</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>08 Dec 2014</td>
+                                    <td>Chiropody</td>
+                                    <td/>
+                                    <td>Saw podiatrist in August 2013</td>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>08 Sep 2014</td>
+                                    <td>District nurse attends</td>
+                                    <td/>
+                                    <td>1 times/week</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>08 Sep 2013</td>
+                                    <td>District nurse attends</td>
+                                    <td/>
+                                    <td>1 times/week</td>
+                                </tr>
+                                <tr class="oddRow">
+                                    <td>10 Feb 2013</td>
+                                    <td>District nurse attends</td>
+                                    <td/>
+                                    <td>2 times/week</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>21 Sep 2011</td>
+                                    <td>District nurse attends</td>
+                                    <td/>
+                                    <td>1 times/week</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <section id="fourteenth" class="info-section" data-magellan-target="fourteenth">
+                    <br />
+                    <h4>Social and Personal Circumstances</h4>
+                    <br />
+                    <div class="table-scroll">
+                        <table id="Circumstances">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Value</th>
+                                    <th>Supporting Information</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="oddRow">
+                                    <td>09 Jan 2012</td>
+                                    <td>Patient\'s next of kin</td>
+                                    <td/>
+                                    <td>Daughter\'s tel number is xxxx xxxxxxx</td>
+                                </tr>
+                                <tr class="evenRow">
+                                    <td>03 Sep 2010</td>
+                                    <td>Main spoken language English</td>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br />
+                </section>
+
+                <p id="SendTime">Summary Sent: 27 May 2015 16:42</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="sticky-footer-outer" class="grid-container full show-for-large" data-sticky-container>
+        <div id="footer-inner" class="grid-x grid-padding-x grid-margin-x sticky" data-sticky data-stick-to="bottom">
+            <div class="cell">
+                <strong>CONFIDENTIAL:</strong> PERSONAL PATIENT DATA acccessed by Inspector Clouseau - KIRKBY MANOR NH (8A819)
+            </div>
+        </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/vendor/top.js"></script>
+    <script src="js/vendor/patient-float.js"></script>
+</body>
+
+</html>
