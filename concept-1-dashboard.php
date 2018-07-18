@@ -1,4 +1,4 @@
-<!doctype html>
+<?php ; ?>
 <html class="no-js" lang="en" dir="ltr">
 
 <head>
