@@ -16,9 +16,7 @@
 
 <body>
 
-    <h1>
-        <?php echo "Hello, world!"; ?>
-    </h1>
+    <?php include 'include-copyright.php';?>
 
     <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float">Mr. William Shakespeare | 17-Apr-1969</span>
 
