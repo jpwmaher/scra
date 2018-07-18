@@ -27,7 +27,15 @@ body {
 }
 
 #centre-col {
-    padding-top: 40px;
+    padding-top: 0px;
+    transition: 3s;
+}
+
+#grid-list-switch {
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 5px;
+    transition: 3.0s;
 }
 
 #patient-summary {
@@ -35,15 +43,13 @@ body {
     margin-bottom: 0px;
     background: transparent;
     line-height: 1.5;
+    border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
+    background: #fafafa;
 }
 
 #summary-avatar {
     height: 100px;
-}
-
-#summary-name {
-    background: rgba(255, 255, 255, 0.6);
 }
 
 .summary-label {
@@ -55,7 +61,7 @@ body {
 .dashboard-label {
     padding: 10px 0px !important;
     margin-bottom: 10px !important;
-    color: #fff;
+    color: #415564;
 }
 
 .ghost {
@@ -71,16 +77,22 @@ body {
 
 #main-nav {
     margin-top: 30px;
+    transition: 3.0s;
 }
 
 .summary-info {
     color: #415564 !important;
     padding: 10px 0px !important;
+    font-weight: 400;
 }
 
 .summary-info-name {
     font-size: 3vmax;
-    font-weight: 200;
+    font-weight: 700;
+    font-family: Helvetica Neue, -apple-system, BlinkMacSystemFont,
+    “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”,
+    “Droid Sans”, sans-serif;
 }
 
 .summary-info-gender-age {
@@ -89,22 +101,63 @@ body {
 
 .dashboard-panel {
     text-align: center;
-    background: #38517B;
-    color: white;
-    padding: 20px;
+    background: #DFEDF8;
+    color: #415564;
+    padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
+    transition: 1.0s;
 }
 
 .number-centre {
-    font-size: 4vw;
+    font-size: 5vw;
     transition: 0.2s;
     padding: 0px;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 .alert-panel {
     background: #D0021B;
+    color: white !important;
+}
+
+
+.flag-panel {
+    background: orange;
+    color: white !important;
+}
+
+.panel-greyed-out {
+    background: #fafafa;
+}
+
+.panel-title {
+    text-align: left;
+    font-size: 24px;
+    font-family: Helvetica Neue, -apple-system, BlinkMacSystemFont,
+    “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”,
+    “Droid Sans”, sans-serif;
+    font-weight: 700;
+    display: block;
+}
+
+.panel-link {
+    text-align: right;
+}
+
+.alert-panel-list {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+
+.alert-panel-list li {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 5px 0px;
+    margin-bottom: 5px;
+    list-style-type: none;
 }
 
 .site-title {
