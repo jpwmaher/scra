@@ -65,7 +65,7 @@ body {
 }
 
 .ghost {
-    border: 0px;
+    border: 1px solid transparent;
     background: transparent;
     color: #415564;
     font-weight: bold;
@@ -109,8 +109,20 @@ body {
     transition: 1.0s;
 }
 
+.dashboard-panel a:hover,
+flag-panel a:hover,
+alert-panel a:hover {
+    text-decoration: underline;
+}
+
+.dashboard-panel:hover,
+.alert-panel:hover,
+.flag-panel:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+}
+
 .number-centre {
-    font-size: 5vw;
+    font-size: 7vmax;
     transition: 0.2s;
     padding: 0px;
     font-weight: 100;
@@ -169,8 +181,9 @@ body {
 }
 
 .is-active {
-    background: transparent;
-    color: orange !important;
+    background: #005EB8;
+    color: white !important;
+    padding: 0px 5px !important;
 }
 
 .accordion-menu li {
@@ -178,6 +191,39 @@ body {
     background: #ECEFF3;
     border-top: 1px solid rgba(188, 196, 211, 0.6);
 }
+
+.drilldown a {
+    background: transparent;
+}
+
+
+.drilldown .is-drilldown-submenu {
+    background: #fafafa;
+}
+
+li a.is-active {
+    background: #005EB8;
+    padding-left: 10px !important;
+}
+
+.padd-5 li {
+    padding: 0px 5px !important;
+}
+
+#side-nav {
+    padding: 5px 10px;
+    background: #fafafa;
+    border-right: 1px solid #efefef;
+}
+
+.data-source {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: orange;
+    padding-bottom: 20px;
+}
+
 
 
 .clipped-circle-graph {
@@ -424,4 +470,142 @@ screen and (min-width: 425px) {
     .title-bar-title {
         font-size: 16px !important;
     }
+}
+
+#timeline-filters {
+    background: #DFEDF8;
+    border-radius: 5px;
+    padding: 10px 10px 0px;
+    margin-bottom: 20px;
+}
+
+.timeline .timeline-item::after,
+.timeline .timeline-item::before {
+    clear: both;
+    content: '';
+    display: block;
+    width: 100%;
+}
+
+.timeline {
+    margin: 30px auto;
+    padding: 0 10px;
+    position: relative;
+    transition: all 0.25s ease-in;
+    width: 100%;
+}
+
+.timeline::before {
+    content: '';
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 3px;
+}
+
+.timeline::after {
+    clear: both;
+    content: '';
+    display: table;
+    width: 100%;
+}
+
+.timeline .timeline-item {
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.timeline .timeline-item .timeline-icon {
+    border-radius: 50%;
+    height: 50px;
+    left: 50%;
+    margin-left: -23px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.timeline .timeline-item .timeline-icon img,
+.timeline .timeline-item .timeline-icon svg {
+    left: 1px;
+    position: relative;
+    top: 14px;
+}
+
+.timeline .timeline-item .timeline-icon svg {
+    top: 14px;
+    height: 14px;
+}
+
+.timeline-icon-new {
+    height: 24px;
+}
+
+.timeline .timeline-item .timeline-content {
+    padding: 20px;
+    text-align: right;
+    transition: all 0.25s ease-in;
+    width: 45%;
+    background: transparent;
+}
+
+.timeline .timeline-item .timeline-content p {}
+
+.timeline .timeline-item .timeline-content p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+.timeline .timeline-item .timeline-content .timeline-content-date {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.timeline-content-date {
+    color: gray !important;
+}
+
+.timeline .timeline-item .timeline-content .timeline-content-month {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.timeline .timeline-item .timeline-content.right {
+    float: right !important;
+    text-align: left;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .timeline {
+        margin: 30px;
+        padding: 0;
+        width: 90%;
+    }
+    .timeline::before {
+        left: 0;
+    }
+    .timeline .timeline-item .timeline-content {
+        float: right;
+        text-align: left;
+        width: 90%;
+    }
+    .timeline .timeline-item .timeline-content::before,
+    .timeline .timeline-item .timeline-content.right::before {
+        border-left: 0;
+        border-right: 7px solid #fefefe;
+        left: 10%;
+        margin-left: -6px;
+    }
+    .timeline .timeline-item .timeline-icon {
+        left: 0;
+    }
+}
+
+.timeline-item {
+    margin-bottom: 20px !important;
 }
