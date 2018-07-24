@@ -17,7 +17,7 @@
 
 <body>
 
-    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float">Eldrick Tont Woods | 30-Dec-1975</span>
+    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float">William Shakespeare | 30-Dec-1975</span>
 
     <div id="content-main" class="grid-container full">
         <div class="grid-x grid-padding-x grid-margin-x">
@@ -32,8 +32,11 @@
                         <div class="grid-x grid-padding-x">
                             <div id="summary-name" class="large-6 medium-5 cell summary-panel">
                                 <div class="grid-x">
+                                    <!-- <div class="shrink cell">
+                                <img src="img/tiger.png" style="width: 100px;">
+                            </div> -->
                                     <div class="auto cell">
-                                        <span class="summary-label">Full name:</span><br/><span class="summary-info summary-info-name">Eldrick Tont Woods</span><br/>
+                                        <span class="summary-label">Full name:</span><br/><span class="summary-info summary-info-name">William Shakespeare</span><br/>
                                         <span class="summary-info summary-info-gender-age" style="padding-top: 100px !important;">Male <span style="color: lightgray">|</span> 42 years old</span>
                                     </div>
                                 </div>
@@ -51,7 +54,7 @@
                                         <span class="summary-label">Mobile:</span><br/><span class="summary-info">07123 456 789</span><br/><br/>
                                     </div>
                                     <div class="small-6 medium-12 cell">
-                                        <span class="summary-label summary-info-gender-age">Email:</span><br/><span class="summary-info">tiger@tigerwoods.com</span>
+                                        <span class="summary-label summary-info-gender-age">Email:</span><br/><span class="summary-info">bill@thebard.com</span>
                                     </div>
                                 </div>
                             </div>
@@ -62,108 +65,370 @@
 
             <!-- Tabbed nav -->
             <div class="cell">
-                <div class="large-10 medium-12 cell large-offset-1">
+                <div class="large-10 medium-12 large-offset-1 cell ">
                     <div class="grid-x grid-padding-x">
                         <div class="cell" id="main-nav">
                             <div class="grid-x  grid-margin-x small-up-2 medium-up-4 large-up-5">
 
-                                <div class="cell"><a class="button ghost expanded " href="concept-a-patient-dashboard.html">Summary</a></div>
+                                <div class="cell"><a class="button ghosty expanded " href="concept-a-patient-dashboard.html">Summary</a></div>
                                 <div class="cell"><a class="button primary expanded " href="concept-a-patient-category.html">By category</a></div>
-                                <div class="cell"><a class="button ghost expanded " href="#">By provider</a></div>
-                                <div class="cell"><a class="button ghost expanded " href="concept-a-patient-timeline.html">Timeline</a></div>
+                                <div class="cell"><a class="button ghosty expanded " href="#">By provider</a></div>
+                                <div class="cell"><a class="button ghosty expanded " href="concept-a-patient-timeline.html">Timeline</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="large-10 medium-12 cell large-offset-1">
-                <div id="centre-col" class="grid-x grid-padding-x">
+            <div class="cell">
+                <div id="centre-col" class="grid-x grid-padding-x grid-margin-x">
 
-                    <div id="grid-list-switch" class="cell">
-                        <br/>
-                    </div>
-
-                    <div class="large-3 medium-shrink cell show-for-medium" data-sticky-container>
+                    <div class="large-3 medium-4 cell show-for-medium" data-sticky-container>
                         <div id="side-nav" class="sticky" data-sticky data-anchor="nhs-timeline">
-                            <!-- Add a Menu -->
-                            <ul id="side-nav-ul" class="vertical menu drilldown" data-drilldown data-auto-height="true" data-animate-height="true">
-                                <li><a href="#">Allergies &amp; sensitivities</a></li>
-                                <li>
-                                    <a href="#">Care Plans (2)</a>
-                                    <ul class="menu vertical nested">
-                                        <li><a href="concept-a-patient-mhcp.html">Mental Health Crisis Plan</a></li>
-                                        <li><a href="#">End of Life Plan</a></li>
-                                        <li>&nbsp;</li>
+                            <div class="docs-nav-container">
+                                <div class="docs-nav" id="docs-menu">
+
+                                    <ul class="accordion docs-nav-category" data-accordion="0uifu0-accordion" data-allow-all-closed="true" data-multi-expand="true" role="tablist">
+
+                                        <li class="accordion-item" data-accordion-item="">
+                                            <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">Patient details</a>
+                                            <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
+                                                <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
+                                                    <li><a href="concept-a-patient-category.html#name">Name</a></li>
+                                                    <li><a href="concept-a-patient-category.html#key-details">Key details</a></li>
+                                                    <li><a href="concept-a-patient-category.html#address">Address</a></li>
+                                                    <li><a href="concept-a-patient-category.html#contacts">Contacts &amp; next of kin</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="accordion-item is-active" data-accordion-item="">
+                                            <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">Medication</a>
+                                            <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
+                                                <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
+                                                    <span class="summary-label">Current:</span>
+                                                    <li><a href="#current-repeat">Current repeat medication (4)</a></li>
+                                                    <li><a href="#current-acute">Current acute medication (1)</a></li><br/>
+                                                    <span class="summary-label">Previous:</span>
+                                                    <li><a href="#previous-repeat">Previous repeat medication (11)</a></li>
+                                                    <li><a href="#previous-acute">Previous acute medication (3)</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="accordion-item" data-accordion-item="">
+                                            <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Care Plans (2)</a>
+                                            <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
+                                                <ul class="docs-nav-subcategory">
+                                                    <li><a href="concept-a-patient-mhcp.html" class="">Mental Health Care Plan</a></li>
+                                                    <li><a href="concept-a-patient-end-of-life.html">End of Life Plan</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="accordion-item" data-accordion-item="">
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">Plugins</a>
+                                            <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
+                                                <ul class="docs-nav-subcategory">
+                                                    <li><a href="abide.html">Abide <small>Form Validation</small></a></li>
+                                                    <li><a href="equalizer.html">Equalizer <small>Column Alignment</small></a></li>
+                                                    <li><a href="interchange.html">Interchange <small>Responsive Content</small></a></li>
+                                                    <li><a href="toggler.html">Toggler <small>CSS Helper</small></a></li>
+                                                    <li><a href="smooth-scroll.html">Smooth Scroll <small>Navigation</small></a></li>
+                                                    <li><a href="sticky.html">Sticky <small>Header/Sidebar</small></a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
                                     </ul>
-                                </li>
-                                <li class="is-active"><a href="#">Medications</a></li>
-                                <li><a href="#">Diagnoses</a></li>
-                            </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div id="nhs-timeline" class="large-9 medium-auto cell">
+                    <div id="nhs-timeline" class="large-10 medium-auto cell">
 
-                        <h2>Medications</h2>
+                        <h2>Medication <img src="img/pill.svg" style="height: 24px;"></h2>
 
-                        <div class="grid-x grid-padding-x grid-margin-x small-up-1 medium-up-2 large-up-2">
+                        <div id="current-repeat" class="cell" data-magellan-target="current-repeat">
+                            <h5>Current repeat medication</h5>
 
-                            <div class="cell dashboard-panel">
-                                <span class="panel-title">
-                                    <div class="grid-x">
-                                        <div class="large-12 medium-12 cell" style="text-align: center;"><span class="number-centre">4</span></div>
+                            <div class="grid-x grid-padding-x">
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>16-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Flucloxacillin 250mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>Mental Health</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>08-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Ciprofloxacin 150mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>GP</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>22-Jun-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Sudocreme</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>apply when itchy</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>100ml</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>Sexual Health</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>08-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Ciprofloxacin 150mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>GP</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                            </div>
                         </div>
-                        <div class="grid-x">
-                            <div class="large-auto medium-auto small-11 cell">Current repeat</div>
-                            <div class="large-shrink medium-shrink small-1  cell"><img src="img/pill.svg" style="height: 24px;"></div>
+
+                        <div id="current-acute" class="cell" data-magellan-target="current-acute">
+                            <br/><br/><br/>
+                            <h5>Current acute medication</h5>
+
+                            <div class="grid-x grid-padding-x">
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>16-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Flucloxacillin 250mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>GP</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                            </div>
                         </div>
-                        </span>
-                        <ul class="alert-panel-list">
-                            <li>
-                                <div class="grid-x">
-                                    <div class="large-auto medium-auto small-12 cell">Medication name</div>
 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="grid-x">
-                                    <div class="large-auto medium-auto small-12 cell">Medication name</div>
+                        <div id="previous-repeat" class="cell" data-magellan-target="previous-repeat">
+                            <br/><br/><br/>
+                            <h5>Previous repeat medication</h5>
 
+                            <div class="grid-x grid-padding-x">
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>16-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Flucloxacillin 250mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>Mental Health</span><br/></div>
+                                    </div>
                                 </div>
-                            </li>
-                            <li>
-                                <div class="grid-x">
-                                    <div class="large-auto medium-auto small-12 cell">Medication name</div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>08-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Ciprofloxacin 150mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>GP</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>22-Jun-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Sudocreme</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>apply when itchy</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>100ml</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>Sexual Health</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>08-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Ciprofloxacin 150mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>GP</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>16-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Flucloxacillin 250mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>Mental Health</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>08-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Ciprofloxacin 150mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>GP</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>22-Jun-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Sudocreme</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>apply when itchy</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>100ml</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>Sexual Health</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>08-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Ciprofloxacin 150mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>GP</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>08-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Ciprofloxacin 150mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>GP</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>22-Jun-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Sudocreme</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>apply when itchy</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>100ml</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>Sexual Health</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>08-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Ciprofloxacin 150mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>GP</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="grid-x">
-                                    <div class="large-auto medium-auto small-12 cell">Medication name</div>
+                        <div id="previous-acute" class="cell" data-magellan-target="previous-acute">
+                            <br/><br/><br/>
+                            <h5>Previous acute medication</h5>
 
+                            <div class="grid-x grid-padding-x">
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>16-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Flucloxacillin 250mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>GP</span><br/></div>
+                                    </div>
                                 </div>
-                            </li>
-                        </ul>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>16-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Flucloxacillin 250mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>GP</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-6">
+                                        <div class="cell marbot"><span class="summary-label">Prescribed:</span><br/><span>16-Aug-17</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Collected:</span><br/><span>Yes</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Medication name:</span><br/><span>Flucloxacillin 250mg</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Instructions:</span><br/><span>take one daily</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Quantity: </span><br/><span>28 tablets</span><br/></div>
+                                        <div class="cell marbot"><span class="summary-label">Source: </span><br/><span>GP</span><br/></div>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-
                 </div>
-
-
-
-                <div class="grid-x grid-padding-x">
-                    <div class="cell">
-                        <hr>
-                        <span class="data-source">via GP Connect</span>
-                    </div>
-                </div>
-
             </div>
 
         </div>
-    </div>
-
-    </div>
     </div>
 
     <script src="js/vendor/jquery.js"></script>
@@ -185,13 +450,7 @@
         });
 
     </script>
-    <script>
-        $(document).foundation();
 
-        $('.thispage').removeClass('invisible');
-        $('.thispage').addClass('is-active');
-
-    </script>
 </body>
 
 </html>

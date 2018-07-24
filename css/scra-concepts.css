@@ -1,7 +1,7 @@
 body {
     background: white;
     font-size: 14px;
-    font-family: -apple-system, BlinkMacSystemFont,
+    font-family: Avenir, -apple-system, BlinkMacSystemFont,
     “Segoe UI”, “Roboto”, “Oxygen”,
     “Ubuntu”, “Cantarell”, “Fira Sans”,
     “Droid Sans”, “Helvetica Neue”, sans-serif;
@@ -41,15 +41,19 @@ body {
 #patient-summary {
     padding: 10px 0px;
     margin-bottom: 0px;
-    background: transparent;
+    background: #EFF6FC;
     line-height: 1.5;
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
-    background: #fafafa;
+    color: #415564;
 }
 
 #summary-avatar {
     height: 100px;
+}
+
+.patient-float {
+    background: #425563;
 }
 
 .summary-label {
@@ -71,13 +75,48 @@ body {
     font-weight: bold;
 }
 
+.ghosty {
+    border: 1px solid transparent;
+    background: #f8f8f8 !important;
+    color: #415564;
+    font-weight: bold;
+}
+
+.ghosty:hover {
+    background: #004b93 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+.marbot {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul ul {
+    margin-left: 0px;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
 .primary {
     font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 #main-nav {
     margin-top: 30px;
+    margin-bottom: 20px;
     transition: 3.0s;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #efefef;
 }
 
 .summary-info {
@@ -89,7 +128,7 @@ body {
 .summary-info-name {
     font-size: 3vmax;
     font-weight: 700;
-    font-family: Helvetica Neue, -apple-system, BlinkMacSystemFont,
+    font-family: Avenir, Helvetica Neue, -apple-system, BlinkMacSystemFont,
     “Segoe UI”, “Roboto”, “Oxygen”,
     “Ubuntu”, “Cantarell”, “Fira Sans”,
     “Droid Sans”, sans-serif;
@@ -143,10 +182,22 @@ alert-panel a:hover {
     background: #fafafa;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Avenir, Helvetica Neue, -apple-system, BlinkMacSystemFont,
+    “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”,
+    “Droid Sans”, sans-serif;
+}
+
 .panel-title {
     text-align: left;
     font-size: 24px;
-    font-family: Helvetica Neue, -apple-system, BlinkMacSystemFont,
+    font-family: Avenir, Helvetica Neue, -apple-system, BlinkMacSystemFont,
     “Segoe UI”, “Roboto”, “Oxygen”,
     “Ubuntu”, “Cantarell”, “Fira Sans”,
     “Droid Sans”, sans-serif;
@@ -180,10 +231,9 @@ alert-panel a:hover {
     padding: 0.5rem 0rem !important;
 }
 
-.is-active {
-    background: #005EB8;
-    color: white !important;
-    padding: 0px 5px !important;
+.current {
+    color: orange !important;
+    font-weight: bold;
 }
 
 .accordion-menu li {
@@ -198,22 +248,63 @@ alert-panel a:hover {
 
 
 .drilldown .is-drilldown-submenu {
-    background: #fafafa;
+    background: #425563;
 }
 
 li a.is-active {
-    background: #005EB8;
-    padding-left: 10px !important;
+    color: orange !important;
+    transition: 0.1s ease-in;
+}
+
+li a.is-active:hover {
+    color: orange !important;
+    transition: 0.1s ease-in;
+    text-decoration: underline;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.is-active {
+    background: transparent;
+    border-radius: 0px;
+}
+
+.accordion-item:first-child > :first-child,
+.accordion-item:last-child > :last-child {
+    border-radius: 0px;
+}
+
+.accordion-item:last-child:not(.is-active) > .accordion-title {
+    border-radius: 0 0 5px 5px;
+}
+
+.accordion-item:first-child:not(.is-active) > .accordion-title {
+    border-radius: 5px 5px 0px 0px;
+    transition: 0.5s;
 }
 
 .padd-5 li {
     padding: 0px 5px !important;
 }
 
-#side-nav {
-    padding: 5px 10px;
-    background: #fafafa;
-    border-right: 1px solid #efefef;
+#side-nav-timeline {
+    background: #005EB8;
+    color: white !important;
+    border-radius: 5px;
+    padding: 10px 10px 10px 5px;
+}
+
+#side-nav-timeline a {
+    color: white;
+    margin-left: 5px;
+}
+
+#side-nav-timeline a:hover {
+    text-decoration: none;
+    color: orange;
+    transition: 0.5s;
 }
 
 .data-source {
