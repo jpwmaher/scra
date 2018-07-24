@@ -28,7 +28,7 @@
 
             <div class="cell">
                 <div id="patient-summary" class="grid-x grid-padding-x">
-                    <div class="large-10 medium-12 cell large-offset-1">
+                    <div class="cell">
                         <div class="grid-x grid-padding-x">
                             <div id="summary-name" class="large-6 medium-5 cell summary-panel">
                                 <div class="grid-x">
@@ -65,14 +65,14 @@
 
             <!-- Tabbed nav -->
             <div class="cell">
-                <div class="large-10 medium-12 large-offset-1 cell ">
+                <div class="large-12 medium-12cell ">
                     <div class="grid-x grid-padding-x">
                         <div class="cell" id="main-nav">
-                            <div class="grid-x  grid-margin-x small-up-2 medium-up-4 large-up-5">
+                            <div class="grid-x  grid-margin-x small-up-2 medium-up-4 large-up-4">
 
                                 <div class="cell"><a class="button ghosty expanded " href="concept-a-patient-dashboard.html">Summary</a></div>
                                 <div class="cell"><a class="button primary expanded " href="concept-a-patient-category.html">By category</a></div>
-                                <div class="cell"><a class="button ghosty expanded " href="#">By provider</a></div>
+                                <div class="cell"><a class="button ghosty expanded " href="concept-a-patient-provider.html">By provider</a></div>
                                 <div class="cell"><a class="button ghosty expanded " href="concept-a-patient-timeline.html">Timeline</a></div>
                             </div>
                         </div>
@@ -138,27 +138,32 @@
 
                     <div id="nhs-timeline" class="large-10 medium-auto cell">
 
-                        <h2>Patient details</h2><br/>
+                        <h2>Patient details <img src="img/demographic.svg" style="height: 24px;"></h2><br/>
 
                         <div id="name" class="cell" data-magellan-target="name">
                             <h5>Names</h5>
 
                             <div class="grid-x grid-padding-x">
                                 <div class="cell">
-                                    <div class="grid-x grid-padding-x">
-                                        <div class="medium-6 small-12 large-4 cell">
+                                    <div class="grid-x">
+                                        <div class="medium-6 small-12 large-3 cell">
                                             <div class="panel-info-group cell">
                                                 <span class="panel-label">Usual name:</span><br/><span>William Shakespeare</span><br/><span class="panel-info-note">Effective since: 17-Apr-1969</span>
                                             </div>
                                         </div>
-                                        <div class="medium-6 small-12 large-4 cell">
+                                        <div class="medium-6 small-12 large-3 cell">
                                             <div class="panel-info-group cell">
                                                 <span class="panel-label">Preferred name:</span><br/><span class="panel-info-none">Not recorded</span>
                                             </div>
                                         </div>
-                                        <div class="medium-6 small-12 large-4 cell">
+                                        <div class="medium-6 small-12 large-3 cell">
                                             <div class="panel-info-group cell">
                                                 <span class="panel-label">Other names:</span><br/><span class="panel-info-none">Not recorded</span>
+                                            </div>
+                                        </div>
+                                        <div class="medium-6 small-12 large-3 cell">
+                                            <div class="panel-info-group cell">
+                                                <span class="panel-label">Previous names:</span><br/><span class="panel-info-none">Not recorded</span>
                                             </div>
                                         </div>
                                     </div>
@@ -266,6 +271,7 @@
                                 </div>
                                 <div class="cell">
                                     <hr>
+                                    <span class="data-source">via GP Connect</span> <span class="small-text">on 21-Jul-2018 at 07:32</span>
                                 </div>
                             </div>
                         </div>
