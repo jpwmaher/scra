@@ -700,3 +700,14 @@ screen and (min-width: 425px) {
 .timeline-item {
     margin-bottom: 20px !important;
 }
+
+.timeline-item a {
+    font-weight: normal;
+}
+
+.timeline-item a:hover {
+    font-weight: normal;
+    text-decoration: underline;
+    color: orange;
+    transition: 0.5s;
+}
