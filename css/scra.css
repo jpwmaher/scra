@@ -156,6 +156,11 @@ body {
     margin-bottom: 20px;
 }
 
+.future {
+    padding-left: 10px;
+    border-left: 5px solid #f0f0f0;
+}
+
 #content-wrapper {
     margin-top: 30px;
 }
