@@ -152,13 +152,35 @@ body {
 
 .research-panel {
     padding: 10px;
-    background: #fafafa;
+    background: #fff;
     margin-bottom: 20px;
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(240, 240, 240, 1);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(240, 240, 240, 1);
+    box-shadow: 10px 10px 20px 0px rgba(240, 240, 240, 1);
+}
+
+.theme-cell {
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(240, 240, 240, 1);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(240, 240, 240, 1);
+    box-shadow: 10px 10px 20px 0px rgba(240, 240, 240, 1);
 }
 
 .future {
-    padding-left: 10px;
-    border-left: 5px solid #f0f0f0;
+    padding-top: 10px;
+    border-top: 5px solid #f0f0f0;
+}
+
+@media screen and (min-width: 1023px) {
+    .future {
+        padding-left: 10px;
+        padding-top: 0px;
+        border-top: 0px solid #f0f0f0;
+        border-left: 5px solid #f0f0f0;
+    }
 }
 
 #content-wrapper {
@@ -532,7 +554,7 @@ label {
 }
 
 .big-icon-bg {
-    background: #fff;
+    background: #fafafa;
 }
 
 .text-center {

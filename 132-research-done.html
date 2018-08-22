@@ -47,10 +47,6 @@
         background: #CCDEF1;
     }
 
-    body {
-        background: white;
-    }
-
 </style>
 
 <body>
@@ -59,13 +55,47 @@
 
         <ol class="vertical menu sticky scrollToTop" data-magellan>
             <li><a href="#what-weve-done">What we've done</a></li>
-            <li><a href="#what-weve-learned">What we've learned</a></li>
+            <li><a href="#what-weve-learned">What we've learned</a>
+            </li>
             <li><a href="#user-groups">User groups</a></li>
         </ol>
 
-        <div class="grid-x grid-padding-x">
+        <div class="grid-x grid-padding-x grid-margin-x">
+            <div class="cell" style="text-align: center; ">
+                <span style="font-size: 18vmax; font-weight: bold;">SCRa</span>
+            </div>
+            <div class="cell">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell">
+                        <H2 style="font-size: 15vmin; color: #0072C6;">Overview</H2>
+                    </div>
+                    <div id="intro" class="large-6 medium-8 cell small-order-2 medium-order-1" style="z-index: 1;">
+                        <h4>Getting the <span class="highlight">right</span> information to the <span class="highlight">right</span> people at their point of <span class="highlight">need</span> </h4>
+                        <br/>
+                        <p>Earlier this year we started a Discovery phase on the Summary Care Record Application to understand what was required to meet the needs of Health &amp; Social Care providers. </p>
+                        <!-- <p>The decision was taken to build a new version of the SCRa from the ground up, to enable access over the internet on all devices, with enhanced functionality and expanded content.</p> -->
+                        <p>We've conducted <span style="text-decoration: underline; font-weight: bold;">a lot</span> of research which you can read about below...</p>
+                        <br/>
+                        <ul class="menu vertical" data-magellan>
+                            <li><a href="#what-weve-done">What we've done</a></li>
+                            <li><a href="#what-weve-learned">What we've learned</a>
+                                <ul style="list-style: none;">
+                                    <li><a href="#what-weve-learned-themes">- Themes identified</a></li>
+                                    <li><a href="#user-groups">- Findings by user group</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="large-6 medium-4 cell small-order-1 medium-order-2">
+                        <img src="img/SCRa-iphone.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-x grid-padding-x" style="margin-top: 50vh;">
             <div id="what-weve-done" class="cell" data-magellan-target="what-weve-done">
-                <span>What we've done</span>
+                <span style="color: #0072C6 !important;">What we've done</span>
             </div>
         </div>
 
@@ -163,22 +193,22 @@
 
         </div>
 
-        <div class="grid-x grid-padding-x" style="margin-top: 100px;">
+        <div class="grid-x grid-padding-x" style="margin-top: 50vh;">
             <div id="what-weve-learned" class="cell" data-magellan-target="what-weve-learned">
-                <span>What we've learned</span>
+                <span style="color: #0072C6 !important;">What we've learned</span>
             </div>
         </div>
 
         <div class="grid-x grid-padding-x">
-            <div class="cell" style="text-align: center; margin-top: 60px;">
+            <div id="what-weve-learned-usage" class="cell" style="text-align: center; margin-top: 60px;" data-magellan-target="what-weve-learned-usage">
                 <h2>SCRa is used <span style="text-decoration: underline;">a lot</span>:</h2><br/><br/>
             </div>
-            <div class="large-6 cell" style="text-align: center;">
+            <div class="large-6 medium-6 cell" style="text-align: center;">
                 <p><img src="img/connectivity.svg" style="height: 80px;"></p>
                 <p><span style="font-size: 64px; font-weight: bold;">221 million</span></p>
                 <h5>transactions in 2017 (<i class="fi-arrow-up" style="color: seagreen!important;"></i> <strong>18%</strong> YOY)</h5>
             </div>
-            <div class="large-6 cell" style="text-align: center;">
+            <div class="large-6 medium-6 cell" style="text-align: center;">
                 <p><i class="fi-torsos-all access-icon" style="font-size: 50px;"></i></p>
                 <p><span style="font-size: 64px; font-weight: bold;">45,500</span></p>
                 <h5>active users</h5>
@@ -205,15 +235,35 @@
         </div> -->
 
         <div class="grid-x grid-padding-x grid-margin-x">
-            <div class="cell" style="text-align: center; margin-top: 120px;">
+            <div id="what-weve-learned-themes" class="cell" style="text-align: center; margin-top: 120px;" data-magellan-target="what-weve-learned-themes">
                 <br/><br/>
-                <h2>As we researched with users and pieced together the complex environment the following themes emerged:</h2><br/><br/>
+                <h2>As we researched with users and pieced together the complex environment the following <span style="text-decoration: underline;">themes</span> emerged:</h2><br/><br/>
             </div>
             <div class="cell">
                 <div class="grid-x grid-padding-x grid-margin-x">
-                    <div class="large-6 cell">
+                    <div class="large-6 medium-6 cell theme-cell" style="text-align: center;">
+                        <h3 style="text-align: center;">Choice</h3>
+                        <p style="text-align: left;">Care providers want choice of device, operating system, &amp; authentication</p>
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-12 medium-12 cell">
+                                <img src="img/responsive.svg" style="padding: 10%; text-align: center;">
+                            </div>
+                            <div class="large-12 medium-12 cell">
+                                <img src="img/OS.svg" style="padding: 15% 10%; text-align: center;"></div>
+                        </div>
+                    </div>
+                    <div class="large-6 medium-6 cell theme-cell" style="text-align: center;">
+                        <h3 style="text-align: center;">Clarity</h3>
+                        <p style="text-align: left;">Care providers want <span style="text-decoration: underline;">clearer presentation</span> with a clear &amp; consistent navigable UI, with organised, prioritised &amp; structured information</p>
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell">
+                                <img src="img/iPhone-x-scra-1.png" style="max-height: 450px; padding: 10%;"><br/><br/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-6 medium-6 cell theme-cell">
                         <h3 style="text-align: center;">Content</h3>
-                        <p>Today SCRa is mainly used for demographic searches and medication and allergies. Its often called the pharmacists tool.</p>
+                        <p>Today SCRa is mainly used for demographic searches and medication and allergies. Its often called the "pharmacist's tool".</p>
                         <div class="responsive-embed">
                             <video width="400" controls>
                     <source src="/videos/content.mp4" type="video/mp4">
@@ -221,7 +271,7 @@
                     </video>
                         </div>
                     </div>
-                    <div class="large-6 cell">
+                    <div class="large-6 medium-6 cell theme-cell">
                         <h3 style="text-align: center;">Consent</h3>
                         <p>We didn’t set out to research patient consent for data sharing but this theme emerged</p>
                         <div class="responsive-embed">
@@ -231,7 +281,7 @@
                     </video>
                         </div>
                     </div>
-                    <div class="large-6 cell">
+                    <div class="large-6 medium-6 cell theme-cell">
                         <h3 style="text-align: center;">Backstop</h3>
                         <p>What is the purpose of Summary Care Record Application? Is it a good thing when people stop using it?...</p>
                         <div class="responsive-embed">
@@ -241,7 +291,7 @@
                     </video>
                         </div>
                     </div>
-                    <div class="large-6 cell">
+                    <div class="large-6 medium-6 cell theme-cell">
                         <h3 style="text-align: center;">Local v. National</h3>
                         <p>The NHS landscape contains local solutions that compete with SCRa. What role should NHS Digital play?...</p>
                         <div class="responsive-embed">
@@ -253,9 +303,8 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--   <div class="grid-x grid-padding-x">
+            <!--   <div class="grid-x grid-padding-x">
             <div class="cell" style="text-align: center; margin-top: 120px;">
                 <br/><br/>
                 <h2>Patient flags have <span style="text-decoration: underline;">very little usage due to lack of awareness</span></h2><br/><br/>
@@ -267,22 +316,7 @@
             </div>
         </div> -->
 
-        <div class="grid-x grid-padding-x">
-            <div class="cell" style="text-align: center; margin-top: 120px;">
-                <br/><br/>
-                <h2>Care providers want <span style="text-decoration: underline;">choice</span></h2><br/><br/>
-            </div>
-            <div class="large-6 cell" style="text-align: center; padding: 60px;">
-                <img src="img/responsive.svg" style="height: 240px;"><br/><br/>
-                <h5>Choice of device (&amp; access)</h5>
-            </div>
-            <div class="large-6 cell" style="text-align: center; margin-top: 80px; padding: 60px;">
-                <img src="img/OS.svg" style="height: 160px;"><br/><br/>
-                <h5>Choice of operating system</h5>
-            </div>
-        </div>
-
-        <!-- <div class="grid-x grid-padding-x">
+            <!-- <div class="grid-x grid-padding-x">
             <div class="cell" style="text-align: center; margin-top: 120px;">
                 <br/><br/>
                 <h2>Care providers want <span style="text-decoration: underline;">more content</span> &amp; <span style="text-decoration: underline;">context</span></h2>
@@ -341,439 +375,445 @@
             </div>
         </div> -->
 
-        <div class="grid-x grid-padding-x">
-            <div class="cell" style="text-align: center; margin-top: 120px;">
-                <br/><br/>
-                <h2>Care providers want <span style="text-decoration: underline;">clearer presentation</span></h2>
-            </div>
-            <div class="large-6 cell" style="text-align: center; padding: 60px;">
-                <img src="img/SCRa-iphone.png"><br/><br/>
-                <h5>Clear &amp; consistent UI</h5>
-                <p>Intuitive, navigable, with clear context of information</p>
-            </div>
-            <div class="large-6 cell" style="text-align: center; margin-top: 80px; padding: 70px;">
-                <img src="img/sitemap.svg"><br/><br/>
-                <h5>Organised, prioritised &amp; structured information</h5>
-                <p>Getting the right information to the right people at their point of need</p>
-            </div>
-        </div>
-
-        <div class="grid-x grid-padding-x" style="margin-top: 120px;">
-            <div id="user-groups" class="cell" style="text-align: center;" data-magellan-target="user-groups">
-                <h2>Findings by user groups:</h2>
-            </div>
-            <div class="cell" style="margin-top: 20px;" data-magellan>
-                <div class="grid-x grid-padding-x grid-margin-x small-up-1 medium-up-3 large-up-3">
-                    <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#first">Community Pharmacy</a></div>
-                    <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#second">Hospital Pharmacy</a></div>
-                    <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#third">A&amp;E Departments</a></div>
-                    <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#fourth">GP Practices / OOH / WIC</a></div>
-                    <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#fifth">Ambulance Trusts</a></div>
-                    <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#sixth">Care Homes</a></div>
-                    <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#seventh">Social Workers</a></div>
-                    <div class="cell nav-panel"><a class="button hollow expanded big-font faded" href="#">Prisons</a></div>
-                    <div class="cell nav-panel"><a class="button hollow expanded big-font faded" href="#">Police Custody Suites</a></div>
-                    <div class="cell nav-panel"><a class="button hollow expanded big-font faded" href="#">Courts</a></div>
-                    <div class="cell nav-panel"><a class="button hollow expanded big-font faded" href="#">Hospices</a></div>
-                    <div class="cell nav-panel"><a class="button hollow expanded big-font faded" href="#">Independent Providers</a></div>
+            <div class="grid-x grid-padding-x" style="margin-top: 120px;">
+                <div id="user-groups" class="cell" style="text-align: center;" data-magellan-target="user-groups">
+                    <h2 style="color: #0072C6 !important;">Findings by user groups:</h2>
+                </div>
+                <div class="cell" style="margin-top: 20px;" data-magellan>
+                    <div class="grid-x grid-padding-x grid-margin-x small-up-1 medium-up-3 large-up-3">
+                        <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#first">Community Pharmacy</a></div>
+                        <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#second">Hospital Pharmacy</a></div>
+                        <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#third">A&amp;E Departments</a></div>
+                        <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#fourth">GP Practices / OOH / WIC</a></div>
+                        <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#fifth">Ambulance Trusts</a></div>
+                        <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#sixth">Care Homes</a></div>
+                        <div class="cell nav-panel"><a class="button hollow expanded big-font" href="#seventh">Social Workers</a></div>
+                        <div class="cell nav-panel"><a class="button hollow expanded big-font faded" href="#">Prisons</a></div>
+                        <div class="cell nav-panel"><a class="button hollow expanded big-font faded" href="#">Police Custody Suites</a></div>
+                        <div class="cell nav-panel"><a class="button hollow expanded big-font faded" href="#">Courts</a></div>
+                        <div class="cell nav-panel"><a class="button hollow expanded big-font faded" href="#">Hospices</a></div>
+                        <div class="cell nav-panel"><a class="button hollow expanded big-font faded" href="#">Independent Providers</a></div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="grid-x grid-padding-x grid-margin-x">
-            <div class="cell sections">
-                <br /><br /><br /><br /><br /><br /><br />
+            <div class="grid-x grid-padding-x grid-margin-x">
+                <div class="cell sections">
+                    <br /><br /><br /><br /><br /><br /><br />
 
-                <section id="first" class="info-section" data-magellan-target="first">
-                    <h2 style="color: #005EB8;">Community Pharmacy</h2>
-                    <div class="grid-x grid-padding-x">
-                        <div class="large-6 cell">
-                            <h4>Current</h4>
-                            <div class="grid-x grid-padding-x grid-margin-x" data-equalizer="fooF" data-equalize-by-row="true">
-                                <div class="large-6 cell research-panel" data-equalizer-watch="fooF">
-                                    <h5>Access</h5>
-                                    <div class="grid-x">
-                                        <div class="large-12 columns" style="text-align: center;">
-                                            <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon faded" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon faded" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon faded" title="Mobile"></i>
+                    <section id="first" class="info-section" data-magellan-target="first">
+                        <h2 style="color: #005EB8;">Community Pharmacy</h2><br />
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-6 cell">
+                                <h4>Current</h4><br/>
+                                <div class="grid-x grid-padding-x grid-margin-x" data-equalizer="fooF" data-equalize-by-row="true">
+                                    <div class="large-5 cell research-panel" data-equalizer-watch="fooF">
+                                        <h5>Access</h5>
+                                        <div class="grid-x">
+                                            <div class="large-12 columns" style="text-align: center;">
+                                                <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon faded" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon faded" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon faded" title="Mobile"></i>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="large-3 cell research-panel" style="text-align: center;" data-equalizer-watch="fooF">
-                                    <h5 style="text-align: left;">Awareness</h5>
-                                    <i class="fi-arrow-up access-icon green"></i>
-                                </div>
-                                <div class="large-3 cell research-panel" style="text-align: center;" data-equalizer-watch="fooF">
-                                    <h5 style="text-align: left;">Usage</h5>
-                                    <i class="fi-arrow-up access-icon green"></i>
-                                </div>
-                                <div class="large-12 cell research-panel" data-equalizer-watch="fooF">
-                                    <h5>Use case(s)</h5>
-                                    <div class="large-12 columns">
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooF">
+                                        <h5 style="text-align: left;">Awareness</h5>
+                                        <i class="fi-arrow-up access-icon green" title="High"></i>
+                                    </div>
+                                    <div class="large-3 cell research-panel" style="text-align: center;" data-equalizer-watch="fooF">
+                                        <h5 style="text-align: left;">Usage</h5>
+                                        <i class="fi-arrow-up access-icon green" title="High"></i>
+                                    </div>
+                                    <div class="large-12 cell research-panel" data-equalizer-watch="fooF">
+                                        <h5>Use case(s)</h5>
+                                        <div class="large-12 columns">
+                                            <ul>
+                                                <li>Emergency prescribing of drugs (Medications &amp; allergies)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="large-12 cell research-panel" data-equalizer-watch="fooF">
+                                        <h5>Challenges</h5>
                                         <ul>
-                                            <li>Emergency prescribing of drugs (Medications &amp; allergies)</li>
+                                            <li>Smartcard access can be slow</li>
+                                            <li>Completeness and timeliness of the medicines data particularly if a patient has been discharged from hospital</li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="large-12 cell research-panel" data-equalizer-watch="fooF">
-                                    <h5>Challenges</h5>
-                                    <ul>
-                                        <li>Smartcard access can be slow</li>
-                                        <li>Completeness and timeliness of the medicines data particularly if a patient has been discharged from hospital</li>
-                                    </ul>
-                                </div>
                             </div>
-                        </div>
-                        <br/>
-                        <div class="large-6 cell future">
-                            <h4>Future</h4>
-                            <div class="grid-x grid-padding-x grid-margin-x">
-                                <div class="large-12 cell research-panel" data-equalizer-watch="fooF">
-                                    <h5>Access</h5>
-                                    <div class="grid-x">
-                                        <div class="large-12 columns" style="text-align: center;">
-                                            <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon" title="Mobile"></i>
+                            <br/>
+                            <div class="large-6 cell future">
+                                <h4>Future</h4><br/>
+                                <div class="grid-x grid-padding-x grid-margin-x">
+                                    <div class="large-12 cell research-panel" data-equalizer-watch="fooF">
+                                        <h5>Access</h5>
+                                        <div class="grid-x">
+                                            <div class="large-12 columns" style="text-align: center;">
+                                                <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon" title="Mobile"></i>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="large-12 cell research-panel">
-                                    <h5>Use case(s)</h5>
-                                    <ul>
-                                        <li>Emergency prescribing of drugs (Medications &amp; allergies)</li>
-                                        <li>Perform Medication Reviews in Care Homes</li>
-                                    </ul>
-                                </div>
-                                <div class="large-12 cell research-panel">
-                                    <h5>Content &amp; context needs</h5>
-                                    <ul>
-                                        <li>Medications prescribed in all settings (ie secondary care) available in a timely manner</li>
-                                        <li>Clinical information to give Context (Problems &amp; Diagnosis)</li>
-                                        <li>Clarity in presentation of meds and allergies</li>
-                                        <li>Need to be able to refer to other services</li>
-                                    </ul>
-                                    <br/>
+                                    <div class="large-12 cell research-panel">
+                                        <h5>Use case(s)</h5>
+                                        <ul>
+                                            <li>Emergency prescribing of drugs (Medications &amp; allergies)</li>
+                                            <li>Perform Medication Reviews in Care Homes</li>
+                                        </ul>
+                                    </div>
+                                    <div class="large-12 cell research-panel">
+                                        <h5>Content &amp; context needs</h5>
+                                        <ul>
+                                            <li>Medications prescribed in all settings (ie secondary care) available in a timely manner</li>
+                                            <li>Clinical information to give Context (Problems &amp; Diagnosis)</li>
+                                            <li>Clarity in presentation of meds and allergies</li>
+                                            <li>Need to be able to refer to other services</li>
+                                        </ul>
+                                        <br/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
+                </div>
+            </div>
+            <hr>
+            <div class="grid-x grid-padding-x grid-margin-x">
+                <div class="cell sections">
+                    <br /><br /><br /><br /><br /><br /><br />
+                    <section id="second" class="info-section" data-magellan-target="second">
+                        <h2 style="color: #005EB8;">Hospital Pharmacy</h2>
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-3 medium-6 cell text-center" style="padding: 50px;">
+                                <img src="img/pharmacy-red.svg" height="10%;"><br/><br/><br/>
+                                <p style="text-align: left;">
+                                    <a href="https://confluence.digital.nhs.uk/download/attachments/45473392/Persona%20-%20Hospital%20Pharmacist.pdf?version=1&modificationDate=1518791309546&api=v2">View persona</a><br/>
+                                    <a href="https://confluence.digital.nhs.uk/display/PT/SCRa+Research+Artefacts2">View interview transcripts</a>
+
+                                </p>
+                            </div>
+                            <div class="large-9 medium-6 cell">
+                                <div class="grid-x grid-padding-x grid-margin-x" style="padding-top: 30px;" data-equalizer="fooG" data-equalize-by-row="true">
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooG">
+                                        <h5 style="text-align: left;">Awareness</h5>
+                                        <i class="fi-arrow-up access-icon green"></i>
+                                    </div>
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooG">
+                                        <h5 style="text-align: left;">Access</h5>
+                                        <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon " title="Mobile"></i>
+                                    </div>
+                                    <div class="large-4 cell research-panel" data-equalizer-watch="fooG">
+                                        <h5>Purpose</h5>
+                                        <img src="img/demographic.svg" style="height: 60px;" title="Check patient details" alt="Check patient details" class="faded"> &nbsp; <img src="img/pill.svg" style="height: 60px;" title="Check medication &amp; allergies" alt="Check medication &amp; allergies">
+                                    </div>
+                                    <div class="large-6 cell research-panel" data-equalizer-watch="fooG">
+                                        <h5>Challenges</h5>
+                                        <ul>
+                                            <li>Delay in updates</li>
+                                            <li>Not a complete record - Meds from sources other then the GP are not included</li>
+                                            <li>Meds not always marked as discontinued by GPs</li>
+                                            <li>Interpretting the info can be problematic - particularly repeat prescriptions which is inconsistent</li>
+                                        </ul>
+                                    </div>
+                                    <div class="large-6 cell research-panel" data-equalizer-watch="fooG">
+                                        <h5>Requirements</h5>
+                                        <ul>
+                                            <li>All medications</li>
+                                            <li>clinical summaries to offer context – diagnosis, recent issues, comorbidity, e.g. diabetic – is it diet controlled or not?</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <hr>
+            <div class="grid-x grid-padding-x grid-margin-x">
+                <div class="cell sections">
+                    <section id="third" class="info-section" data-magellan-target="third">
+                        <h2 style="color: #005EB8;">A&amp;E Departments</h2>
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-3 medium-6 cell text-center" style="padding: 50px;">
+                                <img src="img/hospital.svg" height="10%;"><br/><br/><br/>
+                                <p style="text-align: left;">
+                                    <a href="https://confluence.digital.nhs.uk/download/attachments/45473392/Persona%20-%20A%26E%20Consultant.pdf?version=1&modificationDate=1518791223297&api=v2">View persona</a><br/>
+                                    <a href="https://confluence.digital.nhs.uk/display/PT/SCRa+Research+Artefacts2">View interview transcripts</a>
+
+                                </p>
+                            </div>
+                            <div class="large-9 medium-6 cell">
+                                <div class="grid-x grid-padding-x grid-margin-x" style="padding-top: 30px;" data-equalizer="fooH" data-equalize-by-row="true">
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooH">
+                                        <h5 style="text-align: left;">Awareness</h5>
+                                        <i class="fi-minus access-icon green" style="color: orange;" title="Medium" alt="Medium"></i>
+                                    </div>
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooH">
+                                        <h5 style="text-align: left;">Access</h5>
+                                        <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon" title="Mobile"></i>
+                                    </div>
+                                    <div class="large-4 cell research-panel" data-equalizer-watch="fooH">
+                                        <h5>Purpose</h5>
+                                        <img src="img/demographic.svg" style="height: 60px;" title="Check patient details" alt="Check patient details" class="faded"> &nbsp; <img src="img/pill.svg" style="height: 60px;" title="Check medication &amp; allergies" alt="Check medication &amp; allergies">
+                                    </div>
+                                    <div class="large-6 cell research-panel" data-equalizer-watch="fooH">
+                                        <h5>Challenges</h5>
+                                        <ul>
+                                            <li>Culturally SCRa not considered part of routine care - more acute emergency tool</li>
+                                            <li>Vital data missing - Have to call the GP, social worker, physio etc</li>
+                                            <li>Paper docs (DNR / Care Plan) can be missed/damaged</li>
+                                            <li>Presentation of meds – more interested in repeat meds than acutes so should be listed first</li>
+                                            <li>Only get prescribing but do not get the med history</li>
+                                            <li>Consent model - should cover all clinicians as part of that episode of care at that organisation</li>
+                                        </ul>
+                                    </div>
+                                    <div class="large-6 cell research-panel" data-equalizer-watch="fooH">
+                                        <h5>Requirements</h5>
+                                        <ul>
+                                            <li>Medical history</li>
+                                            <li>All medications</li>
+                                            <li>All paper docs to be digitised</li>
+                                            <li>GP appt. - recent &amp; impending</li>
+                                            <li>Social care information</li>
+                                            <li>Immunisations</li>
+                                            <li>Psychiatric information</li>
+                                            <li>Copies of previous ECGs to review changes</li>
+                                            <li>Photos of wounds taken by clinicians in the community</li>
+                                            <li>Organ donor information</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <hr>
+            <div class="grid-x grid-padding-x grid-margin-x">
+                <div class="cell sections">
+                    <section id="fourth" class="info-section" data-magellan-target="fourth">
+                        <h2 style="color: #005EB8;">GP Practice / Walk-in-Clinic / Out of Hours</h2>
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-3 medium-6 cell text-center" style="padding: 50px;">
+                                <img src="img/doctor.svg" style="height: 70%;"><br/><br/>
+                                <p style="text-align: left;">
+                                    <a href="https://confluence.digital.nhs.uk/download/attachments/45473392/Persona%20-%20GP.pdf?version=1&modificationDate=1518791286138&api=v2">View GP persona</a><br/>
+                                    <a href="https://confluence.digital.nhs.uk/download/attachments/45473392/Persona%20-%20GP%20-%20Out%20of%20Hours.pdf?version=1&modificationDate=1518791271104&api=v2">View OOH GP persona</a><br/>
+                                    <a href="https://confluence.digital.nhs.uk/download/attachments/45473392/Persona%20-%20Nurse%20Practitioner%20-%20WIC.pdf?version=1&modificationDate=1520526145936&api=v2">View WIC Practioner persona</a><br/>
+                                    <a href="https://confluence.digital.nhs.uk/display/PT/SCRa+Research+Artefacts2">View interview transcripts</a>
+
+                                </p>
+                            </div>
+                            <div class="large-9 medium-6 cell">
+                                <div class="grid-x grid-padding-x grid-margin-x" style="padding-top: 30px;" data-equalizer="fooI" data-equalize-by-row="true">
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooI">
+                                        <h5 style="text-align: left;">Awareness</h5>
+                                        <i class="fi-minus access-icon green" style="color: orange;" title="Medium" alt="Medium"></i>
+                                    </div>
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooI">
+                                        <h5 style="text-align: left;">Access</h5>
+                                        <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon faded" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon faded" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon faded" title="Mobile"></i>
+                                    </div>
+                                    <div class="large-4 cell research-panel" data-equalizer-watch="fooI">
+                                        <h5>Purpose</h5>
+                                        <img src="img/demographic.svg" style="height: 60px;" title="Check patient details" alt="Check patient details" class=""> &nbsp; <img src="img/pill.svg" style="height: 60px;" title="Check medication &amp; allergies" alt="Check medication &amp; allergies">
+                                    </div>
+                                    <div class="large-6 cell research-panel" data-equalizer-watch="fooI">
+                                        <h5>Challenges</h5>
+                                        <ul>
+                                            <li>Data sharing complexities</li>
+                                            <li>Access issues with Smartcards / N3</li>
+                                        </ul>
+                                    </div>
+                                    <div class="large-6 cell research-panel" data-equalizer-watch="fooI">
+                                        <h5>Requirements</h5>
+                                        <ul>
+                                            <li>Medication from all sources</li>
+                                            <li>Detailed patient history</li>
+                                            <li>Social care information</li>
+                                            <li>"Plans" information</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <hr>
+            <div class="grid-x grid-padding-x grid-margin-x">
+                <div class="cell sections">
+                    <section id="fifth" class="info-section" data-magellan-target="fifth">
+                        <h2 style="color: #005EB8;">Ambulance Trusts</h2>
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-3 medium-6 cell text-center" style="padding: 50px;">
+                                <img src="img/ambulance.svg" style="height: 50%;"><br/><br/>
+                                <p style="text-align: left;">
+                                    <a href="https://confluence.digital.nhs.uk/download/attachments/45473392/Persona%20-%20Paramedic.pdf?version=1&modificationDate=1518791808704&api=v2">View Paramedic persona</a><br/>
+                                    <a href="https://confluence.digital.nhs.uk/display/PT/SCRa+Research+Artefacts2">View interview transcripts</a>
+
+                                </p>
+                            </div>
+                            <div class="large-9 medium-6 cell">
+                                <div class="grid-x grid-padding-x grid-margin-x" style="padding-top: 30px;" data-equalizer="fooI" data-equalize-by-row="true">
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooI">
+                                        <h5 style="text-align: left;">Awareness</h5>
+                                        <i class="fi-arrow-up access-icon green" title="High" alt="High"></i>
+                                    </div>
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooI">
+                                        <h5 style="text-align: left;">Access</h5>
+                                        <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon " title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon " title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon " title="Mobile"></i>
+                                    </div>
+                                    <div class="large-4 cell research-panel" data-equalizer-watch="fooI">
+                                        <h5>Purpose</h5>
+                                        <img src="img/demographic.svg" style="height: 60px;" title="Check patient details" alt="Check patient details" class=""> &nbsp; <img src="img/pill.svg" style="height: 60px;" title="Check medication &amp; allergies" alt="Check medication &amp; allergies">
+                                    </div>
+                                    <div class="large-6 cell research-panel" data-equalizer-watch="fooI">
+                                        <h5>Challenges</h5>
+                                        <ul>
+                                            <li>Access - Smartcards aren't ideal for paramedics in ambulances</li>
+                                            <li>Information - Need as much patient information beforehand to inform treatment</li>
+                                            <li>Ambulance Trusts are choosing to use regional systems over the SCR as they say that the SCRa is cumbersome and has less info than regional systems</li>
+                                        </ul>
+                                    </div>
+                                    <div class="large-6 cell research-panel" data-equalizer-watch="fooI">
+                                        <h5>Requirements</h5>
+                                        <ul>
+                                            <li>Access to careplans, end of life information</li>
+                                            <li>Mental health information and care team contacts</li>
+                                            <li>Any social care information</li>
+                                            <li>Detail on conditions to inform treatment at scene</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <hr>
+            <div class="grid-x grid-padding-x grid-margin-x">
+                <div class="cell sections">
+                    <section id="sixth" class="info-section" data-magellan-target="sixth">
+                        <h2 style="color: #005EB8;">Care Homes</h2>
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-3 medium-6 cell text-center" style="padding: 50px;">
+                                <img src="img/care-home.svg" style="height: 50%;"><br/><br/>
+                                <p style="text-align: left;">
+                                    <a href="#">View Care Home persona</a><br/>
+                                    <a href="https://confluence.digital.nhs.uk/display/PT/SCRa+Research+Artefacts2">View interview transcripts</a>
+
+                                </p>
+                            </div>
+                            <div class="large-9 medium-6 cell">
+                                <div class="grid-x grid-padding-x grid-margin-x" style="padding-top: 30px;" data-equalizer="fooM" data-equalize-by-row="true">
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooM">
+                                        <h5 style="text-align: left;">Awareness</h5>
+                                        <i class="fi-arrow-down access-icon" style="color: red" title="Low" alt="Low"></i>
+                                    </div>
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooM">
+                                        <h5 style="text-align: left;">Access</h5>
+                                        <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon faded" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon faded" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon faded" title="Mobile"></i>
+                                    </div>
+                                    <div class="large-4 cell research-panel" data-equalizer-watch="fooM">
+                                        <h5>Purpose</h5>
+                                        <img src="img/demographic.svg" style="height: 60px;" title="Check patient details" alt="Check patient details" class=""> &nbsp; <img src="img/pill.svg" style="height: 60px;" title="Check medication &amp; allergies" alt="Check medication &amp; allergies">
+                                    </div>
+                                    <div class="large-6 cell research-panel" data-equalizer-watch="fooM">
+                                        <h5>Challenges</h5>
+                                        <ul>
+                                            <li>Access - Smartcards &amp; N3</li>
+                                            <li>Low digital maturity within staff</li>
+                                            <li>65% of Care Home Sector have just 1-2 homes, often no wifi, PC on desk – groups 5+ homes more likely to have IT systems</li>
+                                        </ul>
+                                    </div>
+                                    <div class="large-6 cell research-panel" data-equalizer-watch="fooM">
+                                        <h5>Requirements</h5>
+                                        <ul>
+                                            <li>Essential Healthcare information</li>
+                                            <li>Medicines - particular repeat</li>
+                                            <li>Lab/scan results</li>
+                                            <li>Discharge/admission</li>
+                                            <li>MRSA+</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <hr>
+            <div class="grid-x grid-padding-x grid-margin-x">
+                <div class="cell sections">
+                    <section id="seventh" class="info-section" data-magellan-target="seventh">
+                        <h2 style="color: #005EB8;">Social Workers</h2>
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-3 medium-6 cell text-center" style="padding: 50px;">
+                                <img src="img/social-workers.svg"><br/><br/>
+                                <p style="text-align: left;">
+                                    <a href="#">View Social Workers persona</a><br/>
+                                    <a href="https://confluence.digital.nhs.uk/display/PT/SCRa+Research+Artefacts2">View interview transcripts</a>
+                                </p>
+                            </div>
+                            <div class="large-9 medium-6 cell">
+                                <div class="grid-x grid-padding-x grid-margin-x" style="padding-top: 30px;" data-equalizer="fooN" data-equalize-by-row="true">
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooN">
+                                        <h5 style="text-align: left;">Awareness</h5>
+                                        <i class="fi-arrow-down access-icon" style="color: red" title="Low" alt="Low"></i>
+                                    </div>
+                                    <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooN">
+                                        <h5 style="text-align: left;">Access</h5>
+                                        <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon faded" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon faded" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon faded" title="Mobile"></i>
+                                    </div>
+                                    <div class="large-4 cell research-panel" data-equalizer-watch="fooN">
+                                        <h5>Purpose</h5>
+                                        <img src="img/demographic.svg" style="height: 60px;" title="Check patient details" alt="Check patient details" class=""> &nbsp; <img src="img/pill.svg" style="height: 60px;" title="Check medication &amp; allergies" alt="Check medication &amp; allergies">
+                                    </div>
+                                    <div class="large-6 cell research-panel" data-equalizer-watch="fooN">
+                                        <h5>Challenges</h5>
+                                        <ul>
+                                            <li>Access - Smartcards &amp; N3</li>
+                                            <li>Inconsistency levels of digital maturity across the user group</li>
+                                        </ul>
+                                    </div>
+                                    <div class="large-6 cell research-panel" data-equalizer-watch="fooN">
+                                        <h5>Requirements</h5>
+                                        <ul>
+                                            <li>Essential Healthcare information</li>
+                                            <li>Medicines - particular repeat</li>
+                                            <li>Care plans</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div class="grid-x grid-padding-x">
+            <div class="cell">
+                <a href="index.html">Back to index</a><br/><br/>
+            </div>
+            <div class="cell">
+                <span><a target="_blank" href="http://www.hippodigital.co.uk"><img src="img/hippo-svg.svg" width="18px !important;"></a></span>
             </div>
         </div>
-        <hr>
-        <section id="second" class="info-section" data-magellan-target="second">
-            <h2 style="color: #005EB8;">Hospital Pharmacy</h2>
-            <div class="grid-x grid-padding-x">
-                <div class="large-3 medium-6 cell text-center" style="padding: 50px;">
-                    <img src="img/pharmacy-red.svg" height="10%;"><br/><br/><br/>
-                    <p style="text-align: left;">
-                        <a href="https://confluence.digital.nhs.uk/download/attachments/45473392/Persona%20-%20Hospital%20Pharmacist.pdf?version=1&modificationDate=1518791309546&api=v2">View persona</a><br/>
-                        <a href="https://confluence.digital.nhs.uk/display/PT/SCRa+Research+Artefacts2">View interview transcripts</a>
-
-                    </p>
-                </div>
-                <div class="large-9 medium-6 cell">
-                    <div class="grid-x grid-padding-x grid-margin-x" style="padding-top: 30px;" data-equalizer="fooG" data-equalize-by-row="true">
-                        <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooG">
-                            <h5 style="text-align: left;">Awareness</h5>
-                            <i class="fi-arrow-up access-icon green"></i>
-                        </div>
-                        <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooG">
-                            <h5 style="text-align: left;">Access</h5>
-                            <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon " title="Mobile"></i>
-                        </div>
-                        <div class="large-4 cell research-panel" data-equalizer-watch="fooG">
-                            <h5>Purpose</h5>
-                            <img src="img/demographic.svg" style="height: 60px;" title="Check patient details" alt="Check patient details" class="faded"> &nbsp; <img src="img/pill.svg" style="height: 60px;" title="Check medication &amp; allergies" alt="Check medication &amp; allergies">
-                        </div>
-                        <div class="large-6 cell research-panel" data-equalizer-watch="fooG">
-                            <h5>Challenges</h5>
-                            <ul>
-                                <li>Delay in updates</li>
-                                <li>Not a complete record - Meds from sources other then the GP are not included</li>
-                                <li>Meds not always marked as discontinued by GPs</li>
-                                <li>Interpretting the info can be problematic - particularly repeat prescriptions which is inconsistent</li>
-                            </ul>
-                        </div>
-                        <div class="large-6 cell research-panel" data-equalizer-watch="fooG">
-                            <h5>Requirements</h5>
-                            <ul>
-                                <li>All medications</li>
-                                <li>clinical summaries to offer context – diagnosis, recent issues, comorbidity, e.g. diabetic – is it diet controlled or not?</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section id="third" class="info-section" data-magellan-target="third">
-            <h2 style="color: #005EB8;">A&amp;E Departments</h2>
-            <div class="grid-x grid-padding-x">
-                <div class="large-3 medium-6 cell text-center" style="padding: 50px;">
-                    <img src="img/hospital.svg" height="10%;"><br/><br/><br/>
-                    <p style="text-align: left;">
-                        <a href="https://confluence.digital.nhs.uk/download/attachments/45473392/Persona%20-%20A%26E%20Consultant.pdf?version=1&modificationDate=1518791223297&api=v2">View persona</a><br/>
-                        <a href="https://confluence.digital.nhs.uk/display/PT/SCRa+Research+Artefacts2">View interview transcripts</a>
-
-                    </p>
-                </div>
-                <div class="large-9 medium-6 cell">
-                    <div class="grid-x grid-padding-x grid-margin-x" style="padding-top: 30px;" data-equalizer="fooH" data-equalize-by-row="true">
-                        <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooH">
-                            <h5 style="text-align: left;">Awareness</h5>
-                            <i class="fi-minus access-icon green" style="color: orange;" title="Medium" alt="Medium"></i>
-                        </div>
-                        <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooH">
-                            <h5 style="text-align: left;">Access</h5>
-                            <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon" title="Mobile"></i>
-                        </div>
-                        <div class="large-4 cell research-panel" data-equalizer-watch="fooH">
-                            <h5>Purpose</h5>
-                            <img src="img/demographic.svg" style="height: 60px;" title="Check patient details" alt="Check patient details" class="faded"> &nbsp; <img src="img/pill.svg" style="height: 60px;" title="Check medication &amp; allergies" alt="Check medication &amp; allergies">
-                        </div>
-                        <div class="large-6 cell research-panel" data-equalizer-watch="fooH">
-                            <h5>Challenges</h5>
-                            <ul>
-                                <li>Culturally SCRa not considered part of routine care - more acute emergency tool</li>
-                                <li>Vital data missing - Have to call the GP, social worker, physio etc</li>
-                                <li>Paper docs (DNR / Care Plan) can be missed/damaged</li>
-                                <li>Presentation of meds – more interested in repeat meds than acutes so should be listed first</li>
-                                <li>Only get prescribing but do not get the med history</li>
-                                <li>Consent model - should cover all clinicians as part of that episode of care at that organisation</li>
-                            </ul>
-                        </div>
-                        <div class="large-6 cell research-panel" data-equalizer-watch="fooH">
-                            <h5>Requirements</h5>
-                            <ul>
-                                <li>Medical history</li>
-                                <li>All medications</li>
-                                <li>All paper docs to be digitised</li>
-                                <li>GP appt. - recent &amp; impending</li>
-                                <li>Social care information</li>
-                                <li>Immunisations</li>
-                                <li>Psychiatric information</li>
-                                <li>Copies of previous ECGs to review changes</li>
-                                <li>Photos of wounds taken by clinicians in the community</li>
-                                <li>Organ donor information</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section id="fourth" class="info-section" data-magellan-target="fourth">
-            <h2 style="color: #005EB8;">GP Practice / Walk-in-Clinic / Out of Hours</h2>
-            <div class="grid-x grid-padding-x">
-                <div class="large-3 medium-6 cell text-center" style="padding: 50px;">
-                    <img src="img/doctor.svg" style="height: 70%;"><br/><br/>
-                    <p style="text-align: left;">
-                        <a href="https://confluence.digital.nhs.uk/download/attachments/45473392/Persona%20-%20GP.pdf?version=1&modificationDate=1518791286138&api=v2">View GP persona</a><br/>
-                        <a href="https://confluence.digital.nhs.uk/download/attachments/45473392/Persona%20-%20GP%20-%20Out%20of%20Hours.pdf?version=1&modificationDate=1518791271104&api=v2">View OOH GP persona</a><br/>
-                        <a href="https://confluence.digital.nhs.uk/download/attachments/45473392/Persona%20-%20Nurse%20Practitioner%20-%20WIC.pdf?version=1&modificationDate=1520526145936&api=v2">View WIC Practioner persona</a><br/>
-                        <a href="https://confluence.digital.nhs.uk/display/PT/SCRa+Research+Artefacts2">View interview transcripts</a>
-
-                    </p>
-                </div>
-                <div class="large-9 medium-6 cell">
-                    <div class="grid-x grid-padding-x grid-margin-x" style="padding-top: 30px;" data-equalizer="fooI" data-equalize-by-row="true">
-                        <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooI">
-                            <h5 style="text-align: left;">Awareness</h5>
-                            <i class="fi-minus access-icon green" style="color: orange;" title="Medium" alt="Medium"></i>
-                        </div>
-                        <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooI">
-                            <h5 style="text-align: left;">Access</h5>
-                            <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon faded" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon faded" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon faded" title="Mobile"></i>
-                        </div>
-                        <div class="large-4 cell research-panel" data-equalizer-watch="fooI">
-                            <h5>Purpose</h5>
-                            <img src="img/demographic.svg" style="height: 60px;" title="Check patient details" alt="Check patient details" class=""> &nbsp; <img src="img/pill.svg" style="height: 60px;" title="Check medication &amp; allergies" alt="Check medication &amp; allergies">
-                        </div>
-                        <div class="large-6 cell research-panel" data-equalizer-watch="fooI">
-                            <h5>Challenges</h5>
-                            <ul>
-                                <li>Data sharing complexities</li>
-                                <li>Access issues with Smartcards / N3</li>
-                            </ul>
-                        </div>
-                        <div class="large-6 cell research-panel" data-equalizer-watch="fooI">
-                            <h5>Requirements</h5>
-                            <ul>
-                                <li>Medication from all sources</li>
-                                <li>Detailed patient history</li>
-                                <li>Social care information</li>
-                                <li>"Plans" information</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section id="fifth" class="info-section" data-magellan-target="fifth">
-            <h2 style="color: #005EB8;">Ambulance Trusts</h2>
-            <div class="grid-x grid-padding-x">
-                <div class="large-3 medium-6 cell text-center" style="padding: 50px;">
-                    <img src="img/ambulance.svg" style="height: 50%;"><br/><br/>
-                    <p style="text-align: left;">
-                        <a href="https://confluence.digital.nhs.uk/download/attachments/45473392/Persona%20-%20Paramedic.pdf?version=1&modificationDate=1518791808704&api=v2">View Paramedic persona</a><br/>
-                        <a href="https://confluence.digital.nhs.uk/display/PT/SCRa+Research+Artefacts2">View interview transcripts</a>
-
-                    </p>
-                </div>
-                <div class="large-9 medium-6 cell">
-                    <div class="grid-x grid-padding-x grid-margin-x" style="padding-top: 30px;" data-equalizer="fooI" data-equalize-by-row="true">
-                        <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooI">
-                            <h5 style="text-align: left;">Awareness</h5>
-                            <i class="fi-arrow-up access-icon green" title="High" alt="High"></i>
-                        </div>
-                        <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooI">
-                            <h5 style="text-align: left;">Access</h5>
-                            <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon " title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon " title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon " title="Mobile"></i>
-                        </div>
-                        <div class="large-4 cell research-panel" data-equalizer-watch="fooI">
-                            <h5>Purpose</h5>
-                            <img src="img/demographic.svg" style="height: 60px;" title="Check patient details" alt="Check patient details" class=""> &nbsp; <img src="img/pill.svg" style="height: 60px;" title="Check medication &amp; allergies" alt="Check medication &amp; allergies">
-                        </div>
-                        <div class="large-6 cell research-panel" data-equalizer-watch="fooI">
-                            <h5>Challenges</h5>
-                            <ul>
-                                <li>Access - Smartcards aren't ideal for paramedics in ambulances</li>
-                                <li>Information - Need as much patient information beforehand to inform treatment</li>
-                                <li>Ambulance Trusts are choosing to use regional systems over the SCR as they say that the SCRa is cumbersome and has less info than regional systems</li>
-                            </ul>
-                        </div>
-                        <div class="large-6 cell research-panel" data-equalizer-watch="fooI">
-                            <h5>Requirements</h5>
-                            <ul>
-                                <li>Access to careplans, end of life information</li>
-                                <li>Mental health information and care team contacts</li>
-                                <li>Any social care information</li>
-                                <li>Detail on conditions to inform treatment at scene</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section id="sixth" class="info-section" data-magellan-target="sixth">
-            <h2 style="color: #005EB8;">Care Homes</h2>
-            <div class="grid-x grid-padding-x">
-                <div class="large-3 medium-6 cell text-center" style="padding: 50px;">
-                    <img src="img/care-home.svg" style="height: 50%;"><br/><br/>
-                    <p style="text-align: left;">
-                        <a href="#">View Care Home persona</a><br/>
-                        <a href="https://confluence.digital.nhs.uk/display/PT/SCRa+Research+Artefacts2">View interview transcripts</a>
-
-                    </p>
-                </div>
-                <div class="large-9 medium-6 cell">
-                    <div class="grid-x grid-padding-x grid-margin-x" style="padding-top: 30px;" data-equalizer="fooM" data-equalize-by-row="true">
-                        <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooM">
-                            <h5 style="text-align: left;">Awareness</h5>
-                            <i class="fi-arrow-down access-icon" style="color: red" title="Low" alt="Low"></i>
-                        </div>
-                        <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooM">
-                            <h5 style="text-align: left;">Access</h5>
-                            <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon faded" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon faded" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon faded" title="Mobile"></i>
-                        </div>
-                        <div class="large-4 cell research-panel" data-equalizer-watch="fooM">
-                            <h5>Purpose</h5>
-                            <img src="img/demographic.svg" style="height: 60px;" title="Check patient details" alt="Check patient details" class=""> &nbsp; <img src="img/pill.svg" style="height: 60px;" title="Check medication &amp; allergies" alt="Check medication &amp; allergies">
-                        </div>
-                        <div class="large-6 cell research-panel" data-equalizer-watch="fooM">
-                            <h5>Challenges</h5>
-                            <ul>
-                                <li>Access - Smartcards &amp; N3</li>
-                                <li>Low digital maturity within staff</li>
-                                <li>65% of Care Home Sector have just 1-2 homes, often no wifi, PC on desk – groups 5+ homes more likely to have IT systems</li>
-                            </ul>
-                        </div>
-                        <div class="large-6 cell research-panel" data-equalizer-watch="fooM">
-                            <h5>Requirements</h5>
-                            <ul>
-                                <li>Essential Healthcare information</li>
-                                <li>Medicines - particular repeat</li>
-                                <li>Lab/scan results</li>
-                                <li>Discharge/admission</li>
-                                <li>MRSA+</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section id="seventh" class="info-section" data-magellan-target="seventh">
-            <h2 style="color: #005EB8;">Social Workers</h2>
-            <div class="grid-x grid-padding-x">
-                <div class="large-3 medium-6 cell text-center" style="padding: 50px;">
-                    <img src="img/social-workers.svg"><br/><br/>
-                    <p style="text-align: left;">
-                        <a href="#">View Social Workers persona</a><br/>
-                        <a href="https://confluence.digital.nhs.uk/display/PT/SCRa+Research+Artefacts2">View interview transcripts</a>
-                    </p>
-                </div>
-                <div class="large-9 medium-6 cell">
-                    <div class="grid-x grid-padding-x grid-margin-x" style="padding-top: 30px;" data-equalizer="fooN" data-equalize-by-row="true">
-                        <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooN">
-                            <h5 style="text-align: left;">Awareness</h5>
-                            <i class="fi-arrow-down access-icon" style="color: red" title="Low" alt="Low"></i>
-                        </div>
-                        <div class="large-4 cell research-panel" style="text-align: center;" data-equalizer-watch="fooN">
-                            <h5 style="text-align: left;">Access</h5>
-                            <i class="fi-monitor access-icon" title="Desktop"></i> &nbsp; <i class="fi-laptop access-icon faded" title="Laptop"></i> &nbsp; <i class="fi-tablet-portrait access-icon faded" title="Tablet"></i> &nbsp; <i class="fi-mobile  access-icon faded" title="Mobile"></i>
-                        </div>
-                        <div class="large-4 cell research-panel" data-equalizer-watch="fooN">
-                            <h5>Purpose</h5>
-                            <img src="img/demographic.svg" style="height: 60px;" title="Check patient details" alt="Check patient details" class=""> &nbsp; <img src="img/pill.svg" style="height: 60px;" title="Check medication &amp; allergies" alt="Check medication &amp; allergies">
-                        </div>
-                        <div class="large-6 cell research-panel" data-equalizer-watch="fooN">
-                            <h5>Challenges</h5>
-                            <ul>
-                                <li>Access - Smartcards &amp; N3</li>
-                                <li>Inconsistency levels of digital maturity across the user group</li>
-                            </ul>
-                        </div>
-                        <div class="large-6 cell research-panel" data-equalizer-watch="fooN">
-                            <h5>Requirements</h5>
-                            <ul>
-                                <li>Essential Healthcare information</li>
-                                <li>Medicines - particular repeat</li>
-                                <li>Care plans</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <hr>
-    </div>
-    </div>
-
-    <div class="grid-x grid-padding-x">
-        <div class="cell"><br/>
-            <a href="index-396.html">View 396</a><br/>
-            <a href="index.html">Back to index</a><br/><br/>
-        </div>
-    </div>
-
 
     </div>
-    <!-- End of grid container -->
-
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
