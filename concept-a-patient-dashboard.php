@@ -6,7 +6,7 @@
 
 <body>
 
-    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float"><?php echo $firstname  ?> <?php echo surname  ?> | <?php echo dob  ?></span>
+    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float"><?php echo $firstname  ?> <?php echo surname  ?> | <?php echo $dob  ?></span>
 
     <div id="content-main" class="grid-container full">
         <div class="grid-x grid-padding-x grid-margin-x">
@@ -32,7 +32,7 @@
                             </div>
                             <div class="large-2 medium-shrink small-6 cell summary-panel">
                                 <span class="summary-label">NHS No:</span><br/><span class="summary-info">123 456 7890</span><br/><br/>
-                                <span class="summary-label summary-info-gender-age">DOB:</span><br/><span class="summary-info"><?php echo dob  ?></span>
+                                <span class="summary-label summary-info-gender-age">DOB:</span><br/><span class="summary-info"><?php echo $dob  ?></span>
                             </div>
                             <div id="summary-address" class="large-2 medium-shrink small-6 cell summary-panel">
                                 <span class="summary-label">Address:</span><br/><span class="summary-info">1 Henley Street, <br/>Stratford, <br/>Warwickshire, <br/>AB12 3DC</span>
