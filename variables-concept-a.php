@@ -11,4 +11,5 @@ $link_dashboard = "concept-a-patient-dashboard.php";
 $link_category = "concept-a-patient-category.php";
 $link_provider = "concept-a-patient-provider.php";
 $link_timeline = "concept-a-patient-timeline.php";
+$link_results = "concept-a-patient-results.php";
 ?>
