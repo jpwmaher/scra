@@ -65,7 +65,7 @@
             </div>
 
             <!-- Tabbed nav -->
-            <?php include("include-concept-a-tabbed-nav .php"); ?>
+            <?php include("include-concept-a-tabbed-nav.php"); ?>
 
             <div class="large-12 medium-12 cell">
                 <div id="centre-col" class="grid-x grid-padding-x">
