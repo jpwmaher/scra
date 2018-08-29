@@ -6,7 +6,7 @@
 
 <body>
 
-    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float"><?php echo $firstname  ?> <?php echo surname  ?> | <?php echo $dob  ?></span>
+    <?php include("variables-concept-a-scrolltotop.php"); ?>
 
     <div id="content-main" class="grid-container full">
         <div class="grid-x grid-padding-x grid-margin-x">
@@ -25,7 +25,7 @@
                                 <img src="img/tiger.png" style="width: 100px;">
                             </div> -->
                                     <div class="auto cell">
-                                        <span class="summary-label">Full name:</span><br/><span class="summary-info summary-info-name"><?php echo $firstname  ?> <?php echo surname  ?></span><br/>
+                                        <span class="summary-label">Full name:</span><br/><span class="summary-info summary-info-name"><?php echo $firstname  ?> <?php echo $surname  ?></span><br/>
                                         <span class="summary-info summary-info-gender-age" style="padding-top: 100px !important;">Male <span style="color: lightgray">|</span> 42 years old</span>
                                     </div>
                                 </div>
