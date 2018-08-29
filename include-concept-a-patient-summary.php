@@ -14,8 +14,10 @@
                     </div>
                 </div>
                 <div class="large-2 medium-shrink small-6 cell summary-panel">
-                    <span class="summary-label">NHS No:</span><br/><span class="summary-info">123 456 7890</span><br/><br/>
-                    <span class="summary-label summary-info-gender-age">DOB:</span><br/><span class="summary-info"><?php echo $dob  ?></span>
+                    <span class="summary-label">NHS No:</span><br/>
+                    <span class="summary-info"><?php echo $nhsno  ?></span><br/><br/>
+                    <span class="summary-label summary-info-gender-age">DOB:</span><br/>
+                    <span class="summary-info"><?php echo $dob  ?></span>
                 </div>
                 <div id="summary-address" class="large-2 medium-shrink small-6 cell summary-panel">
                     <span class="summary-label">Address:</span><br/>
@@ -26,10 +28,12 @@
                 <div class="large-2 medium-auto small-12 cell summary-panel">
                     <div class="grid-x grid-padding-x">
                         <div class="small-6 medium-12 cell">
-                            <span class="summary-label">Mobile:</span><br/><span class="summary-info">07123 456 789</span><br/><br/>
+                            <span class="summary-label">Mobile:</span><br/>
+                            <span class="summary-info">07123 456 789</span><br/><br/>
                         </div>
                         <div class="small-6 medium-12 cell">
-                            <span class="summary-label summary-info-gender-age">Email:</span><br/><span class="summary-info">bill@thebard.com</span>
+                            <span class="summary-label summary-info-gender-age">Email:</span><br/>
+                            <span class="summary-info">bill@thebard.com</span>
                         </div>
                     </div>
                 </div>
