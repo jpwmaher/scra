@@ -6,7 +6,7 @@
 
 <body>
 
-    <?php include("variables-concept-a-scrolltotop.php"); ?>
+    <?php include("include-concept-a-scrolltotop.php"); ?>
 
     <div id="content-main" class="grid-container full">
         <div class="grid-x grid-padding-x grid-margin-x">
