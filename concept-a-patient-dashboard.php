@@ -12,7 +12,7 @@
 
 <body>
 
-    <script type="text/javascript">
+    <script>
         $(document).ready(function() {
             $("#tab-1").removeClass('ghosty').addClass('primary');
         });
