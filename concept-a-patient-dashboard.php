@@ -109,13 +109,13 @@
                                 <ul class="alert-panel-list">
                                     <li>
                                         <div class="grid-x">
-                                            <div class="large-auto medium-auto small-11 cell"><a href="concept-a-patient-mhcp.html">Mental Health Crisis Plan</a></div>
+                                            <div class="large-auto medium-auto small-11 cell"><a href="<?php echo $link_mhcp ?>">Mental Health Crisis Plan</a></div>
                                             <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="grid-x">
-                                            <div class="large-auto medium-auto small-11 cell"><a href="concept-a-patient-end-of-life.html">End of Life Plan</a></div>
+                                            <div class="large-auto medium-auto small-11 cell"><a href="<?php echo $link_eolp ?>">End of Life Plan</a></div>
                                             <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
                                         </div>
                                     </li>
@@ -131,14 +131,14 @@
                                 <ul class="alert-panel-list">
                                     <li>
                                         <div class="grid-x">
-                                            <div class="large-12 medium-12 small-12 cell"><a href="concept-a-patient-provider.html#key-details">17-Jun-18: &nbsp;</a></div>
-                                            <div class="large-12 medium-12 small-12 cell"><a href="concept-a-patient-provider.html#key-details"><strong>GP appointment</strong></a></div>
+                                            <div class="large-12 medium-12 small-12 cell"><a href="<?php echo $link_provider ?>#key-details">17-Jun-18: &nbsp;</a></div>
+                                            <div class="large-12 medium-12 small-12 cell"><a href="<?php echo $link_provider ?>#key-details"><strong>GP appointment</strong></a></div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="grid-x">
-                                            <div class="large-12 medium-12 small-12 cell"><a href="concept-a-patient-timeline.html#nov16">17-Jun-18: &nbsp;</a></div>
-                                            <div class="large-12 medium-12 small-12 cell"><a href="concept-a-patient-timeline.html#nov16"><strong>Diagnosis: angina</strong></a></div>
+                                            <div class="large-12 medium-12 small-12 cell"><a href="<?php echo $link_timeline ?>#nov16">17-Jun-18: &nbsp;</a></div>
+                                            <div class="large-12 medium-12 small-12 cell"><a href="<?php echo $link_timeline ?>#nov16"><strong>Diagnosis: angina</strong></a></div>
                                         </div>
                                     </li>
                                 </ul>
@@ -153,19 +153,19 @@
                                 <ul class="alert-panel-list">
                                     <li>
                                         <div class="grid-x">
-                                            <div class="large-auto medium-auto small-11 cell"><a href="concept-a-patient-medication.html#current-repeat">6 current repeat medications</a></div>
+                                            <div class="large-auto medium-auto small-11 cell"><a href="<?php echo $link_medication ?>#current-repeat">6 current repeat medications</a></div>
                                             <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="grid-x">
-                                            <div class="large-auto medium-auto small-11 cell"><a href="concept-a-patient-medication.html#current-acute">3 acute medications</a></div>
+                                            <div class="large-auto medium-auto small-11 cell"><a href="<?php echo $link_medication ?>#current-acute">3 acute medications</a></div>
                                             <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="grid-x">
-                                            <div class="large-auto medium-auto small-11 cell"><a href="concept-a-patient-medication.html#previous-repeat">4 discontinued medications</a></div>
+                                            <div class="large-auto medium-auto small-11 cell"><a href="<?php echo $link_medication ?>#previous-repeat">4 discontinued medications</a></div>
                                             <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
                                         </div>
                                     </li>
