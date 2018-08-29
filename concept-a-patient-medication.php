@@ -494,25 +494,7 @@
         </div>
     </div>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/vendor/top.js"></script>
-    <script src="js/vendor/patient-float.js"></script>
-    <script>
-        $("[data-clipped-circle-graph]").each(function() {
-            var $graph = $(this),
-                percent = parseInt($graph.data('percent'), 10),
-                deg = 30 + (300 * percent) / 100;
-            if (percent > 50) {
-                $graph.addClass('gt-50');
-            }
-            $graph.find('.clipped-circle-graph-progress-fill').css('transform', 'rotate(' + deg + 'deg)');
-            $graph.find('.clipped-circle-graph-percents-number').html(percent + '%');
-        });
-
-    </script>
+    <?php include("include-concept-a-javascripts.php"); ?>
 
 </body>
 
