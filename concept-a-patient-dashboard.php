@@ -10,14 +10,17 @@
 
 <?php include("variables-concept-a.php"); ?>
 
+<style>
+    #tab-1 {
+        background-color: #005EB8;
+        color: #fefefe;
+        font-weight: bold;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+
+</style>
+
 <body>
-
-    <script>
-        $(document).ready(function() {
-            $("#tab-1").removeClass('ghosty').addClass('primary');
-        });
-
-    </script>
 
     <?php include("include-concept-a-scrolltotop.php"); ?>
 
