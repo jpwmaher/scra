@@ -124,8 +124,6 @@
                                 <div class="large-shrink medium-shrink small-1  cell"><img src="img/clock.svg" style="height: 24px;"></div>
                             </div>
                             </span>
-                                <!-- <span class="number-centre">6</span><br/>
-                                <span class="dashboard-label">Care events in last 6 months</span> -->
                                 <ul class="alert-panel-list">
                                     <li>
                                         <div class="grid-x">
@@ -193,7 +191,7 @@
                                 </ul>
                             </div>
                             <div class="cell dashboard-panel panel-greyed-out">
-                                <span class="number-centre"><img src="img/plus.svg"></span><br/>
+                                <span class="number-centre" style="margin-top: 20%;"><img src="img/plus.svg"></span><br/>
                                 <span class="dashboard-label">Add panel to summary view</span>
                             </div>
 
