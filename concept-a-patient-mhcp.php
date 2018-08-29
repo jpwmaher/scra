@@ -70,11 +70,11 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="accordion-item" data-accordion-item="">
+                                        <li class="accordion-item is-active" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Care Plans (2)</a>
-                                            <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
+                                            <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="<?php echo $link_mhcp ?>" class="">Mental Health Crisis Plan</a></li>
+                                                    <li><a href="<?php echo $link_mhcp ?>" class="is-active">Mental Health Crisis Plan</a></li>
                                                     <li><a href="<?php echo $link_eolp ?>">End of Life Plan</a></li>
                                                 </ul>
                                             </div>
@@ -140,9 +140,9 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="accordion-item is-active" data-accordion-item="">
+                                        <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">Medication (5)</a>
-                                            <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
+                                            <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
                                                     <span class="summary-label">Current:</span>
                                                     <li><a href="<?php echo $link_medication ?>#current-repeat">Current repeat medication (4)</a></li>
@@ -153,11 +153,11 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="accordion-item" data-accordion-item="">
+                                        <li class="accordion-item is-active" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Care Plans (2)</a>
-                                            <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
+                                            <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="<?php echo $link_mhcp ?>" class="">Mental Health Crisis Plan</a></li>
+                                                    <li><a href="<?php echo $link_mhcp ?>" class="is-active">Mental Health Crisis Plan</a></li>
                                                     <li><a href="<?php echo $link_eolp ?>">End of Life Plan</a></li>
                                                 </ul>
                                             </div>
