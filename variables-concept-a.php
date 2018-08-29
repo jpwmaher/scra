@@ -10,6 +10,7 @@ $postcode = "AB12 3DC";
 $link_dashboard = "concept-a-patient-dashboard.php";
 $link_category = "concept-a-patient-category.php";
 $link_provider = "concept-a-patient-provider.php";
+$link_provider_hosp = "concept-a-patient-provider-hospital.php";
 $link_timeline = "concept-a-patient-timeline.php";
 $link_results = "concept-a-patient-results.php";
 $link_medication = "concept-a-patient-medication.php";

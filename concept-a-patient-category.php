@@ -36,13 +36,11 @@
             <!-- Tabbed nav -->
             <?php include("include-concept-a-tabbed-nav.php"); ?>
 
-            <div class="cell show-for-medium">
-                <hr>
-            </div>
 
             <div class="cell">
                 <div id="centre-col" class="grid-x grid-padding-x grid-margin-x">
 
+                    <!-- Mobile side nav -->
                     <div class="hide-for-medium cell">
                         <div id="side-nav">
                             <div class="docs-nav-container">
@@ -65,11 +63,11 @@
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
                                                     <span class="summary-label">Current:</span>
-                                                    <li><a href="concept-a-patient-medication.html#current-repeat">Current repeat medication (4)</a></li>
-                                                    <li><a href="concept-a-patient-medication.html#current-acute">Current acute medication (1)</a></li>
+                                                    <li><a href="<?php echo $link_medication ?>#current-repeat">Current repeat medication (4)</a></li>
+                                                    <li><a href="<?php echo $link_medication ?>#current-acute">Current acute medication (1)</a></li>
                                                     <span class="summary-label">Previous:</span>
-                                                    <li><a href="concept-a-patient-medication.html#previous-repeat">Previous repeat medication (11)</a></li>
-                                                    <li><a href="concept-a-patient-medication.html#previous-acute">Previous acute medication (3)</a></li>
+                                                    <li><a href="<?php echo $link_medication ?>#previous-repeat">Previous repeat medication (11)</a></li>
+                                                    <li><a href="<?php echo $link_medication ?>#previous-acute">Previous acute medication (3)</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -77,8 +75,8 @@
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Care Plans (2)</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-a-patient-mhcp.html" class="">Mental Health Crisis Plan</a></li>
-                                                    <li><a href="concept-a-patient-end-of-life.html">End of Life Plan</a></li>
+                                                    <li><a href="<?php echo $link_mhcp ?>" class="">Mental Health Crisis Plan</a></li>
+                                                    <li><a href="<?php echo $link_eolp ?>">End of Life Plan</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -95,7 +93,7 @@
                                             <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">Results (1)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-a-patient-results.html">Heart rate results (1)</a></li>
+                                                    <li><a href="><?php echo $link_results ?>">Heart rate results (1)</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -124,6 +122,7 @@
                         </div>
                     </div>
 
+                    <!-- Medium-up side nav -->
                     <div class="large-3 medium-4 show-for-medium cell" data-sticky-container>
                         <div id="side-nav" class="sticky" data-sticky data-anchor="nhs-timeline">
                             <div class="docs-nav-container">
@@ -205,6 +204,7 @@
                         </div>
                     </div>
 
+                    <!-- Main content -->
                     <div id="nhs-timeline" class="large-10 medium-auto cell">
 
                         <h2>Patient details <img src="img/demographic.svg" style="height: 24px;"></h2><br/>
