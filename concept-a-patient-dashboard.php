@@ -10,6 +10,14 @@
 
 <?php include("variables-concept-a.php"); ?>
 
+<script>
+    $(document).ready(function() {
+        // change div color to blue on page ready
+        $("#tab-1").removeClass('ghosty').addClass('primary');
+    });
+
+</script>
+
 <body>
 
     <?php include("include-concept-a-scrolltotop.php"); ?>
@@ -57,21 +65,7 @@
             </div>
 
             <!-- Tabbed nav -->
-            <div class="cell">
-                <div class="large-12 medium-12 cell">
-                    <div class="grid-x grid-padding-x">
-                        <div class="cell" id="main-nav">
-                            <div class="grid-x  grid-margin-x small-up-2 medium-up-4 large-up-4">
-
-                                <div class="cell"><a class="button primary expanded " href="concept-a-patient-dashboard.html">Summary</a></div>
-                                <div class="cell"><a class="button ghosty expanded " href="concept-a-patient-category.html">By category</a></div>
-                                <div class="cell"><a class="button ghosty expanded " href="concept-a-patient-provider.html">By provider</a></div>
-                                <div class="cell"><a class="button ghosty expanded " href="concept-a-patient-timeline.html">Timeline</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include("include-concept-a-tabbed-nav .php"); ?>
 
             <div class="large-12 medium-12 cell">
                 <div id="centre-col" class="grid-x grid-padding-x">
