@@ -12,4 +12,7 @@ $link_category = "concept-a-patient-category.php";
 $link_provider = "concept-a-patient-provider.php";
 $link_timeline = "concept-a-patient-timeline.php";
 $link_results = "concept-a-patient-results.php";
+$link_medication = "concept-a-patient-medication.php";
+$link_mhcp = "concept-a-patient-mhcp.php";
+$link_eolp = "concept-a-patient-end-of-life.php";
 ?>

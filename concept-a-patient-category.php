@@ -146,11 +146,11 @@
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
                                                     <span class="summary-label">Current:</span>
-                                                    <li><a href="concept-a-patient-medication.html#current-repeat">Current repeat medication (4)</a></li>
-                                                    <li><a href="concept-a-patient-medication.html#current-acute">Current acute medication (1)</a></li>
+                                                    <li><a href="<?php echo $link_medication ?>#current-repeat">Current repeat medication (4)</a></li>
+                                                    <li><a href="<?php echo $link_medication ?>#current-acute">Current acute medication (1)</a></li>
                                                     <span class="summary-label">Previous:</span>
-                                                    <li><a href="concept-a-patient-medication.html#previous-repeat">Previous repeat medication (11)</a></li>
-                                                    <li><a href="concept-a-patient-medication.html#previous-acute">Previous acute medication (3)</a></li>
+                                                    <li><a href="<?php echo $link_medication ?>#previous-repeat">Previous repeat medication (11)</a></li>
+                                                    <li><a href="<?php echo $link_medication ?>#previous-acute">Previous acute medication (3)</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -158,8 +158,8 @@
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Care Plans (2)</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-a-patient-mhcp.html" class="">Mental Health Crisis Plan</a></li>
-                                                    <li><a href="concept-a-patient-end-of-life.html">End of Life Plan</a></li>
+                                                    <li><a href="<?php echo $link_mhcp ?>" class="">Mental Health Crisis Plan</a></li>
+                                                    <li><a href="<?php echo $link_eolp ?>">End of Life Plan</a></li>
                                                 </ul>
                                             </div>
                                         </li>
