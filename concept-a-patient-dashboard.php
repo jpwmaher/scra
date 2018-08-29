@@ -10,14 +10,14 @@
 
 <?php include("variables-concept-a.php"); ?>
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("#tab-1").removeClass('ghosty').addClass('primary');
-    });
-
-</script>
-
 <body>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#tab-1").removeClass('ghosty').addClass('primary');
+        });
+
+    </script>
 
     <?php include("include-concept-a-scrolltotop.php"); ?>
 
