@@ -213,7 +213,7 @@
                                         <div class="panel-info-group cell">
                                             <span class="panel-label">Summary:</span><br/><span>Nullam sagittis odio urna, finibus commodo turpis porttitor in. Pellentesque id varius dui</span><br/><br/>
                                             <span class="panel-label">Results:</span><br/>
-                                            <span><a href="concept-a-patient-results.html">Heart rate <img src="img/heart.svg" style="height: 14px;"></a></span>
+                                            <span><a href="<?php echo $link_results ?>">Heart rate <img src="img/heart.svg" style="height: 14px;"></a></span>
                                         </div>
                                     </div>
                                 </div>
