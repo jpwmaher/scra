@@ -12,7 +12,6 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        // change div color to blue on page ready
         $("#tab-1").removeClass('ghosty').addClass('primary');
     });
 
