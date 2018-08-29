@@ -2,7 +2,7 @@
 
 <?php include("include-concept-a-head.php"); ?>
 
-<?php include("variable-concept-a.php"); ?>
+<?php include("variables-concept-a.php"); ?>
 
 <body>
 
