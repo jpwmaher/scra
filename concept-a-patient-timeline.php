@@ -36,6 +36,7 @@
             <!-- Tabbed nav -->
             <?php include("include-concept-a-tabbed-nav.php"); ?>
 
+            <!-- Timeline filters -->
             <div class="cell">
                 <div class="grid-x grid-padding-x grid-margin-x">
                     <div id="timeline-filters" class="cell">
@@ -54,12 +55,14 @@
                 </div>
             </div>
 
+            <!-- Main content -->
             <div class="cell">
                 <div id="centre-col" class="grid-x grid-padding-x">
 
+                    <!-- Timeline menu -->
                     <div class="large-shrink medium-shrink cell" data-sticky-container>
                         <div id="side-nav-timeline" class="sticky" data-sticky data-anchor="nhs-timeline" style="border-right: 1px solid lightgrey;">
-                            <!-- Add a Menu -->
+
                             <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
                                 <li><a href="#first"><strong>&nbsp;2018&nbsp;</strong></a></li>
                                 <li><a href="#jul18">&nbsp;- July&nbsp;</a></li>
@@ -75,6 +78,7 @@
                         </div>
                     </div>
 
+                    <!-- Timeline -->
                     <div id="nhs-timeline" class="large-auto medium-auto cell">
 
                         <div class="timeline">
