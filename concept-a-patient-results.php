@@ -11,7 +11,7 @@
 <?php include("variables-concept-a.php"); ?>
 
 <style>
-    #tab-3 {
+    #tab-2 {
         background-color: #005EB8 !important;
         color: #fefefe;
         font-weight: bold;
