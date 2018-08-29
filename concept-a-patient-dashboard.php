@@ -6,7 +6,7 @@
 
 <body>
 
-    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float"><?php echo $firstname  ?> Shakespeare | 30-Dec-1975</span>
+    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float"><?php echo $firstname  ?> <?php echo surname  ?> | <?php echo dob  ?></span>
 
     <div id="content-main" class="grid-container full">
         <div class="grid-x grid-padding-x grid-margin-x">
@@ -25,14 +25,14 @@
                                 <img src="img/tiger.png" style="width: 100px;">
                             </div> -->
                                     <div class="auto cell">
-                                        <span class="summary-label">Full name:</span><br/><span class="summary-info summary-info-name">William Shakespeare</span><br/>
+                                        <span class="summary-label">Full name:</span><br/><span class="summary-info summary-info-name"><?php echo $firstname  ?> <?php echo surname  ?></span><br/>
                                         <span class="summary-info summary-info-gender-age" style="padding-top: 100px !important;">Male <span style="color: lightgray">|</span> 42 years old</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="large-2 medium-shrink small-6 cell summary-panel">
                                 <span class="summary-label">NHS No:</span><br/><span class="summary-info">123 456 7890</span><br/><br/>
-                                <span class="summary-label summary-info-gender-age">DOB:</span><br/><span class="summary-info">30-Dec-1975</span>
+                                <span class="summary-label summary-info-gender-age">DOB:</span><br/><span class="summary-info"><?php echo dob  ?></span>
                             </div>
                             <div id="summary-address" class="large-2 medium-shrink small-6 cell summary-panel">
                                 <span class="summary-label">Address:</span><br/><span class="summary-info">1 Henley Street, <br/>Stratford, <br/>Warwickshire, <br/>AB12 3DC</span>
