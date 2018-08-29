@@ -217,7 +217,7 @@
                                     <div class="grid-x">
                                         <div class="medium-6 small-12 large-3 cell">
                                             <div class="panel-info-group cell">
-                                                <span class="panel-label">Usual name:</span><br/><span><?php echo $firstname  ?><?php echo $surname ?></span><br/><span class="panel-info-note">Effective since: <?php echo $dob ?></span>
+                                                <span class="panel-label">Usual name:</span><br/><span><?php echo $firstname  ?> <?php echo $surname ?></span><br/><span class="panel-info-note">Effective since: <?php echo $dob ?></span>
                                             </div>
                                         </div>
                                         <div class="medium-6 small-12 large-3 cell">
@@ -255,12 +255,12 @@
                                 </div>
                                 <div class="medium-6 large-3 cell">
                                     <div class="panel-info-group cell">
-                                        <span class="panel-label">NHS Number:</span><br/><span>><?php echo $nhsno  ?></span>
+                                        <span class="panel-label">NHS Number:</span><br/><span><?php echo $nhsno  ?></span>
                                     </div>
                                 </div>
                                 <div class="medium-6 large-3 cell">
                                     <div class="panel-info-group cell">
-                                        <span class="panel-label">Date of birth:</span><br/><span>><?php echo $dob  ?></span>
+                                        <span class="panel-label">Date of birth:</span><br/><span><?php echo $dob  ?></span>
                                     </div>
                                 </div>
                                 <div class="medium-6 large-3 cell">
