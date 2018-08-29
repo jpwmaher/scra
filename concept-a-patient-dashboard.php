@@ -2,9 +2,11 @@
 
 <?php include("include-concept-a-head.php"); ?>
 
+<?php include("variable-concept-a.php"); ?>
+
 <body>
 
-    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float">William Shakespeare | 30-Dec-1975</span>
+    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float"><?php echo firstname  ?> Shakespeare | 30-Dec-1975</span>
 
     <div id="content-main" class="grid-container full">
         <div class="grid-x grid-padding-x grid-margin-x">
