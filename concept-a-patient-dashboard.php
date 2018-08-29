@@ -194,7 +194,7 @@
                                 </ul>
                             </div>
                             <div class="cell dashboard-panel panel-greyed-out">
-                                <span class="number-centre" style="margin-top: 1vh;"><img src="img/plus.svg"></span><br/>
+                                <span class="number-centre" style="margin-top: 5vh;"><img src="img/plus.svg"></span><br/>
                                 <span class="dashboard-label">Add panel to summary view</span>
                             </div>
 
