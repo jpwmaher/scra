@@ -176,7 +176,7 @@
                                             <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">Results (1)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="><?php echo $link_results  ?>">Heart rate results (1)</a></li>
+                                                    <li><a href="><?php echo $link_results ?>">Heart rate results (1)</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -217,7 +217,7 @@
                                     <div class="grid-x">
                                         <div class="medium-6 small-12 large-3 cell">
                                             <div class="panel-info-group cell">
-                                                <span class="panel-label">Usual name:</span><br/><span>><?php echo $firstname  ?> ><?php echo $surname  ?></span><br/><span class="panel-info-note">Effective since: ><?php echo $dob  ?></span>
+                                                <span class="panel-label">Usual name:</span><br/><span><?php echo $firstname  ?><?php echo $surname ?></span><br/><span class="panel-info-note">Effective since: <?php echo $dob ?></span>
                                             </div>
                                         </div>
                                         <div class="medium-6 small-12 large-3 cell">
