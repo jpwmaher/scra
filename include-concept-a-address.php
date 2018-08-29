@@ -1,4 +1,4 @@
-                                    1 Henley Street<br/>
-                                    Stratford<br/>
-                                    Warwickshire<br/>
-                                    AB12 3DC
+<?php echo $street  ?><br/>
+<?php echo $town  ?><br/>
+<?php echo $county  ?><br/>
+<?php echo $postcode  ?>
