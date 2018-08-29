@@ -6,4 +6,5 @@ $street = "1 Henley Street";
 $town = "Stratford";
 $county = "Warwickshire";
 $postcode = "AB12 3DC";
+$link-dashboard = "concept-a-patient-dashboard.php";
 ?>
