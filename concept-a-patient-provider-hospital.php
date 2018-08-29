@@ -1,4 +1,3 @@
-<!doctype html>
 <html class="no-js" lang="en" dir="ltr">
 
 <head>
@@ -6,101 +5,59 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <title>Concept A - SCRa - SOW 132</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/scra.css">
-    <link rel="stylesheet" href="css/scra-concepts.css">
-    <link rel="stylesheet" href="css/foundation-icons.css" />
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <?php include("include-concept-a-head.php"); ?>
 </head>
+
+<?php include("variables-concept-a.php"); ?>
+
+<style>
+    #tab-3 {
+        background-color: #005EB8 !important;
+        color: #fefefe;
+        font-weight: bold;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+
+</style>
 
 <body>
 
-    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float">William Shakespeare | 30-Dec-1975</span>
+    <?php include("include-concept-a-scrolltotop.php"); ?>
 
     <div id="content-main" class="grid-container full">
         <div class="grid-x grid-padding-x grid-margin-x">
-            <div class="cell">
-                <img src="img/nhs-digital-logo-left.jpg" style="height: 30px; padding: 5px 0px;">
-                <a href="#" style="float: right; padding: 5px 0px;">New patient search</a>
-            </div>
 
-            <div class="cell">
-                <div id="patient-summary" class="grid-x grid-padding-x">
-                    <div class="cell">
-                        <div class="grid-x grid-padding-x">
-                            <div id="summary-name" class="large-6 medium-5 cell summary-panel">
-                                <div class="grid-x">
-                                    <!-- <div class="shrink cell">
-                                <img src="img/tiger.png" style="width: 100px;">
-                            </div> -->
-                                    <div class="auto cell">
-                                        <span class="summary-label">Full name:</span><br/><span class="summary-info summary-info-name">William Shakespeare</span><br/>
-                                        <span class="summary-info summary-info-gender-age" style="padding-top: 100px !important;">Male <span style="color: lightgray">|</span> 42 years old</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="large-2 medium-shrink small-6 cell summary-panel">
-                                <span class="summary-label">NHS No:</span><br/><span class="summary-info">123 456 7890</span><br/><br/>
-                                <span class="summary-label summary-info-gender-age">DOB:</span><br/><span class="summary-info">30-Dec-1975</span>
-                            </div>
-                            <div id="summary-address" class="large-2 medium-shrink small-6 cell summary-panel">
-                                <span class="summary-label">Address:</span><br/><span class="summary-info">1 Henley Street, <br/>Stratford, <br/>Warwickshire, <br/>AB12 3DC</span>
-                            </div>
-                            <div class="large-2 medium-auto small-12 cell summary-panel">
-                                <div class="grid-x grid-padding-x">
-                                    <div class="small-6 medium-12 cell">
-                                        <span class="summary-label">Mobile:</span><br/><span class="summary-info">07123 456 789</span><br/><br/>
-                                    </div>
-                                    <div class="small-6 medium-12 cell">
-                                        <span class="summary-label summary-info-gender-age">Email:</span><br/><span class="summary-info">bill@thebard.com</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Masthead -->
+            <?php include("include-concept-a-masthead.php"); ?>
+
+            <!-- Patient summary -->
+            <?php include("include-concept-a-patient-summary.php"); ?>
 
             <!-- Tabbed nav -->
-            <div class="cell">
-                <div class="large-10 medium-12 cell ">
-                    <div class="grid-x grid-padding-x">
-                        <div class="cell" id="main-nav">
-                            <div class="grid-x  grid-margin-x small-up-2 medium-up-4 large-up-4">
-
-                                <div class="cell"><a class="button ghosty expanded " href="concept-a-patient-dashboard.html">Summary</a></div>
-                                <div class="cell"><a class="button ghosty expanded " href="concept-a-patient-category.html">By category</a></div>
-                                <div class="cell"><a class="button primary expanded " href="concept-a-patient-provider.html">By provider</a></div>
-                                <div class="cell"><a class="button ghosty expanded " href="concept-a-patient-timeline.html">Timeline</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include("include-concept-a-tabbed-nav.php"); ?>
 
             <div class="cell">
                 <div id="centre-col" class="grid-x grid-padding-x grid-margin-x">
 
+                    <!-- Mobile side nav -->
                     <div class="hide-for-medium cell">
                         <div id="side-nav">
                             <div class="docs-nav-container">
                                 <div class="docs-nav" id="docs-menu">
 
                                     <ul class="accordion docs-nav-category" data-accordion="12345-accordion" data-allow-all-closed="true" data-multi-expand="true" role="tablist">
-                                        <li class="accordion-item" data-accordion-item="">
+                                        <li class="accordion-item is-active" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="1234-accordion" role="tab" id="1234-accordion-label" aria-expanded="false" aria-selected="false">GP</a>
-                                            <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
+                                            <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="concept-a-patient-provider.html#name">Contacts</a></li>
-                                                    <li><a href="concept-a-patient-provider.html#key-details">Care events</a></li>
-                                                    <li><a href="concept-a-patient-provider.html#address">Medications</a></li>
-                                                    <li><a href="concept-a-patient-provider.html#contacts">Admin</a></li>
+                                                    <li><a href="<?php echo $link_provider ?>#name">Contacts</a></li>
+                                                    <li><a href="<?php echo $link_provider ?>#key-details">Appointments</a></li>
+                                                    <li><a href="<?php echo $link_provider ?>#address">Medications</a></li>
+                                                    <li><a href="<?php echo $link_provider ?>#contacts">Admin</a></li>
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="accordion-item  is-active" data-accordion-item="">
+                                        <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">Hospital</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
@@ -115,8 +72,7 @@
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Mental Health</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-a-patient-mhcp.html" class="">Mental Health Crisis Plan</a></li>
-                                                    <li><a href="concept-a-patient-end-of-life.html">End of Life Plan</a></li>
+                                                    <li><a href="<?php echo $link_mhcp ?>" class="">Mental Health Crisis Plan</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -124,7 +80,7 @@
                                             <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">Sexual Health</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-a-patient-results.html">Heart rate results (1)</a></li>
+                                                    <li><a href="#">Sexual health link</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -132,7 +88,7 @@
                                             <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">Social Care</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-a-patient-results.html">Heart rate results (1)</a></li>
+                                                    <li><a href="#">Social care link</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -142,24 +98,25 @@
                         </div>
                     </div>
 
+                    <!-- Medium-up side nav -->
                     <div class="show-for-medium large-3 medium-4 cell" data-sticky-container>
                         <div id="side-nav" class="sticky" data-sticky data-anchor="nhs-timeline">
                             <div class="docs-nav-container">
                                 <div class="docs-nav" id="docs-menu">
 
                                     <ul class="accordion docs-nav-category" data-accordion="12345-accordion" data-allow-all-closed="true" data-multi-expand="true" role="tablist">
-                                        <li class="accordion-item" data-accordion-item="">
+                                        <li class="accordion-item is-active" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="1234-accordion" role="tab" id="1234-accordion-label" aria-expanded="false" aria-selected="false">GP</a>
-                                            <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
+                                            <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="concept-a-patient-provider.html#name">Contacts</a></li>
-                                                    <li><a href="concept-a-patient-provider.html#key-details">Care events</a></li>
-                                                    <li><a href="concept-a-patient-provider.html#address">Medications</a></li>
-                                                    <li><a href="concept-a-patient-provider.html#contacts">Admin</a></li>
+                                                    <li><a href="<?php echo $link_provider ?>#name">Contacts</a></li>
+                                                    <li><a href="<?php echo $link_provider ?>#key-details">Appointments</a></li>
+                                                    <li><a href="<?php echo $link_provider ?>#address">Medications</a></li>
+                                                    <li><a href="<?php echo $link_provider ?>#contacts">Admin</a></li>
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="accordion-item  is-active" data-accordion-item="">
+                                        <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">Hospital</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
@@ -174,8 +131,7 @@
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Mental Health</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-a-patient-mhcp.html" class="">Mental Health Crisis Plan</a></li>
-                                                    <li><a href="concept-a-patient-end-of-life.html">End of Life Plan</a></li>
+                                                    <li><a href="<?php echo $link_mhcp ?>" class="">Mental Health Crisis Plan</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -183,7 +139,7 @@
                                             <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">Sexual Health</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-a-patient-results.html">Heart rate results (1)</a></li>
+                                                    <li><a href="#">Sexual health link</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -191,7 +147,7 @@
                                             <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">Social Care</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-a-patient-results.html">Heart rate results (1)</a></li>
+                                                    <li><a href="#">Social care link</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -356,25 +312,7 @@
         </div>
     </div>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/vendor/top.js"></script>
-    <script src="js/vendor/patient-float.js"></script>
-    <script>
-        $("[data-clipped-circle-graph]").each(function() {
-            var $graph = $(this),
-                percent = parseInt($graph.data('percent'), 10),
-                deg = 30 + (300 * percent) / 100;
-            if (percent > 50) {
-                $graph.addClass('gt-50');
-            }
-            $graph.find('.clipped-circle-graph-progress-fill').css('transform', 'rotate(' + deg + 'deg)');
-            $graph.find('.clipped-circle-graph-percents-number').html(percent + '%');
-        });
-
-    </script>
+    <?php include("include-concept-a-javascripts.php"); ?>
 
 </body>
 
