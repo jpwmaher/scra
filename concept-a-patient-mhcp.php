@@ -176,7 +176,8 @@
                     <!-- Main content -->
                     <div id="nhs-timeline" class="large-9 medium-8 cell">
 
-                        <h2>Mental Health Crisis Plan <img src="img/plan.svg" style="height: 24px;"></h2><br/>
+                        <h2>
+                            <?php echo $label_mhcp ?> <img src="img/plan.svg" style="height: 24px;"></h2><br/>
 
                         <div class="grid-x grid-padding-x">
                             <div class="cell">
