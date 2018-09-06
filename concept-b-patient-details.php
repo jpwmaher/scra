@@ -186,7 +186,7 @@
                     <!-- Main content -->
                     <div id="nhs-timeline" class="large-10 medium-auto cell">
 
-                        <h2>Patient details <img src="img/demographic.svg" style="height: 24px;"></h2><br/>
+                        <h2>Key demographics <img src="img/demographic.svg" style="height: 24px;"></h2><br/>
 
                         <div id="name" class="cell" data-magellan-target="name">
                             <h5>Names</h5>
