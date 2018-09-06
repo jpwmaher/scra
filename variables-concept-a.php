@@ -16,4 +16,5 @@ $link_results = "concept-a-patient-results.php";
 $link_medication = "concept-a-patient-medication.php";
 $link_mhcp = "concept-a-patient-mhcp.php";
 $link_eolp = "#";
+$label_cat_1 = "Patient details";
 ?>
