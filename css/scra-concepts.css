@@ -7,6 +7,10 @@ body {
     “Droid Sans”, “Helvetica Neue”, sans-serif;
 }
 
+h5 {
+    margin-bottom: 1.0 rem;
+}
+
 #masthead-2 {
     border-bottom: 1px solid #efefef;
 }
