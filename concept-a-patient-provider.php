@@ -49,30 +49,24 @@
                                         <li class="accordion-item is-active" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="1234-accordion" role="tab" id="1234-accordion-label" aria-expanded="false" aria-selected="false">GP</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
-                                                <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="#name">Contacts</a></li>
-                                                    <li><a href="#key-details">Appointments</a></li>
-                                                    <li><a href="#address">Medications</a></li>
-                                                    <li><a href="#contacts">Admin</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-prov-1-active.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">Hospital</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
-                                                <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="<?php echo $link_provider_hosp ?>#name">Contacts</a></li>
-                                                    <li><a href="<?php echo $link_provider_hosp ?>#key-details">Care events</a></li>
-                                                    <li><a href="<?php echo $link_provider_hosp ?>#address">Medications</a></li>
-                                                    <li><a href="<?php echo $link_provider_hosp ?>#contacts">Admin</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-prov-2.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Mental Health</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="<?php echo $link_mhcp ?>" class="">Mental Health Crisis Plan</a></li>
+                                                    <li>
+                                                        <a href="<?php echo $link_mhcp ?>" class="">
+                                                            <?php echo $label_mhcp ?>
+                                                        </a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -108,30 +102,24 @@
                                         <li class="accordion-item is-active" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="1234-accordion" role="tab" id="1234-accordion-label" aria-expanded="false" aria-selected="false">GP</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
-                                                <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="#name">Contacts</a></li>
-                                                    <li><a href="#key-details">Appointments</a></li>
-                                                    <li><a href="#address">Medications</a></li>
-                                                    <li><a href="#contacts">Admin</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-prov-1-active.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">Hospital</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
-                                                <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="<?php echo $link_provider_hosp ?>#name">Contacts</a></li>
-                                                    <li><a href="<?php echo $link_provider_hosp ?>#key-details">Care events</a></li>
-                                                    <li><a href="<?php echo $link_provider_hosp ?>#address">Medications</a></li>
-                                                    <li><a href="<?php echo $link_provider_hosp ?>#contacts">Admin</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-prov-2.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Mental Health</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="<?php echo $link_mhcp ?>" class="">Mental Health Crisis Plan</a></li>
+                                                    <li>
+                                                        <a href="<?php echo $link_mhcp ?>" class="">
+                                                            <?php echo $label_mhcp ?>
+                                                        </a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </li>
