@@ -145,6 +145,7 @@
                         </div>
                     </div>
 
+                    <!-- Main content -->
                     <div id="nhs-timeline" class="large-9 medium-8 cell">
 
                         <h2>Hospital <img src="img/hospital.svg" style="height: 24px;"></h2><br/>
