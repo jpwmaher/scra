@@ -158,13 +158,13 @@
                                     <div class="grid-x grid-padding-x">
                                         <div class="medium-6 small-6 large-4 cell">
                                             <div class="panel-info-group cell">
-                                                <img src="img/clinician-headshot.png" style="width: 100%;"><br/>
+                                                <img src="img/clinician-headshot.png" style="width: 100%;"><br/><br/>
                                                 <span class="panel-label">Primary Clinician:</span><br/><span>Dr Robert Staff</span><br/><span>07234 567890</span><br/><span><a href="#">robert@thehospital.co.uk</a></span><br/>
                                             </div>
                                         </div>
                                         <div class="medium-6 small-6 large-4 cell">
                                             <div class="panel-info-group cell">
-                                                <img src="img/clinician-headshot-2.png" style=" width: 100%;"><br/>
+                                                <img src="img/clinician-headshot-2.png" style=" width: 100%;"><br/><br/>
                                                 <span class="panel-label">Secondary Clinician:</span><br/><span>Dr Elizabeth Wright</span><br/><span>07234 567890</span><br/><span><a href="#">elizabeth@thehospital.co.uk</a></span><br/>
                                             </div>
                                         </div>

@@ -158,19 +158,19 @@
                                     <div class="grid-x grid-padding-x">
                                         <div class="medium-6 small-6 large-4 cell">
                                             <div class="panel-info-group cell">
-                                                <img src="img/doctor-headshot.jpg" style="max-width: 180px; width: 100%;"><br/>
+                                                <img src="img/doctor-headshot.jpg" style="max-width: 180px; width: 100%;"><br/><br/>
                                                 <span class="panel-label">Primary GP:</span><br/><span>Dr Matt Noble</span><br/><span>07234 567890</span><br/><span><a href="#">matt@thesurgery.co.uk</a></span><br/><span class="panel-info-note">William's GP since: 17-Apr-1969</span>
                                             </div>
                                         </div>
                                         <div class="medium-6 small-6 large-4 cell">
                                             <div class="panel-info-group cell">
-                                                <img src="img/doctor-headshot-2.png" style="max-width: 180px; width: 100%;"><br/>
+                                                <img src="img/doctor-headshot-2.png" style="max-width: 180px; width: 100%;"><br/><br/>
                                                 <span class="panel-label">Secondary GP:</span><br/><span>Dr Ryan Scanlon</span><br/><span>07234 567890</span><br/><span><a href="#">ryan@thesurgery.co.uk</a></span><br/><span class="panel-info-note">William's GP since: 17-Apr-1969</span>
                                             </div>
                                         </div>
                                         <div class="medium-6 small-6 large-4 cell">
                                             <div class="panel-info-group cell">
-                                                <img src="img/doctor-headshot-3.png" style="max-width: 180px; width: 100%;"><br/>
+                                                <img src="img/doctor-headshot-3.png" style="max-width: 180px; width: 100%;"><br/><br/>
                                                 <span class="panel-label">Locum GP:</span><br/><span>Dr Ruth Wright</span><br/><span>07234 567890</span><br/><span><a href="#">ruth@thesurgery.co.uk</a></span><br/><span class="panel-info-note">William's GP since: 17-Apr-1969</span>
                                             </div>
                                         </div>
@@ -356,7 +356,6 @@
                                         </div>
                                         <div class="cell marbot"><span class="summary-label">Telephone:</span><br/><span>01234 567890</span><br/></div>
                                         <div class="cell marbot"><span class="summary-label">Email: </span><br/><span>admin@thesurgery.co.uk</span><br/></div>
-
                                     </div>
                                 </div>
                                 <div class="cell">
@@ -370,7 +369,6 @@
                                         </div>
                                         <div class="cell marbot"><span class="summary-label">Telephone:</span><br/><span>01234 567890</span><br/></div>
                                         <div class="cell marbot"><span class="summary-label">Email: </span><br/><span>admin@thesurgery.co.uk</span><br/></div>
-
                                     </div>
                                 </div>
                                 <div class="cell">
@@ -383,6 +381,7 @@
                         </div>
 
                     </div>
+
                 </div>
             </div>
 
