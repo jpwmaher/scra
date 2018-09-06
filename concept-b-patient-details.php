@@ -41,6 +41,7 @@
             <div class="cell">
                 <div id="centre-col" class="grid-x grid-padding-x grid-margin-x">
 
+                    <!-- Mobile nav -->
                     <div class="hide-for-medium cell">
                         <div id="side-nav">
                             <div class="docs-nav-container">
@@ -111,6 +112,7 @@
                         </div>
                     </div>
 
+                    <!-- Medium-up nav -->
                     <div class="large-3 medium-4 show-for-medium cell" data-sticky-container>
                         <div id="side-nav" class="sticky" data-sticky data-anchor="nhs-timeline">
                             <div class="docs-nav-container">
@@ -181,6 +183,7 @@
                         </div>
                     </div>
 
+                    <!-- Main content -->
                     <div id="nhs-timeline" class="large-10 medium-auto cell">
 
                         <h2>Patient details <img src="img/demographic.svg" style="height: 24px;"></h2><br/>

@@ -6,17 +6,17 @@
                     <div class="grid-x">
 
                         <div class="auto cell">
-                            <span class="summary-label">Full name:</span><br/><span class="summary-info summary-info-name">Katherine Smith</span><br/>
-                            <span class="summary-info summary-info-gender-age" style="padding-top: 100px !important;">Female <span style="color: lightgray">|</span> 9 years old</span>
+                            <span class="summary-label">Full name:</span><br/><span class="summary-info summary-info-name"><?php echo $firstname ?> <?php echo $surname ?></span><br/>
+                            <span class="summary-info summary-info-gender-age" style="padding-top: 100px !important;"><?php echo $gender ?> <span style="color: lightgray">|</span> 9 years old</span>
                         </div>
                     </div>
                 </div>
                 <div class="large-2 medium-3 small-6 cell summary-panel">
                     <span class="summary-label">NHS No:</span><br/><span class="summary-info">123 456 7890</span><br/><br/>
-                    <span class="summary-label summary-info-gender-age">DOB:</span><br/><span class="summary-info">30-Dec-2008</span>
+                    <span class="summary-label summary-info-gender-age">DOB:</span><br/><span class="summary-info"><?php echo $dob ?></span>
                 </div>
                 <div id="summary-address" class="large-2 medium-3 small-6 cell summary-panel">
-                    <span class="summary-label">Address:</span><br/><span class="summary-info">1 Henley Street, <br/>Stratford, <br/>Warwickshire, <br/>AB12 3DC</span>
+                    <span class="summary-label">Address:</span><br/><span class="summary-info">                        <?php include("include-concept-b-address.php"); ?></span>
                 </div>
                 <div id="summary-address" class="large-2 medium-2 small-12 cell summary-panel">
                     <!-- <div class="grid-x grid-margin-x small-up-5 medium-up-1 large-up-1">
