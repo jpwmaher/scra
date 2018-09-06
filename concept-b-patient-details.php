@@ -196,7 +196,7 @@
                                     <div class="grid-x">
                                         <div class="medium-6 small-12 large-3 cell">
                                             <div class="panel-info-group cell">
-                                                <span class="panel-label">Usual name:</span><br/><span>Katherine Smith</span><br/><span class="panel-info-note">Effective since: 30-Dec-2008</span>
+                                                <span class="panel-label">Usual name:</span><br/><span><?php echo $firstname ?> <?php echo $surname ?></span><br/><span class="panel-info-note">Effective since: <?php echo $dob ?></span>
                                             </div>
                                         </div>
                                         <div class="medium-6 small-12 large-3 cell">
@@ -229,7 +229,7 @@
                             <div id="panel-key" class="grid-x">
                                 <div class="medium-6 large-3 cell">
                                     <div class="panel-info-group cell">
-                                        <span class="panel-label">Gender:</span><br/><span>Female</span>
+                                        <span class="panel-label">Gender:</span><br/><span><?php echo $gender ?></span>
                                     </div>
                                 </div>
                                 <div class="medium-6 large-3 cell">
@@ -239,7 +239,7 @@
                                 </div>
                                 <div class="medium-6 large-3 cell">
                                     <div class="panel-info-group cell">
-                                        <span class="panel-label">Date of birth:</span><br/><span>30-Dec-2008</span>
+                                        <span class="panel-label">Date of birth:</span><br/><span><?php echo $dob ?></span>
                                     </div>
                                 </div>
                                 <div class="medium-6 large-3 cell">
@@ -260,7 +260,7 @@
                             <div id="panel-address" class="grid-x">
 
                                 <div class="panel-info-group medium-6 large-3 cell">
-                                    <span class="panel-label">Usual address:</span><br/><span>1 Henley Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/><br/>
+                                    <span class="panel-label">Usual address:</span><br/><span><?php include("include-concept-b-address.php"); ?></span><br/><br/>
                                 </div>
                                 <div class="panel-info-group medium-6 large-3 cell">
                                     <span class="panel-label">Temporary address:</span><br/>
@@ -295,12 +295,8 @@
         </div>
     </div>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/vendor/top.js"></script>
-    <script src="js/vendor/patient-float.js"></script>
+    <?php include("include-concept-a-javascripts.php"); ?>
+
 </body>
 
 </html>
