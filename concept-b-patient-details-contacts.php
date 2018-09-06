@@ -134,9 +134,9 @@
                                             </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="#name">Names</a></li>
-                                                    <li><a href="#key-details">Key details</a></li>
-                                                    <li><a href="#address">Address</a></li>
+                                                    <li><a href="<?php echo $link_admin ?>#name">Names</a></li>
+                                                    <li><a href="<?php echo $link_contacts ?>#key-details">Key details</a></li>
+                                                    <li><a href="<?php echo $link_contacts ?>#address">Address</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -146,8 +146,8 @@
                                             </a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="concept-b-patient-details-contacts.html#contacts">Contacts &amp; next of kin</a></li>
-                                                    <li><a href="concept-b-patient-details-contacts.html#poa">Power of attorney</a></li>
+                                                    <li><a href="#contacts">Contacts &amp; next of kin</a></li>
+                                                    <li><a href="#poa">Power of attorney</a></li>
                                                 </ul>
                                             </div>
                                         </li>

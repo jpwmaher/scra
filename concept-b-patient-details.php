@@ -147,8 +147,8 @@
                                             </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="concept-b-patient-details-contacts.html#contacts">Contacts &amp; next of kin</a></li>
-                                                    <li><a href="concept-b-patient-details-contacts.html#poa">Power of attorney</a></li>
+                                                    <li><a href="<?php echo $link_contacts ?>">Contacts &amp; next of kin</a></li>
+                                                    <li><a href="<?php echo $link_contacts ?>#poa">Power of attorney</a></li>
                                                 </ul>
                                             </div>
                                         </li>
