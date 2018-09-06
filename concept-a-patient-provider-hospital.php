@@ -278,22 +278,6 @@
                             </div>
                         </div>
 
-                        <div id="contacts" class="cell" data-magellan-target="contacts">
-                            <br/><br/><br/>
-                            <h5>Admin</h5>
-
-                            <div class="grid-x grid-padding-x">
-                                <div class="cell">
-                                </div>
-                                <div class="cell">
-                                    <hr>
-                                </div>
-                                <div class="cell">
-                                    <span class="data-source">via Hospital PAS</span> <span class="small-text">on 21-Jul-2018 at 07:32</span>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
