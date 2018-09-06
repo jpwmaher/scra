@@ -48,7 +48,7 @@
                             <div class="cell dashboard-panel alert-panel">
                                 <span class="panel-title">
                                     <div class="grid-x">
-                                        <div class="large-auto medium-auto small-11 cell">Alerts</div>
+                                        <div class="large-auto medium-auto small-11 cell"><?php echo $label_alerts ?></div>
                                         <div class="large-shrink medium-shrink small-1  cell"><i class="fi-alert" style="color: white"></i></div>
                                     </div>
                                 </span>
@@ -76,7 +76,7 @@
                             <div class="cell dashboard-panel flag-panel">
                                 <span class="panel-title">
                                     <div class="grid-x">
-                                        <div class="large-auto medium-auto small-11 cell">Flags</div>
+                                        <div class="large-auto medium-auto small-11 cell"><?php echo $label_flags ?></div>
                                         <div class="large-shrink medium-shrink small-1  cell"><i class="fi-flag" style="color: white"></i></div>
                                     </div>
                                 </span>
@@ -133,7 +133,11 @@
                                 <ul class="alert-panel-list">
                                     <li>
                                         <div class="grid-x">
-                                            <div class="large-auto medium-auto small-11 cell"><a href="concept-b-patient-clinical-mhcp.php#title">Mental Health Crisis Plan</a></div>
+                                            <div class="large-auto medium-auto small-11 cell">
+                                                <a href="concept-b-patient-clinical-mhcp.php#title">
+                                                    <?php echo $label_mhcp ?>
+                                                </a>
+                                            </div>
                                             <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
                                         </div>
                                     </li>
@@ -149,12 +153,20 @@
                                 <ul class="alert-panel-list">
                                     <li>
                                         <div class="grid-x">
-                                            <div class="large-12 medium-12 small-12 cell"><a href="#">Key demographics</a></div>
+                                            <div class="large-12 medium-12 small-12 cell">
+                                                <a href="#">
+                                                    <?php echo $label_cat_1 ?>
+                                                </a>
+                                            </div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="grid-x">
-                                            <div class="large-12 medium-12 small-12 cell"><a href="#">Contacts &amp; next of kin</a></div>
+                                            <div class="large-12 medium-12 small-12 cell">
+                                                <a href="#">
+                                                    <?php echo $label_cat_2 ?>
+                                                </a>
+                                            </div>
                                         </div>
                                     </li>
                                     <li>

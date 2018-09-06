@@ -19,4 +19,11 @@ $link_results = "concept-b-patient-results.php";
 $link_medication = "concept-b-patient-medication.php";
 $link_mhcp = "concept-b-patient-mhcp.php";
 $link_eolp = "#";
+$label_cat_1 = "Key demographics";
+$label_cat_2 = "Contacts & next of kin";
+$label_cat_3 = "GP & Care Providers";
+$label_cat_4 = "Chargeability status";
+$label_alerts = "Alerts";
+$label_flags = "Flags";
+$label_mhcp = "Mental Health Crisis Plan";
 ?>

@@ -49,7 +49,9 @@
 
                                     <ul class="accordion docs-nav-category" data-accordion="12345-accordion" data-allow-all-closed="true" data-multi-expand="true" role="tablist">
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="1234-accordion" role="tab" id="1234-accordion-label" aria-expanded="false" aria-selected="false">Key demographics</a>
+                                            <a href="#" class="accordion-title" aria-controls="1234-accordion" role="tab" id="1234-accordion-label" aria-expanded="false" aria-selected="false">
+                                                <?php echo $label_cat_1 ?>
+                                            </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
                                                     <li><a href="#name">Names</a></li>
@@ -59,7 +61,9 @@
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">Contacts &amp; next of kin</a>
+                                            <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">
+                                                <?php echo $label_cat_2 ?>
+                                            </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
                                                     <li><a href="concept-b-patient-details-contacts.html#contacts">Contacts &amp; next of kin</a></li>
@@ -68,7 +72,9 @@
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">GP &amp; Care providers</a>
+                                            <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">
+                                                <?php echo $label_cat_3 ?>
+                                            </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">GP details</a></li>
@@ -79,7 +85,9 @@
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">Chargeability status</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">
+                                                <?php echo $label_cat_4 ?>
+                                            </a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Chargeability status</a></li>
@@ -87,7 +95,8 @@
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: red !important;">Patient alerts &nbsp;<i class="fi-alert" style="color: white"></i> (2)</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: red !important;">
+                                                <?php echo $label_alerts ?> &nbsp;<i class="fi-alert" style="color: white"></i> (2)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Child Care Alert</a></li>
@@ -97,7 +106,8 @@
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: orange !important;">Patient care flags &nbsp;<i class="fi-flag" style="color: white"></i> (3)</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: orange !important;">
+                                                <?php echo $label_flags ?> &nbsp;<i class="fi-flag" style="color: white"></i> (3)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Reasonable Adjustments (2)</a></li>
@@ -120,7 +130,9 @@
 
                                     <ul class="accordion docs-nav-category" data-accordion="12345-accordion" data-allow-all-closed="true" data-multi-expand="true" role="tablist">
                                         <li class="accordion-item is-active" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="1234-accordion" role="tab" id="1234-accordion-label" aria-expanded="false" aria-selected="false">Key demographics</a>
+                                            <a href="#" class="accordion-title" aria-controls="1234-accordion" role="tab" id="1234-accordion-label" aria-expanded="false" aria-selected="false">
+                                                <?php echo $label_cat_1 ?>
+                                            </a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
                                                     <li><a href="#name">Names</a></li>
@@ -130,7 +142,9 @@
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title">Contacts &amp; next of kin</a>
+                                            <a href="#" class="accordion-title">
+                                                <?php echo $label_cat_2 ?>
+                                            </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
                                                     <li><a href="concept-b-patient-details-contacts.html#contacts">Contacts &amp; next of kin</a></li>
@@ -139,7 +153,9 @@
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="concept-b-patient-details-nok.html" class="accordion-title">GP &amp; Care Providers</a>
+                                            <a href="concept-b-patient-details-nok.html" class="accordion-title">
+                                                <?php echo $label_cat_3 ?>
+                                            </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
                                                     <li><a href="#">GP details</a></li>
@@ -150,7 +166,9 @@
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="concept-b-patient-details-nok.html" class="accordion-title">Chargeability status</a>
+                                            <a href="concept-b-patient-details-nok.html" class="accordion-title">
+                                                <?php echo $label_cat_4 ?>
+                                            </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o2-accordion-label" aria-hidden="true" id="83435o2-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
                                                     <li><a href="#">Chargeability status</a></li>
@@ -158,7 +176,8 @@
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: red !important;">Patient alerts &nbsp;<i class="fi-alert" style="color: white"></i> (2)</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: red !important;">
+                                                <?php echo $label_alerts ?> &nbsp;<i class="fi-alert" style="color: white"></i> (2)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Child Care Alert</a></li>
@@ -168,7 +187,8 @@
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: orange !important;">Patient care flags &nbsp;<i class="fi-flag" style="color: white"></i> (3)</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: orange !important;">
+                                                <?php echo $label_flags ?> &nbsp;<i class="fi-flag" style="color: white"></i> (3)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Reasonable Adjustments (2)</a></li>
