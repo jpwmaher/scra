@@ -52,7 +52,7 @@
                                                 <?php echo $label_cat_1 ?>
                                             </a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
-                                                <?php include("include-concept-a-nav-cat-1.php"); ?>
+                                                <?php include("include-concept-a-nav-cat-1-active.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
@@ -119,7 +119,7 @@
                                                 <?php echo $label_cat_1 ?>
                                             </a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
-                                                <?php include("include-concept-a-nav-cat-1.php"); ?>
+                                                <?php include("include-concept-a-nav-cat-1-active.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
