@@ -52,7 +52,7 @@
                             <div class="cell dashboard-panel alert-panel">
                                 <span class="panel-title">
                                     <div class="grid-x">
-                                        <div class="large-auto medium-auto small-11 cell">Alerts</div>
+                                        <div class="large-auto medium-auto small-11 cell"><?php echo $label_alerts ?></div>
                                         <div class="large-shrink medium-shrink small-1  cell"><i class="fi-alert" style="color: white"></i></div>
                                     </div>
                                 </span>
@@ -74,7 +74,7 @@
                             <div class="cell dashboard-panel flag-panel">
                                 <span class="panel-title">
                                     <div class="grid-x">
-                                        <div class="large-auto medium-auto small-11 cell">Flags</div>
+                                        <div class="large-auto medium-auto small-11 cell"><?php echo $label_flags ?></div>
                                         <div class="large-shrink medium-shrink small-1  cell"><i class="fi-flag" style="color: white"></i></div>
                                     </div>
                                 </span>

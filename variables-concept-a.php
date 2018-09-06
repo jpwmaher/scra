@@ -20,4 +20,8 @@ $link_eolp = "#";
 $label_cat_1 = "Patient details";
 $label_cat_2 = "Medication (5)";
 $label_cat_3 = "Care plans (2)";
+$label_cat_4 = "Chronic conditions (2)";
+$label_cat_5 = "Results (1)";
+$label_alerts = "Alerts";
+$label_flags = "Flags";
 ?>
