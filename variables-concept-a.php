@@ -17,4 +17,6 @@ $link_medication = "concept-a-patient-medication.php";
 $link_mhcp = "concept-a-patient-mhcp.php";
 $link_eolp = "#";
 $label_cat_1 = "Patient details";
+$label_cat_2 = "Medication (5)";
+$label_cat_3 = "Care plans (2)";
 ?>
