@@ -9,7 +9,7 @@
                             </div> -->
                         <div class="auto cell">
                             <span class="summary-label">Full name:</span><br/><span class="summary-info summary-info-name"><?php echo $firstname ?> <?php echo $surname ?></span><br/>
-                            <span class="summary-info summary-info-gender-age" style="padding-top: 100px !important;">Male <span style="color: lightgray">|</span> 42 years old</span>
+                            <span class="summary-info summary-info-gender-age" style="padding-top: 100px !important;"><?php echo $gender ?> <span style="color: lightgray">|</span> 42 years old</span>
                         </div>
                     </div>
                 </div>
