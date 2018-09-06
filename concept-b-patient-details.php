@@ -53,11 +53,7 @@
                                                 <?php echo $label_cat_1 ?>
                                             </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
-                                                <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="#name">Names</a></li>
-                                                    <li><a href="#key-details">Key details</a></li>
-                                                    <li><a href="#address">Address</a></li>
-                                                </ul>
+                                                <?php include("include-concept-b-nav-cat-1-active.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
@@ -134,11 +130,7 @@
                                                 <?php echo $label_cat_1 ?>
                                             </a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
-                                                <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="#name">Names</a></li>
-                                                    <li><a href="#key-details">Key details</a></li>
-                                                    <li><a href="#address">Address</a></li>
-                                                </ul>
+                                                <?php include("include-concept-b-nav-cat-1-active.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
