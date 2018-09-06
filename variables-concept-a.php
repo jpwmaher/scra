@@ -24,5 +24,5 @@ $label_cat_4 = "Chronic conditions (2)";
 $label_cat_5 = "Results (1)";
 $label_alerts = "Alerts";
 $label_flags = "Flags";
-$label_mhcp = "Mental Health Crisis Planz";
+$label_mhcp = "Mental Health Crisis Plan";
 ?>
