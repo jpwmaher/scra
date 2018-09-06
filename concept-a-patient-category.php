@@ -68,45 +68,37 @@
                                                 <?php echo $label_cat_3 ?>
                                             </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
-                                                <ul class="docs-nav-subcategory">
-                                                    <li><a href="<?php echo $link_mhcp ?>" class="">Mental Health Crisis Plan</a></li>
-                                                    <li><a href="<?php echo $link_eolp ?>">End of Life Plan</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-cat-3.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">Chronic conditions (2)</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">
+                                                <?php echo $label_cat_4 ?>
+                                            </a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
-                                                <ul class="docs-nav-subcategory">
-                                                    <li><a href="#">MRSA+</a></li>
-                                                    <li><a href="#">HIV+</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-cat-4.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">Results (1)</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">
+                                                <?php echo $label_cat_5 ?>
+                                            </a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
-                                                <ul class="docs-nav-subcategory">
-                                                    <li><a href="<?php echo $link_results ?>">Heart rate results (1)</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-cat-5.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: red !important;">Behaviour alerts &nbsp;<i class="fi-alert" style="color: white"></i> (2)</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: red !important;">
+                                                <?php echo $label_alerts ?> &nbsp;<i class="fi-alert" style="color: white"></i> (2)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
-                                                <ul class="docs-nav-subcategory">
-                                                    <li><a href="#">Drug-seeking behaviour</a></li>
-                                                    <li><a href="#">Violent behaviour</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-cat-alerts.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: orange !important;">Patient care flags &nbsp;<i class="fi-flag" style="color: white"></i> (2)</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: orange !important;">
+                                                <?php echo $label_flags ?> &nbsp;<i class="fi-flag" style="color: white"></i> (2)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
-                                                <ul class="docs-nav-subcategory">
-                                                    <li><a href="#">DNR</a></li>
-                                                    <li><a href="#">Reasonable adjustments</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-cat-flags.php"); ?>
                                             </div>
                                         </li>
                                     </ul>
@@ -143,10 +135,7 @@
                                                 <?php echo $label_cat_3 ?>
                                             </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
-                                                <ul class="docs-nav-subcategory">
-                                                    <li><a href="<?php echo $link_mhcp ?>" class="">Mental Health Crisis Plan</a></li>
-                                                    <li><a href="<?php echo $link_eolp ?>">End of Life Plan</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-cat-3.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
@@ -154,10 +143,7 @@
                                                 <?php echo $label_cat_4 ?>
                                             </a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
-                                                <ul class="docs-nav-subcategory">
-                                                    <li><a href="#">MRSA+</a></li>
-                                                    <li><a href="#">HIV+</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-cat-4.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
@@ -165,30 +151,21 @@
                                                 <?php echo $label_cat_5 ?>
                                             </a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
-                                                <ul class="docs-nav-subcategory">
-                                                    <li><a href="<?php echo $link_results ?>">Heart rate results (1)</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-cat-5.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: red !important;">
                                                 <?php echo $label_alerts ?> &nbsp;<i class="fi-alert" style="color: white"></i> (2)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
-                                                <ul class="docs-nav-subcategory">
-                                                    <li><a href="#">Drug-seeking behaviour</a></li>
-                                                    <li><a href="#">Violent behaviour</a></li>
-                                                </ul>
+                                                <?php include("include-concept-a-nav-cat-alerts.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: orange !important;">
                                                 <?php echo $label_flags ?> &nbsp;<i class="fi-flag" style="color: white"></i> (2)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
-                                                <ul class="docs-nav-subcategory">
-                                                    <li><a href="#">DNR</a></li>
-                                                    <li><a href="#">Reasonable adjustments</a></li>
-
-                                                </ul>
+                                                <?php include("include-concept-a-nav-cat-flags.php"); ?>
                                             </div>
                                         </li>
                                     </ul>
