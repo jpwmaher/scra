@@ -195,7 +195,7 @@
 
                         <div class="grid-x grid-padding-x">
                             <div class="cell">
-                                <img src="img/graph.svg" style="width:90%;"><br/><br/><br/><br/>
+                                <img src="img/graph-2.svg" style="width:90%;"><br/><br/><br/><br/>
                             </div>
                         </div>
 
