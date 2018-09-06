@@ -105,13 +105,13 @@
                                                 <?php include("include-concept-a-nav-prov-1.php"); ?>
                                             </div>
                                         </li>
-                                        <li class="accordion-item" data-accordion-item="">
+                                        <li class="accordion-item is-active" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">Hospital</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <?php include("include-concept-a-nav-prov-2-active.php"); ?>
                                             </div>
                                         </li>
-                                        <li class="accordion-item is-active" data-accordion-item="">
+                                        <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Mental Health</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
