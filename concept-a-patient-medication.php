@@ -51,7 +51,7 @@
                                                 <?php echo $label_cat_1 ?>
                                             </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
-                                                <?php include("include-concept-a-nav-cat-1-active.php"); ?>
+                                                <?php include("include-concept-a-nav-cat-1.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item is-active" data-accordion-item="">
@@ -59,7 +59,7 @@
                                                 <?php echo $label_cat_2 ?>
                                             </a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
-                                                <?php include("include-concept-a-nav-cat-2.php"); ?>
+                                                <?php include("include-concept-a-nav-cat-2-active.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
@@ -118,7 +118,7 @@
                                                 <?php echo $label_cat_1 ?>
                                             </a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
-                                                <?php include("include-concept-a-nav-cat-1-active.php"); ?>
+                                                <?php include("include-concept-a-nav-cat-1.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item is-active" data-accordion-item="">
@@ -126,7 +126,7 @@
                                                 <?php echo $label_cat_2 ?>
                                             </a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
-                                                <?php include("include-concept-a-nav-cat-2.php"); ?>
+                                                <?php include("include-concept-a-nav-cat-2-active.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
