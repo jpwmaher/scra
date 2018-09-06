@@ -134,7 +134,7 @@
                                                 <?php echo $label_cat_3 ?>
                                             </a>
                                             <div class="accordion-content  is-active" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
-                                                <?php include("include-concept-a-nav-cat-3.php"); ?>
+                                                <?php include("include-concept-a-nav-cat-3-active.php"); ?>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
@@ -173,6 +173,7 @@
                         </div>
                     </div>
 
+                    <!-- Main content -->
                     <div id="nhs-timeline" class="large-9 medium-8 cell">
 
                         <h2>Mental Health Crisis Plan <img src="img/plan.svg" style="height: 24px;"></h2><br/>
