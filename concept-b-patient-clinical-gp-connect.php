@@ -52,16 +52,16 @@
                                             <a href="#" class="accordion-title" aria-controls="1234-accordion" role="tab" id="1234-accordion-label" aria-expanded="false" aria-selected="false">Summary Care Record - enhanced</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="concept-b-patient-clinical.html#first">Allergies &amp; Sensitivities</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#second">Acute Medications</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#third">Current Repeat Medications</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#fourth">Past Repeat Medications</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#fifth">Diagnoses</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#sixth">Problems &amp; issues</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#seventh">Observations</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#eighth">Treatments</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#ninth">Results</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#tenth">Care events</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#first">Allergies &amp; Sensitivities</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#second">Acute Medications</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#third">Current Repeat Medications</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#fourth">Past Repeat Medications</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#fifth">Diagnoses</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#sixth">Problems &amp; issues</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#seventh">Observations</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#eighth">Treatments</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#ninth">Results</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#tenth">Care events</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -125,16 +125,16 @@
                                             <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">Summary Care Record - enhanced</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="concept-b-patient-clinical.html#first">Allergies &amp; Sensitivities</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#second">Acute Medications</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#third">Current Repeat Medications</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#fourth">Past Repeat Medications</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#fifth">Diagnoses</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#sixth">Problems &amp; issues</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#seventh">Observations</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#eighth">Treatments</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#ninth">Results</a></li>
-                                                    <li><a href="concept-b-patient-clinical.html#tenth">Care events</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#first">Allergies &amp; Sensitivities</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#second">Acute Medications</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#third">Current Repeat Medications</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#fourth">Past Repeat Medications</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#fifth">Diagnoses</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#sixth">Problems &amp; issues</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#seventh">Observations</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#eighth">Treatments</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#ninth">Results</a></li>
+                                                    <li><a href="concept-b-patient-clinical.php#tenth">Care events</a></li>
                                                 </ul>
                                             </div>
                                         </li>

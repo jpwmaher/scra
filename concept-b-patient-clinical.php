@@ -69,18 +69,18 @@
                                             <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">GP Connect</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#first">Patient Summary</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#second">Appointments</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#third">Encounters (Journal)</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#fourth">Clinical Items</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#fifth">Problems</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#sixth">Allergies</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#seventh">Medications</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#eighth">Referrals</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#ninth">Observations</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#tenth">Investigations</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#eleveneth">Immunisations</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#twelfth">Administrative Items</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#first">Patient Summary</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#second">Appointments</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#third">Encounters (Journal)</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#fourth">Clinical Items</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#fifth">Problems</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#sixth">Allergies</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#seventh">Medications</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#eighth">Referrals</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#ninth">Observations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#tenth">Investigations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#eleveneth">Immunisations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#twelfth">Administrative Items</a> </li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -144,18 +144,18 @@
                                             <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">GP Connect</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#first">Patient Summary</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#second">Appointments</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#third">Encounters (Journal)</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#fourth">Clinical Items</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#fifth">Problems</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#sixth">Allergies</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#seventh">Medications</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#eighth">Referrals</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#ninth">Observations</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#tenth">Investigations</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#eleveneth">Immunisations</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#twelfth">Administrative Items</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#first">Patient Summary</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#second">Appointments</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#third">Encounters (Journal)</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#fourth">Clinical Items</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#fifth">Problems</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#sixth">Allergies</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#seventh">Medications</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#eighth">Referrals</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#ninth">Observations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#tenth">Investigations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#eleveneth">Immunisations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#twelfth">Administrative Items</a> </li>
                                                 </ul>
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">GP Connect content</a></li>
