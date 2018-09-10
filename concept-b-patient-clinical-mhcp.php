@@ -84,7 +84,7 @@
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Care Plans (1)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-b-patient-clinical-mhcp.php#title" class="">Mental Health Crisis Plan</a></li>
+                                                    <li><a href="concept-b-patient-clinical-mhcp.php#title" class="is-active">Mental Health Crisis Plan</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -159,7 +159,7 @@
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Care Plans (1)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="#" class="">Mental Health Crisis Plan</a></li>
+                                                    <li><a href="#" class="is-active">Mental Health Crisis Plan</a></li>
                                                 </ul>
                                             </div>
                                         </li>
