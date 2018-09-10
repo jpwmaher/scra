@@ -140,9 +140,9 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="accordion-item is-active" data-accordion-item="">
+                                        <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">GP Connect</a>
-                                            <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
+                                            <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
                                                     <li> <a href="#second">Appointments</a> </li>
                                                     <li> <a href="#third">Encounters (Journal)</a> </li>
@@ -155,11 +155,11 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="accordion-item" data-accordion-item="">
+                                        <li class="accordion-item is-active" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Care Plans (1)</a>
-                                            <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
+                                            <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-b-patient-clinical-mhcp.php" class="">Mental Health Crisis Plan</a></li>
+                                                    <li><a href="#" class="">Mental Health Crisis Plan</a></li>
                                                 </ul>
                                             </div>
                                         </li>
