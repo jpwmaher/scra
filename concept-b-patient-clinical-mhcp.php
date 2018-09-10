@@ -159,9 +159,6 @@
                                                     <li> <a href="concept-b-patient-clinical-gp-connect.php#eleveneth">Immunisations</a> </li>
                                                     <li> <a href="concept-b-patient-clinical-gp-connect.php#twelfth">Administrative Items</a> </li>
                                                 </ul>
-                                                <ul class="docs-nav-subcategory">
-                                                    <li><a href="#">GP Connect content</a></li>
-                                                </ul>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
