@@ -52,31 +52,35 @@
                                             <a href="#" class="accordion-title" aria-controls="1234-accordion" role="tab" id="1234-accordion-label" aria-expanded="false" aria-selected="false">Summary Care Record - enhanced</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="concept-b-patient-clinical.php#first">Allergies &amp; Sensitivities</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#second">Acute Medications</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#third">Current Repeat Medications</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#fourth">Past Repeat Medications</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#fifth">Diagnoses</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#sixth">Problems &amp; issues</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#seventh">Observations</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#eighth">Treatments</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#ninth">Results</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#tenth">Care events</a></li>
+                                                    <li><a href="#first">Allergies &amp; Sensitivities</a></li>
+                                                    <li><a href="#second">Acute Medications</a></li>
+                                                    <li><a href="#third">Current Repeat Medications</a></li>
+                                                    <li><a href="#fourth">Past Repeat Medications</a></li>
+                                                    <li><a href="#fifth">Diagnoses</a></li>
+                                                    <li><a href="#sixth">Problems &amp; issues</a></li>
+                                                    <li><a href="#seventh">Observations</a></li>
+                                                    <li><a href="#eighth">Treatments</a></li>
+                                                    <li><a href="#ninth">Results</a></li>
+                                                    <li><a href="#tenth">Care events</a></li>
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="accordion-item is-active" data-accordion-item="">
+                                        <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">GP Connect</a>
-                                            <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
+                                            <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li> <a href="#second">Appointments</a> </li>
-                                                    <li> <a href="#third">Encounters (Journal)</a> </li>
-                                                    <li> <a href="#fourth">Clinical Items</a> </li>
-                                                    <li> <a href="#fifth">Problems</a> </li>
-                                                    <li> <a href="#sixth">Allergies</a> </li>
-                                                    <li> <a href="#seventh">Medications</a> </li>
-                                                    <li> <a href="#eighth">Referrals</a> </li>
-                                                    <li> <a href="#ninth">Observations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#first">Patient Summary</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#second">Appointments</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#third">Encounters (Journal)</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#fourth">Clinical Items</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#fifth">Problems</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#sixth">Allergies</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#seventh">Medications</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#eighth">Referrals</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#ninth">Observations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#tenth">Investigations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#eleveneth">Immunisations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#twelfth">Administrative Items</a> </li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -95,7 +99,6 @@
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Child Care Alert</a></li>
                                                     <li><a href="#">Violent behaviour</a></li>
-                                                    <li><a href="#">Add an alert +</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -106,7 +109,6 @@
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Reasonable Adjustments (2)</a></li>
                                                     <li><a href="concept-b-patient-clinical-mhcp.php#title">Mental Health Crisis Plan</a></li>
-                                                    <li><a href="#">Add a flag +</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -123,43 +125,50 @@
                                 <div class="docs-nav" id="docs-menu">
 
                                     <ul class="accordion docs-nav-category" data-accordion="12345-accordion" data-allow-all-closed="true" data-multi-expand="false" role="tablist">
-                                        <li class="accordion-item" data-accordion-item="">
+                                        <li class="accordion-item is-active" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">Summary Care Record - enhanced</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li><a href="concept-b-patient-clinical.php#first">Allergies &amp; Sensitivities</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#second">Acute Medications</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#third">Current Repeat Medications</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#fourth">Past Repeat Medications</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#fifth">Diagnoses</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#sixth">Problems &amp; issues</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#seventh">Observations</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#eighth">Treatments</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#ninth">Results</a></li>
-                                                    <li><a href="concept-b-patient-clinical.php#tenth">Care events</a></li>
+                                                    <li><a href="#first">Allergies &amp; Sensitivities</a></li>
+                                                    <li><a href="#second">Acute Medications</a></li>
+                                                    <li><a href="#third">Current Repeat Medications</a></li>
+                                                    <li><a href="#fourth">Past Repeat Medications</a></li>
+                                                    <li><a href="#fifth">Diagnoses</a></li>
+                                                    <li><a href="#sixth">Problems &amp; issues</a></li>
+                                                    <li><a href="#seventh">Observations</a></li>
+                                                    <li><a href="#eighth">Treatments</a></li>
+                                                    <li><a href="#ninth">Results</a></li>
+                                                    <li><a href="#tenth">Care events</a></li>
                                                 </ul>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">GP Connect</a>
-                                            <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
+                                            <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li> <a href="#second">Appointments</a> </li>
-                                                    <li> <a href="#third">Encounters (Journal)</a> </li>
-                                                    <li> <a href="#fourth">Clinical Items</a> </li>
-                                                    <li> <a href="#fifth">Problems</a> </li>
-                                                    <li> <a href="#sixth">Allergies</a> </li>
-                                                    <li> <a href="#seventh">Medications</a> </li>
-                                                    <li> <a href="#eighth">Referrals</a> </li>
-                                                    <li> <a href="#ninth">Observations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#first">Patient Summary</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#second">Appointments</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#third">Encounters (Journal)</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#fourth">Clinical Items</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#fifth">Problems</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#sixth">Allergies</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#seventh">Medications</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#eighth">Referrals</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#ninth">Observations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#tenth">Investigations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#eleveneth">Immunisations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#twelfth">Administrative Items</a> </li>
+                                                </ul>
+                                                <ul class="docs-nav-subcategory">
+                                                    <li><a href="#">GP Connect content</a></li>
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="accordion-item is-active" data-accordion-item="">
+                                        <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Care Plans (1)</a>
-                                            <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
+                                            <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="#" class="">Mental Health Crisis Plan</a></li>
+                                                    <li><a href="concept-b-patient-clinical-mhcp.php#title" class="">Mental Health Crisis Plan</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -170,7 +179,6 @@
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Child Care Alert</a></li>
                                                     <li><a href="#">Violent behaviour</a></li>
-                                                    <li><a href="#">Add an alert +</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -179,9 +187,9 @@
                                                 <?php echo $label_flags ?> &nbsp;<i class="fi-flag" style="color: white"></i> (3)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="#">Reasonable Adjustments (2)</a></li>
                                                     <li><a href="#">Mental Health Crisis Plan</a></li>
-                                                    <li><a href="#">Add a flag +</a></li>
+                                                    <li><a href="#">Reasonable Adjustments (2)</a></li>
+
                                                 </ul>
                                             </div>
                                         </li>
