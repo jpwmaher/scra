@@ -191,6 +191,7 @@
                         </div>
                     </div>
 
+                    <!-- Main content -->
                     <div id="nhs-timeline" class="large-9 medium-8 cell">
 
                         <h2 id="title" data-magellan-target="title">Mental Health Crisis Plan <img src="img/plan.svg" style="height: 24px;"></h2><br/>
