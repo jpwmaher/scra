@@ -89,7 +89,7 @@
                                     </li>
                                     <li>
                                         <div class="grid-x">
-                                            <div class="large-auto medium-auto small-11 cell"><strong><a href="#" style="color: white;">Mental Health Crisis Plan</a></strong></div>
+                                            <div class="large-auto medium-auto small-11 cell"><strong><a href="#" style="color: white;"><?php echo $label_mhcp ?></a></strong></div>
                                             <div class="large-shrink medium-shrink small-1 cell"><i class="fi-arrow-right" style="color: white"></i></div>
                                         </div>
                                     </li>
@@ -134,7 +134,7 @@
                                     <li>
                                         <div class="grid-x">
                                             <div class="large-auto medium-auto small-11 cell">
-                                                <a href="concept-b-patient-clinical-mhcp.php#title">
+                                                <a href="#">
                                                     <?php echo $label_mhcp ?>
                                                 </a>
                                             </div>
