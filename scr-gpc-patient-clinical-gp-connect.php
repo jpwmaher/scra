@@ -105,7 +105,6 @@
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Reasonable Adjustments (2)</a></li>
-                                                    <li><a href="#">Mental Health Crisis Plan</a></li>
                                                     <li><a href="#">Add a flag +</a></li>
                                                 </ul>
                                             </div>
