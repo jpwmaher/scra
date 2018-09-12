@@ -6,86 +6,48 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <title>Concept B - SCRa - SOW 132</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/scra.css">
-    <link rel="stylesheet" href="css/scra-concepts.css">
-    <link rel="stylesheet" href="css/foundation-icons.css" />
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <?php include("include-concept-b-head.php"); ?>
 </head>
+
+<?php include("variables-concept-b.php"); ?>
+
+<style>
+    #tab-3 {
+        background-color: #005EB8 !important;
+        color: #fefefe;
+        font-weight: bold;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+
+</style>
 
 <body>
 
-    <a href="#" class="scrollToTop"><i class="fi-arrow-up"></i> Top</a><span class="patient-float">Katherine Smith | 30-Dec-2008</span>
+    <?php include("include-concept-b-scrolltotop.php"); ?>
 
     <div id="content-main" class="grid-container full">
-        <div class="grid-x grid-padding-x grid-margin-x">
-            <div class="cell">
-                <img src="img/nhs-digital-logo-left.jpg" style="height: 30px; padding: 5px 0px;">
-                <a href="#" style="float: right; padding: 5px 0px;">New patient search</a>
-            </div>
 
-            <div class="cell">
-                <div id="patient-summary" class="grid-x grid-padding-x">
-                    <div class="cell">
-                        <div class="grid-x grid-padding-x">
-                            <div id="summary-name" class="large-6 medium-4 cell summary-panel">
-                                <div class="grid-x">
-                                    <!-- <div class="shrink cell">
-                                <img src="img/tiger.png" style="width: 100px;">
-                            </div> -->
-                                    <div class="auto cell">
-                                        <span class="summary-label">Full name:</span><br/><span class="summary-info summary-info-name">Katherine Smith</span><br/>
-                                        <span class="summary-info summary-info-gender-age" style="padding-top: 100px !important;">Female <span style="color: lightgray">|</span> 9 years old</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="large-2 medium-3 small-6 cell summary-panel">
-                                <span class="summary-label">NHS No:</span><br/><span class="summary-info">123 456 7890</span><br/><br/>
-                                <span class="summary-label summary-info-gender-age">DOB:</span><br/><span class="summary-info">30-Dec-2008</span>
-                            </div>
-                            <div id="summary-address" class="large-2 medium-3 small-6 cell summary-panel">
-                                <span class="summary-label">Address:</span><br/><span class="summary-info">1 Henley Street, <br/>Stratford, <br/>Warwickshire, <br/>AB12 3DC</span>
-                            </div>
-                            <div id="summary-address" class="large-2 medium-2 small-12 cell summary-panel">
-                                <div class="grid-x grid-margin-x small-up-5 medium-up-1 large-up-1">
-                                    <div class="cell lozenge-wrap"> <span class="alert alert-lozenge">CCA</span></div>
-                                    <div class="cell lozenge-wrap"> <span class="alert alert-lozenge">Violent</span></div>
-                                    <div class="cell lozenge-wrap"><span class="flag-panel summary-lozenge">RA</span></div>
-                                    <div class="cell lozenge-wrap"><span class="flag-panel summary-lozenge">MHCP</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="grid-x grid-padding-x grid-margin-x">
+
+            <!-- Masthead -->
+            <?php include("include-concept-b-masthead.php"); ?>
+
+            <!-- Patient summary -->
+            <?php include("include-concept-b-patient-summary.php"); ?>
 
             <!-- Tabbed nav -->
-            <div class="cell">
-                <div class="large-12 medium-12 cell">
-                    <div class="grid-x grid-padding-x">
-                        <div class="cell" id="main-nav">
-                            <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-3">
-                                <div class="cell"><a class="button ghosty expanded " href="concept-b-patient-dashboard.html">Summary</a></div>
-                                <div class="cell"><a class="button ghosty expanded " href="concept-b-patient-details.html">Admin</a></div>
-                                <div class="cell"><a class="button primary expanded " href="concept-b-patient-clinical.html">Clinical</a></div>
-                                <!--      <div class="cell"><a class="button ghosty expanded " href="concept-b-patient-timeline.html">Timeline</a></div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include("include-scr-gpc-tabbed-nav.php"); ?>
 
             <div class="cell">
                 <div id="centre-col" class="grid-x grid-padding-x grid-margin-x">
 
+                    <!-- Mobile nav -->
                     <div class="hide-for-medium cell">
                         <div id="side-nav">
                             <div class="docs-nav-container">
                                 <div class="docs-nav" id="docs-menu">
 
-                                    <ul class="accordion docs-nav-category" data-accordion="12345-accordion" data-allow-all-closed="true" data-multi-expand="true" role="tablist">
+                                    <ul class="accordion docs-nav-category" data-accordion="12345-accordion" data-allow-all-closed="true" data-multi-expand="false" role="tablist">
                                         <li class="accordion-item" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="1234-accordion" role="tab" id="1234-accordion-label" aria-expanded="false" aria-selected="false">Summary Care Record - enhanced</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="1234-accordion-label" aria-hidden="true" id="1234-accordion">
@@ -107,18 +69,18 @@
                                             <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">GP Connect</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#first">Patient Summary</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#second">Appointments</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#third">Encounters (Journal)</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#fourth">Clinical Items</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#fifth">Problems</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#sixth">Allergies</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#seventh">Medications</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#eighth">Referrals</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#ninth">Observations</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#tenth">Investigations</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#eleveneth">Immunisations</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#twelfth">Administrative Items</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#first">Patient Summary</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#second">Appointments</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#third">Encounters (Journal)</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#fourth">Clinical Items</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#fifth">Problems</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#sixth">Allergies</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#seventh">Medications</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#eighth">Referrals</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#ninth">Observations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#tenth">Investigations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#eleveneth">Immunisations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#twelfth">Administrative Items</a> </li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -126,12 +88,13 @@
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Care Plans (1)</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-b-patient-clinical-mhcp.html#title" class="">Mental Health Crisis Plan</a></li>
+                                                    <li><a href="#" class="">Mental Health Crisis Plan</a></li>
                                                 </ul>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: red !important;">Patient alerts &nbsp;<i class="fi-alert" style="color: white"></i> (2)</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: red !important;">
+                                                <?php echo $label_alerts ?> &nbsp;<i class="fi-alert" style="color: white"></i> (2)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Child Care Alert</a></li>
@@ -140,11 +103,12 @@
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: orange !important;">Patient care flags &nbsp;<i class="fi-flag" style="color: white"></i> (3)</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: orange !important;">
+                                                <?php echo $label_flags ?> &nbsp;<i class="fi-flag" style="color: white"></i> (3)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Reasonable Adjustments (2)</a></li>
-                                                    <li><a href="concept-b-patient-clinical-mhcp.html#title">Mental Health Crisis Plan</a></li>
+                                                    <li><a href="#">Mental Health Crisis Plan</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -154,12 +118,13 @@
                         </div>
                     </div>
 
+                    <!-- Medium-up nav -->
                     <div class="large-3 medium-4 show-for-medium cell" data-sticky-container>
                         <div id="side-nav" class="sticky" data-sticky data-anchor="nhs-timeline">
                             <div class="docs-nav-container">
                                 <div class="docs-nav" id="docs-menu">
 
-                                    <ul class="accordion docs-nav-category" data-accordion="12345-accordion" data-allow-all-closed="true" data-multi-expand="true" role="tablist">
+                                    <ul class="accordion docs-nav-category" data-accordion="12345-accordion" data-allow-all-closed="true" data-multi-expand="false" role="tablist">
                                         <li class="accordion-item is-active" data-accordion-item="">
                                             <a href="#" class="accordion-title" aria-controls="83435o-accordion" role="tab" id="83435o-accordion-label" aria-expanded="false" aria-selected="false">Summary Care Record - enhanced</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="83435o-accordion-label" aria-hidden="true" id="83435o-accordion">
@@ -181,18 +146,18 @@
                                             <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false">GP Connect</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="menu expanded vertical" data-magellan data-deep-linking="true">
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#first">Patient Summary</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#second">Appointments</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#third">Encounters (Journal)</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#fourth">Clinical Items</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#fifth">Problems</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#sixth">Allergies</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#seventh">Medications</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#eighth">Referrals</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#ninth">Observations</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#tenth">Investigations</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#eleveneth">Immunisations</a> </li>
-                                                    <li> <a href="concept-b-patient-clinical-gp-connect.html#twelfth">Administrative Items</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#first">Patient Summary</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#second">Appointments</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#third">Encounters (Journal)</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#fourth">Clinical Items</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#fifth">Problems</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#sixth">Allergies</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#seventh">Medications</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#eighth">Referrals</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#ninth">Observations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#tenth">Investigations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#eleveneth">Immunisations</a> </li>
+                                                    <li> <a href="concept-b-patient-clinical-gp-connect.php#twelfth">Administrative Items</a> </li>
                                                 </ul>
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">GP Connect content</a></li>
@@ -203,12 +168,13 @@
                                             <a href="#" class="accordion-title" aria-controls="lvidlv-accordion" role="tab" id="lvidlv-accordion-label" aria-expanded="false" aria-selected="false">Care Plans (1)</a>
                                             <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="lvidlv-accordion-label" aria-hidden="true" id="lvidlv-accordion">
                                                 <ul class="docs-nav-subcategory">
-                                                    <li><a href="concept-b-patient-clinical-mhcp.html#title" class="">Mental Health Crisis Plan</a></li>
+                                                    <li><a href="#" class="">Mental Health Crisis Plan</a></li>
                                                 </ul>
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: red !important;">Patient alerts &nbsp;<i class="fi-alert" style="color: white"></i> (2)</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: red !important;">
+                                                <?php echo $label_alerts ?> &nbsp;<i class="fi-alert" style="color: white"></i> (2)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Child Care Alert</a></li>
@@ -217,7 +183,8 @@
                                             </div>
                                         </li>
                                         <li class="accordion-item" data-accordion-item="">
-                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: orange !important;">Patient care flags &nbsp;<i class="fi-flag" style="color: white"></i> (3)</a>
+                                            <a href="#" class="accordion-title" aria-controls="yn8tgh-accordion" role="tab" id="yn8tgh-accordion-label" aria-expanded="false" aria-selected="false" style="background: orange !important;">
+                                                <?php echo $label_flags ?> &nbsp;<i class="fi-flag" style="color: white"></i> (3)</a>
                                             <div class="accordion-content is-active" data-tab-content="" role="tabpanel" aria-labelledby="yn8tgh-accordion-label" aria-hidden="true" id="yn8tgh-accordion">
                                                 <ul class="docs-nav-subcategory">
                                                     <li><a href="#">Mental Health Crisis Plan</a></li>
@@ -232,6 +199,7 @@
                         </div>
                     </div>
 
+                    <!-- Main content -->
                     <div id="nhs-timeline" class="large-10 medium-auto small-12 cell">
 
                         <h2 data-magellan-target="title" id="title">Summary Care Record <img src="img/steth.svg" style="height: 24px;"></h2><br/>
@@ -895,32 +863,12 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+
         </div>
     </div>
 
-
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/vendor/top.js"></script>
-    <script src="js/vendor/patient-float.js"></script>
-    <script>
-        $("[data-clipped-circle-graph]").each(function() {
-            var $graph = $(this),
-                percent = parseInt($graph.data('percent'), 10),
-                deg = 30 + (300 * percent) / 100;
-            if (percent > 50) {
-                $graph.addClass('gt-50');
-            }
-            $graph.find('.clipped-circle-graph-progress-fill').css('transform', 'rotate(' + deg + 'deg)');
-            $graph.find('.clipped-circle-graph-percents-number').html(percent + '%');
-        });
-
-    </script>
+    <?php include("include-concept-a-javascripts.php"); ?>
 
 </body>
 
