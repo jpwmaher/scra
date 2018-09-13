@@ -877,9 +877,10 @@
     <!-- Modal 1 -->
     <div class="reveal large" id="exampleModal1" data-reveal>
         <div class="grid-x grid-padding-x">
-            <br/><br/>
-            <h5>Has this patient given permission to view their Summary Care Record / GP Connect information?<br/><br/><br/></h5><br/>
-            <div class="large-6 medium-6 small-12 cell" style="margin-bottom: 60px;">
+            <div class="cell">
+                <h5>Has this patient given permission to view their Summary Care Record / GP Connect information?</h5>
+            </div>
+            <div class="large-6 medium-6 small-12 cell">
                 SCR bit
             </div>
             <div class="large-6 medium-6 small-12 cell">
@@ -887,7 +888,7 @@
             </div>
         </div>
         <div class="grid-x grid-padding-x">
-            <div class="cell" style="margin-bottom: 60px;">
+            <div class="cell" style="margin-bottom: 40px;">
                 <hr> Stuff
             </div>
         </div>
