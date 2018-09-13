@@ -217,11 +217,11 @@
                             <br />
 
                             <div class="grid-x grid-padding-x grid-margin-x">
-                                <div class="large-8 medium-8 cell">
+                                <div class="large-10 medium-10 cell">
                                     <h4>Allergies &amp; Sensitivities</h4>
                                 </div>
-                                <div class="large-4 medium-4 cell">
-                                    Hello
+                                <div class="large-2 medium-2 cell">
+                                    <span class="label warning">2 mismatch with GPC</span>
                                 </div>
                             </div>
                             <br />
