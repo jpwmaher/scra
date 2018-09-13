@@ -216,7 +216,7 @@
 
                             <br />
 
-                            <div class="grid-x grid-padding-x grid-margin-x">
+                            <div class="grid-x">
                                 <div class="large-10 medium-10 cell">
                                     <h4>Allergies &amp; Sensitivities</h4>
                                 </div>
