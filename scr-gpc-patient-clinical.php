@@ -216,7 +216,14 @@
 
                             <br />
 
-                            <h4>Allergies &amp; Sensitivities</h4>
+                            <div class="grid-x grid-padding-x grid-margin-x">
+                                <div class="large-8 medium-8 cell">
+                                    <h4>Allergies &amp; Sensitivities</h4>
+                                </div>
+                                <div class="large-4 medium-4 cell">
+                                    Hello
+                                </div>
+                            </div>
                             <br />
                             <div class="table-scroll">
                                 <table id="Allergies" summary="This table includes information about this patient\'s allergies and adverse reactions" class="hover">
