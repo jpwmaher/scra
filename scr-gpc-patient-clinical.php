@@ -221,7 +221,7 @@
                                     <h4>Allergies &amp; Sensitivities</h4>
                                 </div>
                                 <div class="large-2 cell mismatch-alert">
-                                    <span class="label warning">2 mismatch with GPC</span>
+                                    <span class="label warning">Conflict(s) with GPC record</span>
                                 </div>
                             </div>
                             <br />
