@@ -221,7 +221,7 @@
                                     <h4>Allergies &amp; Sensitivities</h4>
                                 </div>
                                 <div class="large-shrink cell mismatch-alert">
-                                    <span class="label warning">Conflict(s) with GPC record</span>
+                                    <span class="label warning"><a href="#"  data-open="exampleModal1">Conflict(s) with GPC record</a></span>
                                 </div>
                             </div>
                             <br />
@@ -872,6 +872,32 @@
             </div>
 
         </div>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="reveal large" id="exampleModal1" data-reveal>
+        <div class="grid-x grid-padding-x">
+            <br/><br/>
+            <h5>Has this patient given permission to view their Summary Care Record / GP Connect information?<br/><br/><br/></h5><br/>
+            <div class="large-4 medium-4 small-6 cell" style="margin-bottom: 60px;">
+                <a href="concept-b-patient-clinical.php#title" class="button large primary expanded">Yes</a> View record
+            </div>
+            <div class="large-4 medium-4 small-6 cell">
+                <a href="concept-b-patient-dashboard.php" class="button large hollow expanded">No</a> Access refused
+            </div>
+            <div class="large-4 medium-4 small-12 cell">
+                <a href="#" class="button large alert expanded" data-open="exampleModal2">Emergency access</a> The usual legal, ethical and professional obligations apply when accessing a patient's clinical record
+            </div>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <div class="cell" style="margin-bottom: 60px;">
+                <hr>
+                <a data-open="exampleModal3">I need to access the record for other reasons</a>
+            </div>
+        </div>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
     </div>
 
     <?php include("include-concept-a-javascripts.php"); ?>
