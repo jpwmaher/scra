@@ -905,6 +905,8 @@
                         </tbody>
                     </table>
                 </div>
+                <br/>
+                <a href="scr-gpc-patient-clinical.php#first">View record</a>
             </div>
             <div class="large-6 medium-6 small-12 cell">
                 <h6>GP Connect</h6>
@@ -926,6 +928,8 @@
                         </tr>
                     </tbody>
                 </table>
+                <br/>
+                <a href="scr-gpc-patient-clinical-gp-connect.php#sixth">View record</a>
             </div>
         </div>
         <div class="grid-x grid-padding-x">
