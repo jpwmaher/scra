@@ -396,8 +396,12 @@
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td>2016-03-15 00:00:00.0</td>
+                                                                    <td>2016-03-15</td>
                                                                     <td>Allergy to Penicillin, Patient experienced rash, nausea and vomiting</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>2010-06-15</td>
+                                                                    <td>Adverse reaction to erythromycin, severe vomiting</td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
