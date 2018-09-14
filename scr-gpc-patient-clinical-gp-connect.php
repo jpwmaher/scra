@@ -374,7 +374,14 @@
 
                         <section id="sixth" class="info-section" data-magellan-target="sixth">
                             <br />
-                            <h4>Allergies</h4>
+                            <div class="grid-x">
+                                <div class="large-auto cell">
+                                    <h4>Allergies &amp; Sensitivities</h4>
+                                </div>
+                                <div class="large-shrink cell mismatch-alert">
+                                    <span class="label warning"><a href="#"  data-open="exampleModal1" style="color: white !important;">Conflict(s) with Summary Care Record</a></span>
+                                </div>
+                            </div>
                             <br />
                             <div class="section-main ng-scope" ui-view="main">
                                 <div class="ng-scope">
@@ -652,6 +659,74 @@
 
             </div>
         </div>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="reveal large" id="exampleModal1" data-reveal>
+        <div class="grid-x grid-padding-x">
+            <div class="cell">
+                <h5>There appears to be conflict between the SCR and GP-Connect records for 'Allergies &amp; sensitivities'</h5>
+                <p>Please review the differences below</p>
+            </div>
+            <div class="large-6 medium-6 small-12 cell">
+                <h6>Summary Care Record</h6>
+                <div class="table-scroll">
+                    <table id="Allergies" summary="This table includes information about this patient\'s allergies and adverse reactions" class="hover">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Description</th>
+                                <th>Certainty</th>
+                                <th>Severity</th>
+                                <th>Supporting Information</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>15 Jun 2010</td>
+                                <td>Adverse reaction to erythromycin</td>
+                                <td/>
+                                <td/>
+                                <td>severe vomiting</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br/>
+                <a href="scr-gpc-patient-clinical.php#first">View record</a>
+            </div>
+            <div class="large-6 medium-6 small-12 cell">
+                <h6>GP Connect</h6>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Start Date</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2010-06-15</td>
+                            <td>Adverse reaction to erythromycin, severe vomiting</td>
+                        </tr>
+                        <tr class="mismatch-row">
+                            <td>2016-03-15</td>
+                            <td>Allergy to Penicillin, Patient experienced rash, nausea and vomiting</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br/>
+                <a href="scr-gpc-patient-clinical-gp-connect.php#sixth" data-close>View record</a>
+            </div>
+        </div>
+        <!-- <div class="grid-x grid-padding-x">
+            <div class="cell" style="margin-bottom: 20px;">
+                <hr>
+            </div>
+        </div> -->
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
     </div>
 
     <?php include("include-concept-a-javascripts.php"); ?>
