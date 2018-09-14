@@ -882,7 +882,29 @@
                 <p>Please review the differences below</p>
             </div>
             <div class="large-6 medium-6 small-12 cell">
-                SCR bit
+                <h6>Summary Care Record</h6>
+                <div class="table-scroll">
+                    <table id="Allergies" summary="This table includes information about this patient\'s allergies and adverse reactions" class="hover">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Description</th>
+                                <th>Certainty</th>
+                                <th>Severity</th>
+                                <th>Supporting Information</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="match-row">
+                                <td>15 Jun 2010</td>
+                                <td>Adverse reaction to erythromycin</td>
+                                <td/>
+                                <td/>
+                                <td>severe vomiting</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="large-6 medium-6 small-12 cell">
                 <h6>GP Connect</h6>
