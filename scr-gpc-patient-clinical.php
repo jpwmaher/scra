@@ -895,7 +895,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="match-row">
+                            <tr>
                                 <td>15 Jun 2010</td>
                                 <td>Adverse reaction to erythromycin</td>
                                 <td/>
@@ -916,21 +916,21 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>
+                            <td>2010-06-15</td>
+                            <td>Adverse reaction to erythromycin, severe vomiting</td>
+                        </tr>
                         <tr class="mismatch-row">
                             <td>2016-03-15</td>
                             <td>Allergy to Penicillin, Patient experienced rash, nausea and vomiting</td>
-                        </tr>
-                        <tr class="match-row">
-                            <td>2010-06-15</td>
-                            <td>Adverse reaction to erythromycin, severe vomiting</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
         <div class="grid-x grid-padding-x">
-            <div class="cell" style="margin-bottom: 40px;">
-                <hr> Stuff
+            <div class="cell" style="margin-bottom: 20px;">
+                <hr>
             </div>
         </div>
         <button class="close-button" data-close aria-label="Close modal" type="button">
