@@ -906,7 +906,7 @@
                     </table>
                 </div>
                 <br/>
-                <a href="scr-gpc-patient-clinical.php#first">View record</a>
+                <a href="scr-gpc-patient-clinical.php#first" data-close>View record</a>
             </div>
             <div class="large-6 medium-6 small-12 cell">
                 <h6>GP Connect</h6>
