@@ -878,7 +878,7 @@
     <div class="reveal large" id="exampleModal1" data-reveal>
         <div class="grid-x grid-padding-x">
             <div class="cell">
-                <h5>There appears to be conflict between the SCR and GP-Connect records</h5>
+                <h5>There appears to be conflict between the SCR and GP-Connect records for 'Allergies &amp; sensitivities'</h5>
                 <p>Please review the differences below</p>
             </div>
             <div class="large-6 medium-6 small-12 cell">
