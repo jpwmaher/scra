@@ -16,6 +16,10 @@ h5 {
     transition: 0.5s;
 }
 
+.mismatch-row {
+    background: rgba(255, 165, 0, 0.3);
+}
+
 @media screen and (min-width: 1023px) {
     .mismatch-alert {
         text-align: right;

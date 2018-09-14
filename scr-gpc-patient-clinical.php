@@ -893,7 +893,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="mismatch-row">
                             <td>2016-03-15</td>
                             <td>Allergy to Penicillin, Patient experienced rash, nausea and vomiting</td>
                         </tr>
