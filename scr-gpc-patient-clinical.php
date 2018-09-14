@@ -884,7 +884,25 @@
                 SCR bit
             </div>
             <div class="large-6 medium-6 small-12 cell">
-                GP-Connect bit
+                <h6>GP Connect</h6>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Start Date</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2016-03-15</td>
+                            <td>Allergy to Penicillin, Patient experienced rash, nausea and vomiting</td>
+                        </tr>
+                        <tr>
+                            <td>2010-06-15</td>
+                            <td>Adverse reaction to erythromycin, severe vomiting</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         <div class="grid-x grid-padding-x">
