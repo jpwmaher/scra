@@ -201,12 +201,12 @@
                                 <h4>Contact details</h4>
                                 <label class="main-label">Mobile number
                                     <div class="grid-x grid-padding-x">
-                                        <div class="large-6 medium-6 small-7 cell"><input type="number" placeholder="Mobile" pattern="[0-9]*"></div>                       
+                                        <div class="large-6 medium-6 small-10 cell"><input type="number" placeholder="Mobile" pattern="[0-9]*"></div>                       
                                         </div>
                                     </label>
                                 <label class="main-label">Email address
                                     <div class="grid-x grid-padding-x">
-                                        <div class="large-6 medium-6 small-7 cell"><input type="email" placeholder="Email"></div>                        
+                                        <div class="large-6 medium-6 small-10 cell"><input type="email" placeholder="Email"></div>                        
                                         </div>
                                     </label>
                             </div>
