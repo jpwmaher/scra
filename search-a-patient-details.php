@@ -228,7 +228,7 @@
                         <p>This is only visible when the above field has focus.</p>
                     </div>
                     <div class="warning callout is-hidden" id="form-callout-2" data-toggler="is-hidden">
-                        <p>This is only visible when the above field has focus.</p>
+                        <p>Number 2</p>
                     </div>
                 </div>
             </div>
