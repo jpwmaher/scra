@@ -80,7 +80,7 @@
                                     </label>
 
                                 <label class="main-label">Surname <!-- <span style="color: red;">*</span> -->
-                                      <input type="text" placeholder="Surname" value="">
+                                      <input type="text" placeholder="Surname" value="" data-toggle-focus="form-callout">
                                     </label>
 
                                 <fieldset class="large-6 cell">
@@ -220,6 +220,12 @@
                     </div>
             </div>
             </form>
+
+            <div class="large-6 medium-4 cell">
+                <div class="secondary callout is-hidden" id="form-callout" data-toggler="is-hidden">
+                    <p>This is only visible when the above field has focus.</p>
+                </div>
+            </div>
         </div>
     </div>
 
