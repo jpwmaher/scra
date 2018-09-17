@@ -9,12 +9,6 @@
         margin: 0;
     }
 
-    #tab-1 {
-        background: #005EB8;
-        color: white;
-        border: 2px solid #005EB8;
-    }
-
 </style>
 
 <body>
@@ -41,7 +35,19 @@
     <?php include("include-search-a-h1.php"); ?>
 
     <!-- Tabs -->
-    <?php include("include-search-a-tabs.php"); ?>
+    <div id="tab-wrapper" class="grid-container">
+        <div id="tabbies" class="grid-x" data-equalizer>
+            <div class="large-4 medium-4 small-6 cell">
+                <a id="tab-1" href="search-a-nhs.php" class="button tabby tabby-active" data-equalizer-watch>By NHS number</a>
+            </div>
+            <div class="large-4 medium-4 small-6 cell">
+                <a id="tab-2" href="search-a-patient-details.php" class="button button tabby tabby-inactive" style="width: 100%;" data-equalizer-watch>By patient details</a>
+            </div>
+            <div class="large-4 medium-4 small-6 cell">
+                <a href="#" class="button tabby tabby-no-tab show-for-medium" style="width: 100%;" data-equalizer-watch></a>
+            </div>
+        </div>
+    </div>
 
     <!-- Main content -->
     <div id="content-wrapper" class="grid-container">
