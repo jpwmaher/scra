@@ -80,7 +80,7 @@
                                     </label>
 
                                 <label class="main-label">Surname <!-- <span style="color: red;">*</span> -->
-                                      <input type="text" placeholder="Surname" value="" data-toggle-focus="form-surname">
+                                      <input type="text" placeholder="Surname" value="" data-toggle-focus="form-first-name">
                                     </label>
 
                                 <fieldset class="large-6 cell">
