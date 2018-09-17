@@ -70,7 +70,7 @@
                                 <h4>NHS Number</h4>
                                 <label class="main-label">
                                       <span class="form-hint">For example 943 476 5919</span>
-                                      <input type="number" placeholder="NHS Number" pattern="[0-9]*" required autocomplete="off" t value=""  maxlength="10" minlength="10" pattern="[0-9]*">
+                                      <input type="number" placeholder="NHS Number" pattern="[0-9]*" required autocomplete="off" t value=""  maxlength="10" minlength="10" pattern="[0-9]*" data-toggle-focus="form-first-name">
                                     </label>
                             </div>
                             <div class="cell  form-wrap"><br/>
