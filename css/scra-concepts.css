@@ -28,6 +28,10 @@ h5 {
     list-style-type: circle;
 }
 
+.help {
+    background: #fafafa;
+}
+
 @media screen and (min-width: 1023px) {
     .mismatch-alert {
         text-align: right;
