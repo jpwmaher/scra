@@ -243,15 +243,13 @@
     <div id="help" class="grid-container">
         <div class="grid-x grid-padding-x">
             <div class="cell">
-                <div class="callout ">
-                    <h6>Tips on finding a patient using patient search</h6>
-                    <ul>
-                        <li><a href="#">General search tips</a></li>
-                        <li><a href="#">Name tips</a></li>
-                        <li><a href="#">Date tips</a></li>
-                        <li><a href="#">Address finder tips</a></li>
-                    </ul>
-                </div>
+                <h6>Tips on finding a patient using patient search</h6>
+                <ul>
+                    <li><a href="#">General search tips</a></li>
+                    <li><a href="#">Name tips</a></li>
+                    <li><a href="#">Date tips</a></li>
+                    <li><a href="#">Address finder tips</a></li>
+                </ul>
             </div>
         </div>
     </div>
