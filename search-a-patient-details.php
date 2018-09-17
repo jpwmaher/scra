@@ -245,7 +245,7 @@
         <div class="grid-x grid-padding-x">
             <div class="cell">
                 <h6>Tips on finding a patient using patient search</h6>
-                <ul>
+                <ul class="contextual-help-list">
                     <li><a href="#">General search tips</a></li>
                     <li><a href="#">Name tips</a></li>
                     <li><a href="#">Date tips</a></li>
