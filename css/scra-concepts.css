@@ -29,7 +29,8 @@ h5 {
 }
 
 #help {
-    background: #e0e0e0;
+    background: #efefef;
+    padding-top: 20px;
 }
 
 @media screen and (min-width: 1023px) {
