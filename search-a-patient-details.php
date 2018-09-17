@@ -226,7 +226,7 @@
                     <div class="primary callout is-hidden" id="form-first-name" data-toggler="is-hidden">
                         <h6>Tips on using patient name search</h6>
                         <p>Brief summary of *wildcards etc.</p>
-                        <ul>
+                        <ul class="contextual-help-list">
                             <li><a href="#">General search tips</a></li>
                             <li><a href="#">Name tips</a></li>
                         </ul>
