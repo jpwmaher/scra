@@ -16,7 +16,7 @@
     <!-- Masthead -->
     <?php include("include-search-a-masthead.php"); ?>
 
-    <!-- Privacy alert -->
+    <!-- Privacy alert 
     <div id="privacy" class="grid-container">
         <div class="grid-x grid-padding-x">
             <div class="large-12 medium-12 cell">
@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- H1 -->
     <?php include("include-search-a-h1.php"); ?>
