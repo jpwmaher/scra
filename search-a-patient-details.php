@@ -224,7 +224,7 @@
 
             <div class="large-6 medium-4 cell" data-sticky-container>
                 <div class="sticky" data-sticky data-top-anchor="main-form:top" data-btm-anchor="main-form:bottom">
-                    <div class="warning callout is-hidden" id="form-callout" data-toggler="is-hidden" data-animate="hinge-in-from-top spin-out">
+                    <div class="warning callout is-hidden" id="form-callout" data-toggler="is-hidden">
                         <p>This is only visible when the above field has focus.</p>
                     </div>
                 </div>
