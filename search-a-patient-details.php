@@ -227,8 +227,8 @@
                         <h6>Tips on using patient name search</h6>
                         <p>Brief summary of *wildcards etc.</p>
                         <ul class="contextual-help-list">
-                            <li><a href="#">General search tips</a></li>
                             <li><a href="#">Name tips</a></li>
+                            <li><a href="#">General search tips</a></li>
                         </ul>
                     </div>
                     <div class="success callout is-hidden" id="form-surname" data-toggler="is-hidden">
