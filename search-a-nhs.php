@@ -75,13 +75,5 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <div id="sticky-footer-outer" class="grid-container full show-for-large" data-sticky-container>
-        <div id="footer-inner" class="grid-x grid-padding-x grid-margin-x sticky" data-sticky data-stick-to="bottom">
-            <div class="cell">
-                <strong>CONFIDENTIAL:</strong> PERSONAL PATIENT DATA acccessed by Inspector Clouseau - KIRKBY MANOR NH (8A819)
-            </div>
-        </div>
-    </div>
 
     <?php include("include-search-a-foot.php"); ?>
