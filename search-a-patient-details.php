@@ -223,10 +223,10 @@
 
             <div class="large-6 medium-4 cell" data-sticky-container>
                 <div class="sticky" data-sticky data-top-anchor="main-form:top" data-btm-anchor="main-form:bottom">
-                    <div class="callout is-hidden" id="form-first-name" data-toggler="is-hidden">
+                    <div class="primary callout is-hidden" id="form-first-name" data-toggler="is-hidden">
                         <p>First name contextual help content.</p>
                     </div>
-                    <div class="callout is-hidden" id="form-surname" data-toggler="is-hidden">
+                    <div class="secondary callout is-hidden" id="form-surname" data-toggler="is-hidden">
                         <p>Surname contextual help content.</p>
                     </div>
                 </div>
