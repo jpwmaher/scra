@@ -224,9 +224,14 @@
             <div class="large-6 medium-4 cell" data-sticky-container>
                 <div class="sticky" data-sticky data-top-anchor="main-form:top" data-btm-anchor="main-form:bottom">
                     <div class="primary callout is-hidden" id="form-first-name" data-toggler="is-hidden">
-                        <p>First name contextual help content.</p>
+                        <h6>Tips on using patient name search</h6>
+                        <p>Brief summary of *wildcards etc.</p>
+                        <ul>
+                            <li><a href="#">General search tips</a></li>
+                            <li><a href="#">Name tips</a></li>
+                        </ul>
                     </div>
-                    <div class="secondary callout is-hidden" id="form-surname" data-toggler="is-hidden">
+                    <div class="primary callout is-hidden" id="form-surname" data-toggler="is-hidden">
                         <p>Surname contextual help content.</p>
                     </div>
                 </div>
