@@ -47,7 +47,7 @@
         <br/>
         <div class="grid-x grid-padding-x">
 
-            <div id="main form" class="large-6 medium-8 cell">
+            <div id="main-form" class="large-6 medium-8 cell">
                 <form data-abide novalidate action="https://scra-prototypes.herokuapp.com/403-prototype-a-spinny-multiple.html" method="get" autocomplete="off">
                     <div data-abide-error class="alert callout" style="display: none;">
                         <p><i class="fi-alert"></i> There are some errors in your form.</p>
@@ -223,7 +223,7 @@
             </div>
 
             <div class="large-6 medium-4 cell" data-sticky-container>
-                <div class="sticky" data-sticky data-top-anchor="main-form">
+                <div class="sticky" data-sticky data-top-anchor="main-form" data-btm-anchor="main-form:bottom">
                     <div class="warning callout is-hidden" id="form-callout" data-toggler="is-hidden" data-animate="hinge-in-from-top spin-out">
                         <p>This is only visible when the above field has focus.</p>
                     </div>
