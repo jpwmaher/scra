@@ -9,6 +9,10 @@
         margin: 0;
     }
 
+    .primary-fade {
+        background: rgba(206, 231, 255, 0.6);
+    }
+
 </style>
 
 <body>
