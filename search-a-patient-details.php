@@ -76,11 +76,11 @@
                             <div id="form-name" class="cell form-wrap callout primary-fade">
                                 <h4>Name</h4>
                                 <label class="main-label">First name
-                                      <input type="text" placeholder="First name" value="" data-toggle-focus="form-callout-2">
+                                      <input type="text" placeholder="First name" value="" data-toggle-focus="form-first-name">
                                     </label>
 
                                 <label class="main-label">Surname <!-- <span style="color: red;">*</span> -->
-                                      <input type="text" placeholder="Surname" value="" data-toggle-focus="form-callout">
+                                      <input type="text" placeholder="Surname" value="" data-toggle-focus="form-surname">
                                     </label>
 
                                 <fieldset class="large-6 cell">
@@ -223,10 +223,10 @@
 
             <div class="large-6 medium-4 cell" data-sticky-container>
                 <div class="sticky" data-sticky data-top-anchor="main-form:top" data-btm-anchor="main-form:bottom">
-                    <div class="warning callout is-hidden" id="form-callout" data-toggler="is-hidden">
+                    <div class="warning callout is-hidden" id="form-first-name" data-toggler="is-hidden">
                         <p>This is only visible when the above field has focus.</p>
                     </div>
-                    <div class="warning callout is-hidden" id="form-callout-2" data-toggler="is-hidden">
+                    <div class="warning callout is-hidden" id="form-surname" data-toggler="is-hidden">
                         <p>Number 2</p>
                     </div>
                 </div>
