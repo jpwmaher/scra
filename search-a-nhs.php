@@ -62,7 +62,7 @@
 
                     <div class="grid-x grid-padding-x">
                         <div class="cell form-bg">
-                            <div class="cell form-wrap">
+                            <div class="cell form-wrap callout  primary-fade">
                                 <label class="main-label">NHS Number<br/>
                                       <span class="form-hint">For example 943 476 5919</span>
                                       <input type="number" placeholder="NHS Number" pattern="[0-9]*" required autocomplete="off" t value=""  maxlength="10" minlength="10" pattern="[0-9]*">
