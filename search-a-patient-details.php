@@ -87,7 +87,7 @@
                                 <fieldset class="large-6 cell">
                                     <legend>Include the following in the results:</legend>
                                     <div class="grid-x grid-padding-x small-up-1 medium-up-3 large-up-3">
-                                        <div class="cell"><input id="checkbox1" type="checkbox"><label for="checkbox1" style="font-weight: normal;"><span data-tooltip tabindex="1" title="This will return results for common misspellings such as McDonald/MacDonald. Checking this box could significantly increase search time.">Misspellings / similar</span></label></div>
+                                        <div class="cell"><input id="checkbox1" type="checkbox"><label for="checkbox1" style="font-weight: normal;"><span data-tooltip tabindex="1" title="This will return results for common misspellings such as McDonald/MacDonald. Checking this box could significantly increase search time.">Misspellings</span></label></div>
                                         <div class="cell"><input id="checkbox2" type="checkbox"><label for="checkbox2" style="font-weight: normal;"><span data-tooltip tabindex="1" title="This will search Spine for any known aliases. Checking this box could significantly increase search time.">Aliases</span></label></div>
                                         <div class="cell"><input id="checkbox3" type="checkbox"><label for="checkbox3" style="font-weight: normal;"><span data-tooltip tabindex="1" title="This will return results for both John Smith & Smith John. Checking this box could significantly increase search time.">Name reversal</span></label></div>
                                     </div>
