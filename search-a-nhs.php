@@ -58,7 +58,7 @@
         <br/>
         <div class="grid-x grid-padding-x">
 
-            <div class="large-6 medium-8 cell">
+            <div id="main-form" class="large-6 medium-8 cell">
                 <form data-abide novalidate action="https://scra-prototypes.herokuapp.com/403-prototype-a-spinny.html" method="get">
                     <div data-abide-error class="alert callout" style="display: none;">
                         <p><i class="fi-alert"></i> There are some errors in your form.</p>
@@ -83,6 +83,20 @@
                     </div>
                 </form>
             </div>
+
+            <div class="large-6 medium-4 cell" data-sticky-container>
+                <div class="sticky" data-sticky data-top-anchor="main-form:top" data-btm-anchor="main-form:bottom">
+                    <div class="success callout is-hidden" id="form-first-name" data-toggler="is-hidden">
+                        <h6>NHS Number contextual help</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <ul class="contextual-help-list">
+                            <li><a href="#">Who should have an NHS Number</a></li>
+                            <li><a href="#">General search tips</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
