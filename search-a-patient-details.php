@@ -73,7 +73,7 @@
                                 </fieldset>
                             </div>
 
-                            <div class="cell form-wrap callout primary-fade">
+                            <div id="form-name" class="cell form-wrap callout primary-fade">
                                 <h4>Name</h4>
                                 <label class="main-label">First name
                                       <input type="text" placeholder="First name" value="" data-toggle-focus="form-callout-2">
@@ -223,7 +223,7 @@
             </div>
 
             <div class="large-6 medium-4 cell" data-sticky-container>
-                <div class="sticky" data-sticky data-top-anchor="main-form:top" data-btm-anchor="main-form:bottom">
+                <div class="sticky" data-sticky data-top-anchor="form-name:top" data-btm-anchor="form-name:bottom">
                     <div class="warning callout is-hidden" id="form-callout" data-toggler="is-hidden">
                         <p>This is only visible when the above field has focus.</p>
                     </div>
