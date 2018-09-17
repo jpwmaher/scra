@@ -221,8 +221,8 @@
                 </form>
             </div>
 
-            <div class="large-6 medium-4 cell" data-sticky-container>
-                <div class="sticky" data-sticky data-top-anchor="main-form:top" data-btm-anchor="main-form:bottom">
+            <div class="large-6 medium-4 cell show-for-medium" data-sticky-container>
+                <div class="sticky show-for-medium" data-sticky data-top-anchor="main-form:top" data-btm-anchor="main-form:bottom">
                     <div class="success callout is-hidden" id="form-first-name" data-toggler="is-hidden">
                         <h6>Tips on using patient name search</h6>
                         <p>Brief summary of *wildcards etc.</p>
