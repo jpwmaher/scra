@@ -70,7 +70,7 @@
                                 <h4>NHS Number</h4>
                                 <label class="main-label">
                                       <span class="form-hint">For example 943 476 5919</span>
-                                      <input type="number" placeholder="NHS Number" pattern="[0-9]*" required autocomplete="off" t value=""  maxlength="10" minlength="10" pattern="[0-9]*" data-toggle-focus="form-first-name">
+                                      <input type="number" placeholder="NHS Number" pattern="[0-9]*" required autocomplete="off" t value=""  maxlength="10" minlength="10" pattern="[0-9]*">
                                     </label>
                             </div>
                             <div class="cell  form-wrap"><br/>
@@ -84,7 +84,7 @@
                 </form>
             </div>
 
-            <div class="large-6 medium-4 cell" data-sticky-container>
+            <!-- <div class="large-6 medium-4 cell" data-sticky-container>
                 <div class="sticky" data-sticky data-top-anchor="main-form:top" data-btm-anchor="main-form:bottom">
                     <div class="success callout is-hidden" id="form-first-name" data-toggler="is-hidden">
                         <h6>NHS Number contextual help</h6>
@@ -95,8 +95,21 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
+        </div>
+    </div>
+
+    <!-- Help -->
+    <div id="help" class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell">
+                <h6>Tips on finding a patient using patient search</h6>
+                <ul class="contextual-help-list">
+                    <li><a href="#">Who should have an NHS Number</a></li>
+                    <li><a href="#">General search tips</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
