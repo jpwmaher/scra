@@ -104,9 +104,12 @@
     <div id="help" class="grid-container">
         <div class="grid-x grid-padding-x">
             <div class="cell">
-                <h6>Tips on finding a patient using patient search</h6>
+                <h6>Tips on finding a patient using an NHS Number</h6>
                 <ul class="contextual-help-list">
                     <li><a href="#">Who should have an NHS Number</a></li>
+                    <li><a href="#">A link</a></li>
+                    <li><a href="#">Another link</a></li>
+                    <li><a href="#">Another link</a></li>
                     <li><a href="#">General search tips</a></li>
                 </ul>
             </div>
