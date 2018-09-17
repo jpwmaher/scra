@@ -242,8 +242,7 @@
     <!-- Help -->
     <div id="help" class="grid-container">
         <div class="grid-x grid-padding-x">
-            <hr>
-            <div class="large-6 medium-6 cell">
+            <div class="cell">
                 <div class="callout ">
                     <h6>Tips on finding a patient using patient search</h6>
                     <ul>
