@@ -18,9 +18,9 @@
     }
 
     #tab-2 {
-        background: #005EB8;
-        color: white;
-        border: 2px solid #005EB8;
+        background: #005EB8 !important;
+        color: white !important;
+        border: 2px solid #005EB8 !important;
     }
 
 </style>
