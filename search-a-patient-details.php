@@ -238,6 +238,7 @@
             </div>
         </div>
     </div>
+
     <!-- Help -->
     <div id="help" class="grid-container">
         <div class="grid-x grid-padding-x">
