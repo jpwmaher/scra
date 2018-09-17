@@ -13,4 +13,6 @@
     <link rel="stylesheet" href="css/scra-396.css">
     <link rel="stylesheet" href="css/foundation-icons.css" />
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="css/scra-concepts.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
