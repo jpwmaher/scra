@@ -47,7 +47,7 @@
         <br/>
         <div class="grid-x grid-padding-x">
 
-            <div id="main-form" class="large-6 medium-8 cell">
+            <div id="main-form" class="large-8 medium-8 cell">
                 <form data-abide novalidate action="https://scra-prototypes.herokuapp.com/403-prototype-a-spinny-multiple.html" method="get" autocomplete="off">
                     <div data-abide-error class="alert callout" style="display: none;">
                         <p><i class="fi-alert"></i> There are some errors in your form.</p>
@@ -224,14 +224,14 @@
                 </form>
             </div>
 
-            <div class="large-6 medium-4 cell show-for-medium" data-sticky-container>
-                <div class="callout success">
+            <div class="large-4 medium-4 cell show-for-medium" data-sticky-container>
+                <div id="search-video" class="callout success">
                     <div class="flex-video">
                         <h4>Help with searching for patients</h4>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/DfIeUzs1daQ" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="sticky show-for-medium" data-sticky data-top-anchor="main-form:top" data-btm-anchor="main-form:bottom">
+                <div class="sticky show-for-medium" data-sticky data-top-anchor="search-video:bottom" data-btm-anchor="main-form:bottom">
                     <div class="success callout is-hidden" id="form-first-name" data-toggler="is-hidden">
                         <h6>Tips on using patient name search</h6>
                         <p>Brief summary of *wildcards etc.</p>
