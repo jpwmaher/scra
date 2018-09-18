@@ -47,7 +47,7 @@
         <br/>
         <div class="grid-x grid-padding-x">
 
-            <div id="main-form" class="large-8 medium-8 cell">
+            <div id="main-form" class="large-6 medium-8 cell">
                 <form data-abide novalidate action="https://scra-prototypes.herokuapp.com/403-prototype-a-spinny-multiple.html" method="get" autocomplete="off">
                     <div data-abide-error class="alert callout" style="display: none;">
                         <p><i class="fi-alert"></i> There are some errors in your form.</p>
@@ -227,7 +227,7 @@
                 </form>
             </div>
 
-            <div class="large-4 medium-4 cell show-for-medium" data-sticky-container>
+            <div class="large-6 medium-4 cell show-for-medium" data-sticky-container>
                 <div id="search-video" class="callout success">
                     <h5>Help with searching for patients</h5>
                     <div class="flex-video">
