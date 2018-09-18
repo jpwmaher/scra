@@ -76,14 +76,17 @@
 
                             <div id="form-name" class="cell form-wrap callout primary-fade">
                                 <h4>Name</h4>
-                                <label class="main-label">First name
+                                <div class="grid-x grid-padding-x">
+                                    <div class="large-10 medium-12 small-12 cell">
+                                        <label class="main-label">First name
                                       <input type="text" placeholder="First name" value="" data-toggle-focus="form-first-name">
                                     </label>
 
-                                <label class="main-label">Surname <!-- <span style="color: red;">*</span> -->
+                                        <label class="main-label">Surname
                                       <input type="text" placeholder="Surname" value="" data-toggle-focus="form-first-name">
                                     </label>
-
+                                    </div>
+                                </div>
                                 <fieldset class="large-6 cell">
                                     <legend>Include the following in the results:</legend>
                                     <div class="grid-x grid-padding-x small-up-1 medium-up-1 large-up-1">
@@ -226,7 +229,7 @@
 
             <div class="large-4 medium-4 cell show-for-medium" data-sticky-container>
                 <div id="search-video" class="callout success">
-                    <h4>Help with searching for patients</h4>
+                    <h5>Help with searching for patients</h5>
                     <div class="flex-video">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/DfIeUzs1daQ" frameborder="0" allowfullscreen></iframe>
                     </div>
