@@ -225,6 +225,12 @@
             </div>
 
             <div class="large-6 medium-4 cell show-for-medium" data-sticky-container>
+                <div class="callout success">
+                    <div class="flex-video">
+                        <h4>Help with searching for patients</h4>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DfIeUzs1daQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
                 <div class="sticky show-for-medium" data-sticky data-top-anchor="main-form:top" data-btm-anchor="main-form:bottom">
                     <div class="success callout is-hidden" id="form-first-name" data-toggler="is-hidden">
                         <h6>Tips on using patient name search</h6>
