@@ -66,7 +66,7 @@
                                 <!--  <div id="mandatory" class="cell"><span style="color: red;">*</span> Denotes required field</div> -->
                                 <fieldset class="cell">
                                     <label class="main-label"><!-- <span style="color: red;">*</span>  --></label>
-                                    <div class="grid-x grid-padding-x small-up-1 medium-up-3 large-up-3">
+                                    <div class="grid-x grid-padding-x small-up-1 medium-up-3 large-up-4">
                                         <div class="cell"><input type="radio" name="gender" value="Red" id="Male"><label for="Male" style="font-weight: normal;">Male</label></div>
                                         <div class="cell"><input type="radio" name="gender" value="Blue" id="Female"><label for="Female" style="font-weight: normal;">Female</label></div>
                                         <div class="cell"><input type="radio" name="gender" value="Green" id="Notknown"><label for="Notknown" style="font-weight: normal;">Not known</label></div>
