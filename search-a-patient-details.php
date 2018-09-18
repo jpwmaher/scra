@@ -66,7 +66,7 @@
                                 <!--  <div id="mandatory" class="cell"><span style="color: red;">*</span> Denotes required field</div> -->
                                 <fieldset class="cell">
                                     <label class="main-label"><!-- <span style="color: red;">*</span>  --></label>
-                                    <div class="grid-x grid-padding-x small-up-1 medium-up-3 large-up-4">
+                                    <div class="grid-x grid-padding-x small-up-1 medium-up-3 large-up-5">
                                         <div class="cell"><input type="radio" name="gender" value="Red" id="Male"><label for="Male" style="font-weight: normal;">Male</label></div>
                                         <div class="cell"><input type="radio" name="gender" value="Blue" id="Female"><label for="Female" style="font-weight: normal;">Female</label></div>
                                         <div class="cell"><input type="radio" name="gender" value="Green" id="Notknown"><label for="Notknown" style="font-weight: normal;">Not known</label></div>
@@ -229,7 +229,7 @@
 
             <div class="large-6 medium-4 cell show-for-medium" data-sticky-container>
                 <div id="search-video" class="callout success">
-                    <h5>Help with searching for patients</h5>
+                    <h6>Help with searching for patients</h6>
                     <div class="flex-video">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/DfIeUzs1daQ" frameborder="0" allowfullscreen></iframe>
                     </div>
