@@ -226,8 +226,8 @@
 
             <div class="large-4 medium-4 cell show-for-medium" data-sticky-container>
                 <div id="search-video" class="callout success">
+                    <h4>Help with searching for patients</h4>
                     <div class="flex-video">
-                        <h4>Help with searching for patients</h4>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/DfIeUzs1daQ" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
