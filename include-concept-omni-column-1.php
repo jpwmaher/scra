@@ -14,7 +14,7 @@
 
         <div class="cell">
             <div class="tab-icon">
-                <a href="#" class="expanded tab-icon-button button">
+                <a id="vert-tab-2" href="#" class="expanded tab-icon-button button">
                                 <img src="img/pill.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label">Clinical</span>
                                 </a>
@@ -23,7 +23,7 @@
 
         <div class="cell">
             <div class="tab-icon">
-                <a href="#" class="expanded tab-icon-button button">
+                <a id="vert-tab-3" href="#" class="expanded tab-icon-button button">
                                 <img src="img/steth.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label">Providers</span>
                                 </a>
@@ -32,7 +32,7 @@
 
         <div class="cell">
             <div class="tab-icon">
-                <a href="#" class="expanded tab-icon-button button">
+                <a id="vert-tab-4" href="#" class="expanded tab-icon-button button">
                                 <img src="img/clock-2.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label">Timeline</span>
                                 </a>
@@ -41,7 +41,7 @@
 
         <div class="cell">
             <div class="tab-icon tab-icon-alert">
-                <a href="#" class="expanded tab-icon-button button">
+                <a id="vert-tab-5" href="#" class="expanded tab-icon-button button">
                                 <img src="img/Alert.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label">Alerts</span>
                                 </a>
@@ -50,7 +50,7 @@
 
         <div class="cell">
             <div class="tab-icon tab-icon-flag">
-                <a href="#" class="expanded tab-icon-button button">
+                <a id="vert-tab-6" href="#" class="expanded tab-icon-button button">
                                 <img src="img/flag-2.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label">Flags</span>
                                 </a>
