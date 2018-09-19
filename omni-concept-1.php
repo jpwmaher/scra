@@ -2,6 +2,13 @@
 
 <?php include("variables-concept-omni.php"); ?>
 
+<style>
+    #vert-tab-1 {
+        background: #f5f5f5;
+    }
+
+</style>
+
 <body>
 
     <div class="grid-y medium-grid-frame">

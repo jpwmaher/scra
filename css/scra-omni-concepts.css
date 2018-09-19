@@ -38,10 +38,6 @@
     margin-bottom: 0px;
 }
 
-.tab-icon-button-active {
-    background: #f5f5f5;
-}
-
 .tab-icon-button:hover {
     background: #dedede;
     transition: 0.0s;
