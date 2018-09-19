@@ -11,7 +11,7 @@
             <?php include("include-concept-omni-masthead.php"); ?>
 
             <!-- Patient summary-->
-            <?php include("include-concept-omni-masthead.php"); ?>
+            <?php include("include-concept-omni-patient-summary.php"); ?>
 
             <!-- Content -->
             <div class="cell medium-auto medium-cell-block-container">
