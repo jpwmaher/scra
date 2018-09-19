@@ -1,7 +1,7 @@
 <div id="third-column" class="cell medium-auto medium-cell-block-y content-column">
 
 
-    <h2>Patient details <img src="img/Torso.svg" style="height: 24px;"></h2><br/>
+    <h2>Patient details <img src="img/Torso.svg" style="height: 24px;"></h2>
 
     <div id="name" class="cell" data-magellan-target="name">
         <br/>
