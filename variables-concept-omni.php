@@ -1,13 +1,13 @@
 <?php 
-$firstname = "Katherine";
-$surname = "Smith";
+$firstname = "William";
+$surname = "Shakespeare";
 $dob = "30-Dec-2008";
 $nhsno = "123 456 7890";
 $street = "1 Henley Street";
 $town = "Stratford";
 $county = "Warwickshire";
 $postcode = "AB12 3DC";
-$gender = "Female";
+$gender = "Male";
 $link_dashboard = "concept-b-patient-dashboard.php";
 $link_category = "concept-b-patient-category.php";
 $link_provider = "concept-b-patient-provider.php";
