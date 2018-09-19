@@ -11,6 +11,8 @@
 
 <body>
 
+    <?php include("include-concept-b-scrolltotop.php"); ?>
+
     <div class="grid-y medium-grid-frame">
         <div class="cell shrink header medium-cell-block-container">
 
