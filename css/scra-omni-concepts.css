@@ -8,8 +8,7 @@
     /* Rectangle: */
     background-image: linear-gradient(-180deg, #005EB8 0%, #0072CE 50%, #005EB8 100%);
     background: #005eb8;
-    border-bottom: 5px solid #d8dde0;
-
+    border-bottom: 2px solid #d8dde0;
 }
 
 .summary-label {
