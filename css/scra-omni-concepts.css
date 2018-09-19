@@ -45,7 +45,8 @@
 }
 
 .tab-icon-button:hover .tab-icon-img {
-    padding: 20px !important;
+    padding: 2px !important;
+    transition: 0.2s;
 }
 
 .tab-icon-button:hover .tab-icon-label {
