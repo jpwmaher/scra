@@ -7,6 +7,10 @@
         background: #f5f5f5;
     }
 
+    #col-2-link {
+        font-weight: bold;
+    }
+
 </style>
 
 <body>
