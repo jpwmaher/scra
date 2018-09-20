@@ -7,7 +7,7 @@
         background: #f5f5f5;
     }
 
-    #col-2-link {
+    #col-2-link-1 {
         font-weight: bold;
     }
 
