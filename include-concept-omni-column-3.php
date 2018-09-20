@@ -1,6 +1,7 @@
 <div id="third-column" class="cell medium-auto medium-cell-block-y content-column">
 
-    <h2>Key demographics <img src="img/Torso.svg" style="height: 24px;"></h2>
+    <h2>
+        <?php echo $label_cat_1 ?> <img src="img/Torso.svg" style="height: 24px;"></h2>
 
     <div id="name" class="cell" data-magellan-target="name">
         <br/>
