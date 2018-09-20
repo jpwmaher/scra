@@ -25,6 +25,7 @@ $link_cat_1 = "omni-concept-1.php";
 $label_cat_2 = "Contacts & next of kin";
 $link_cat_2 = "omni-concept-1-contacts.php";
 $label_cat_3 = "Power of Attorney";
+$link_cat_3 = "omni-concept-1-poa.php";
 $label_cat_4 = "Chargeability status";
 $label_alerts = "Alerts";
 $label_flags = "Flags";
