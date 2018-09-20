@@ -59,8 +59,8 @@
 }
 
 .tab-icon-active {
-    background: #E3E6E8;
-    border-right: 0px #E3E6E8 solid;
+    background: #F2F3F4;
+    border-right: 0px #F2F3F4 solid;
     color: #415564;
 }
 
@@ -101,7 +101,7 @@
 }
 
 #second-column {
-    background: #E3E6E8;
+    background: #F2F3F4;
     color: #415564 !important;
     font-size: 12px;
     padding-top: 10px;
