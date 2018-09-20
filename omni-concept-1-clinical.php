@@ -38,7 +38,7 @@
                     <?php include("include-concept-omni-column-2-clinical.php"); ?>
 
                     <!-- Main content -->
-                    <?php include("include-concept-omni-column-3.php"); ?>
+                    <?php include("include-concept-omni-column-3-clinical.php"); ?>
 
                     <!-- Info bar -->
                     <?php include("include-concept-omni-column-4.php"); ?>
