@@ -4,7 +4,7 @@
             <a id="col-2-link-1" href="#name">
                 <?php echo $label_cat_1 ?>
             </a>
-            <ul class="menu vertical nested">
+            <ul class="menu vertical nested is-active">
                 <li><a href="#name">Name</a></li>
                 <li><a href="#key-details">Key details</a></li>
                 <li><a href="#address">Address</a></li>
