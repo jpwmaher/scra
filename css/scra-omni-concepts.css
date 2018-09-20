@@ -26,7 +26,7 @@
 
 .tab-icon {
     text-align: center;
-    border-right: 1px rgba(255, 255, 255, 0.2) solid;
+    border-right: 0px rgba(255, 255, 255, 0.2) solid;
     border-left: 0px rgba(255, 255, 255, 0.0) solid;
     border-bottom: 1px rgba(255, 255, 255, 0.05) solid;
 }
