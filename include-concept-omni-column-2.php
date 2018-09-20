@@ -5,9 +5,9 @@
                 <?php echo $label_cat_1 ?>
             </a>
             <ul class="menu vertical nested is-active">
-                <li><a href="#name">Name</a></li>
-                <li><a href="#key-details">Key details</a></li>
-                <li><a href="#address">Address</a></li>
+                <li><a href="<?php echo $link_cat_1 ?>#name">Name</a></li>
+                <li><a href="<?php echo $link_cat_1 ?>#key-details">Key details</a></li>
+                <li><a href="<?php echo $link_cat_1 ?>#address">Address</a></li>
             </ul>
         </li>
         <li>
