@@ -66,7 +66,7 @@
 
         <div class="cell">
             <div class="tab-icon tab-icon-active">
-                <a id="vert-tab-1" href="#" class="expanded tab-icon-button button">
+                <a id="vert-tab-1" href="#" class=" tab-icon-button button">
                                 <img src="img/Torso.svg" class="tab-icon-img tab-icon-img-active"><br/>
                                 <span class="tab-icon-label">Patient</span>
                                 </a>
@@ -75,7 +75,7 @@
 
         <div class="cell">
             <div class="tab-icon">
-                <a id="vert-tab-2" href="#" class="expanded tab-icon-button button">
+                <a id="vert-tab-2" href="#" class=" tab-icon-button button">
                                 <img src="img/pill.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label">Clinical</span>
                                 </a>
@@ -84,7 +84,7 @@
 
         <div class="cell">
             <div class="tab-icon">
-                <a id="vert-tab-3" href="#" class="expanded tab-icon-button button">
+                <a id="vert-tab-3" href="#" class=" tab-icon-button button">
                                 <img src="img/steth.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label">Providers</span>
                                 </a>
@@ -93,7 +93,7 @@
 
         <div class="cell">
             <div class="tab-icon">
-                <a id="vert-tab-4" href="#" class="expanded tab-icon-button button">
+                <a id="vert-tab-4" href="#" class=" tab-icon-button button">
                                 <img src="img/clock-2.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label">Timeline</span>
                                 </a>
@@ -102,7 +102,7 @@
 
         <div class="cell">
             <div class="tab-icon tab-icon-alert">
-                <a id="vert-tab-5" href="#" class="expanded tab-icon-button button">
+                <a id="vert-tab-5" href="#" class=" tab-icon-button button">
                                 <img src="img/Alert.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label">                <?php echo $label_alerts ?></span>
                                 </a>
@@ -111,7 +111,7 @@
 
         <div class="cell">
             <div class="tab-icon tab-icon-flag">
-                <a id="vert-tab-6" href="#" class="expanded tab-icon-button button">
+                <a id="vert-tab-6" href="#" class=" tab-icon-button button">
                                 <img src="img/flag-2.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label">                <?php echo $label_flags ?></span>
                                 </a>
