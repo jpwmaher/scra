@@ -11,7 +11,7 @@
             </ul>
         </li>
         <li>
-            <a id="col-2-link-2" href="#contacts">
+            <a id="col-2-link-2" href="<?php echo $link_cat_2 ?>">
                 <?php echo $label_cat_2 ?>
             </a>
         </li>
