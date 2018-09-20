@@ -19,7 +19,7 @@
                 <span class="summary-label">NHS No:</span><br/><span class="summary-info">123 456 7890</span>
 
             </div>
-            <div id="summary-address" class="large-shrink medium-auto small-6 cell summary-panel">
+            <div id="summary-address" class="large-shrink medium-auto small-12 cell summary-panel">
                 <span class="summary-label">Address:</span><br/>
                 <span class="summary-info">101 Other Street, Stratford-upon-Avon, Warwickshire, AB12 3DE</span>
             </div>
