@@ -32,7 +32,7 @@
                 <div class="grid-x grid-padding-x">
 
                     <!-- Vertical tabs icon -->
-                    <?php include("include-concept-omni-column-1.php"); ?>
+                    <?php include("include-concept-omni-column-1-clinical.php"); ?>
 
                     <!-- Menu -->
                     <?php include("include-concept-omni-column-2-clinical.php"); ?>
