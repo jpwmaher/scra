@@ -1,6 +1,6 @@
 <div id="first-column" class="cell medium-shrink medium-cell-block-y content-column show-for-medium">
 
-    <div class="grid-x grid-padding-x small-up-6 medium-up-1 large-up-1">
+    <div class="grid-x grid-padding-x medium-up-1 large-up-1">
 
         <div class="cell">
             <div class="tab-icon tab-icon-active">
@@ -62,7 +62,7 @@
 
 <div id="first-column" class="cell medium-shrink medium-cell-block-y content-column hide-for-medium" style="width: 100%;">
 
-    <div class="grid-x grid-padding-x small-up-6 medium-up-1 large-up-1">
+    <div class="grid-x  small-up-6">
 
         <div class="cell">
             <div class="tab-icon tab-icon-active">
