@@ -1,5 +1,5 @@
 <div id="second-column" class="cell medium-2 medium-cell-block-y content-column">
-    <ul class="menu vertical accordion-menu" data-deep-linking="true">
+    <ul class="menu vertical accordion-menu" data-deep-linking="true" data-accordion-menu>
         <li>
             <a id="col-2-link-1" href="#name">
                 <?php echo $label_cat_1 ?>
