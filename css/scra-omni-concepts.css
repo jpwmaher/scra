@@ -40,7 +40,7 @@
 .tab-icon-button:hover {
     background: #dedede;
     transition: 0.0s;
-    border-right-color: #dedede !important;
+    border-right-color: #C7CCD0 !important;
     color: #415564 !important;
 }
 
@@ -55,7 +55,7 @@
 
 .tab-icon-active {
     background: rgba(66, 85, 99, 0.3);
-    border-right: 1px rgba(66, 85, 99, 0.3) solid;
+    border-right: 1px #C7CCD0 solid;
     color: #415564;
 }
 
