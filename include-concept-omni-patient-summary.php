@@ -1,9 +1,8 @@
 <div id="patient-summary" class="grid-x grid-padding-x">
     <div class="cell">
         <div class="grid-x grid-padding-x">
-            <div id="summary-name" class="large-shrink medium-shrink cell summary-panel">
+            <div id="summary-name" class="large-shrink medium-shrink small-6 cell summary-panel">
                 <div class="grid-x">
-
                     <div class="auto cell">
                         <span class="summary-label">Full name:</span><br/><span class="summary-info"><?php echo $firstname ?> <?php echo $surname ?></span>
                     </div>
