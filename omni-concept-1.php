@@ -4,7 +4,7 @@
 
 <style>
     #vert-tab-1 {
-        background: #f5f5f5;
+        background: rgba(66, 85, 99, 0.3);
     }
 
     #col-2-link-1 {
