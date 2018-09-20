@@ -55,7 +55,7 @@
 
 .tab-icon-active {
     background: #E3E6E8;
-    border-right: 1px #E3E6E8 solid;
+    border-right: 0px #E3E6E8 solid;
     color: #415564;
 }
 
