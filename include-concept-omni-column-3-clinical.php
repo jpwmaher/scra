@@ -8,7 +8,7 @@
 
         <br/>
 
-        <div class="callout primary" style="font-weight: 300;">
+        <div class="callout primary" style="font-weight: 300;  -webkit-box-shadow: 0px 0px 0px 0px rgba(65, 85, 100, 0.3);     -moz-box-shadow: 0px 0px 0px 0px rgba(65, 85, 100, 0.3);     box-shadow: 0px 0px 0px -0px rgba(65, 85, 100, 0.3);">
             <h3 id="Disclaimer">Sourced from the patient's General Practice record. This summary may not include all the information pertinent to this patient.</h3>
             <p id="CreateTime">Summary created: 27 May 2015 16:42</p>
             <p id="RegistrationStartedStatement" class="HighlightedStatement">At the time this record was created, this patient had recently registered with the GP Practice. GP Summary information may not be complete.</p>
