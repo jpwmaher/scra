@@ -27,5 +27,6 @@ $link_cat_3 = "omni-concept-1-poa.php";
 $label_cat_4 = "Chargeability status";
 $label_alerts = "Alerts";
 $label_flags = "Flags";
-$label_mhcp = "Mental Health Crisis Plan";
+$label_clinical_cat_1 = "Summary Care Record";
+$link_clinical_cat_1 = "omni-concept-1-clinical.php";
 ?>

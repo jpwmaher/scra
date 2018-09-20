@@ -1,8 +1,8 @@
 <div id="second-column" class="cell medium-2 medium-cell-block-y content-column">
     <ul class="menu vertical accordion-menu" data-deep-linking="true" data-accordion-menu data-submenu-toggle="true">
         <li>
-            <a id="col-2-link-1" href="<?php echo $link_cat_1 ?>">
-                <?php echo $label_cat_1 ?>
+            <a id="col-2-link-1" href="<?php echo $link_clinical_cat_1 ?>">
+                <?php echo $label_clinical_cat_1 ?>
             </a>
             <ul class="menu vertical nested is-active">
                 <li><a href="<?php echo $link_cat_1 ?>#name">Name</a></li>
