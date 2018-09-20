@@ -5,6 +5,7 @@
 <style>
     #vert-tab-1 {
         background: #F2F3F4;
+        font-weight: bold;
     }
 
     #col-2-link-3 {
