@@ -6,7 +6,6 @@
 
     <div id="poa" class="cell" data-magellan-target="poa">
         <br/>
-        <h5>Power of Attorney</h5>
 
         <div class="grid-x grid-padding-x">
             <div class="cell">
