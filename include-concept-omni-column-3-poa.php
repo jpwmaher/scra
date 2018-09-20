@@ -1,7 +1,8 @@
 <div id="third-column" class="cell medium-auto medium-cell-block-y content-column">
 
     <h2>
-        <?php echo $label_cat_3 ?> <img src="img/Torso.svg" style="height: 24px;"></h2>
+        <?php echo $label_cat_3 ?>
+    </h2>
 
     <div id="poa" class="cell" data-magellan-target="poa">
         <br/>
