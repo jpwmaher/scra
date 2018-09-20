@@ -5,9 +5,16 @@
                 <?php echo $label_clinical_cat_1 ?>
             </a>
             <ul class="menu vertical nested is-active">
-                <li><a href="<?php echo $link_cat_1 ?>#name">Name</a></li>
-                <li><a href="<?php echo $link_cat_1 ?>#key-details">Key details</a></li>
-                <li><a href="<?php echo $link_cat_1 ?>#address">Address</a></li>
+                <li><a href="#first">Allergies &amp; Sensitivities</a></li>
+                <li><a href="#second">Acute Medications</a></li>
+                <li><a href="#third">Current Repeat Medications</a></li>
+                <li><a href="#fourth">Past Repeat Medications</a></li>
+                <li><a href="#fifth">Diagnoses</a></li>
+                <li><a href="#sixth">Problems &amp; issues</a></li>
+                <li><a href="#seventh">Observations</a></li>
+                <li><a href="#eighth">Treatments</a></li>
+                <li><a href="#ninth">Results</a></li>
+                <li><a href="#tenth">Care events</a></li>
             </ul>
         </li>
         <li>
