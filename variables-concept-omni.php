@@ -21,6 +21,7 @@ $link_medication = "concept-b-patient-medication.php";
 $link_mhcp = "concept-b-patient-mhcp.php";
 $link_eolp = "#";
 $label_cat_1 = "Key demographics";
+$link_cat_1 = "omni-concept-1.php";
 $label_cat_2 = "Contacts & next of kin";
 $label_cat_3 = "Power of Attorney";
 $label_cat_4 = "Chargeability status";
