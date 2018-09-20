@@ -120,7 +120,7 @@
 
 #fourth-column {
     font-size: 10px;
-    border-left: 1px rgba(255, 255, 255, 0.9) solid;
+    border-left: #efefef 1px solid;
     padding-top: 10px;
     /*  -webkit-box-shadow: -1px 1px 5px -1px rgba(65, 85, 100, 0.3);
     -moz-box-shadow: -1px 1px 5px -1px rgba(65, 85, 100, 0.3);
