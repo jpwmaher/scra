@@ -43,7 +43,7 @@
             <div class="tab-icon tab-icon-alert">
                 <a id="vert-tab-5" href="#" class="expanded tab-icon-button button">
                                 <img src="img/Alert.svg" class="tab-icon-img"><br/>
-                                <span class="tab-icon-label">Alerts</span>
+                                <span class="tab-icon-label">                <?php echo $label_alerts ?></span>
                                 </a>
             </div>
         </div>
@@ -52,7 +52,7 @@
             <div class="tab-icon tab-icon-flag">
                 <a id="vert-tab-6" href="#" class="expanded tab-icon-button button">
                                 <img src="img/flag-2.svg" class="tab-icon-img"><br/>
-                                <span class="tab-icon-label">Flags</span>
+                                <span class="tab-icon-label">                <?php echo $label_flags ?></span>
                                 </a>
             </div>
         </div>
