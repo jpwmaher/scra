@@ -132,3 +132,8 @@
 .second-column-menu {
     margin-left: 0px;
 }
+
+.accordion-menu li {
+    background: transparent;
+    padding: 0px;
+}
