@@ -38,9 +38,9 @@
 }
 
 .tab-icon-button:hover {
-    background: #dedede;
+    background: #C7CCD0;
     transition: 0.0s;
-    border-right-color: #E3E6E8 !important;
+    border-right-color: #C7CCD0 !important;
     color: #415564 !important;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .tab-icon-active {
-    background: rgba(66, 85, 99, 0.3);
+    background: #E3E6E8;
     border-right: 1px #E3E6E8 solid;
     color: #415564;
 }
