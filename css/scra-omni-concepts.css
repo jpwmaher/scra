@@ -37,6 +37,10 @@
     margin-bottom: 0px;
 }
 
+.tab-icon-button-small {
+    padding: 0.5em !important;
+}
+
 .tab-icon-button:hover {
     background: #C7CCD0;
     transition: 0.0s;
