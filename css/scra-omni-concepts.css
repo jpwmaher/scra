@@ -143,3 +143,7 @@
 .accordion-menu li .is-accordion-submenu-item {
     border-bottom: 0px solid rgba(188, 196, 211, 0.3);
 }
+
+.submenu-toggle {
+    top: -5px;
+}
