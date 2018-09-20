@@ -39,6 +39,7 @@
 
 .tab-icon-button-small {
     padding: 0.5em !important;
+    width: 100%;
 }
 
 .tab-icon-button:hover {
