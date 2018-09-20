@@ -19,6 +19,9 @@
                 </div>
             </div>
             <div class="cell">
+                <hr>
+            </div>
+            <div class="cell">
                 <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-5">
                     <div class="cell marbot"><span class="summary-label">Name:</span><br/><span>Perry Mason</span><br/></div>
                     <div class="cell marbot"><span class="summary-label">Relationship:</span><br/><span>Solicitor</span><br/></div>
@@ -27,6 +30,9 @@
                     <div class="cell marbot"><span class="summary-label">Telephone:</span><br/><span>01234 567890</span><br/></div>
                     <div class="cell marbot"><span class="summary-label">Email: </span><br/><span>name@email.com</span><br/></div>
                 </div>
+            </div>
+            <div class="cell">
+                <hr>
             </div>
             <div class="cell">
                 <div class="grid-x  grid-margin-x small-up-2 medium-up-3 large-up-5">
