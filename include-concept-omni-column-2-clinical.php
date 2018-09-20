@@ -18,18 +18,8 @@
             </ul>
         </li>
         <li>
-            <a id="col-2-link-2" href="<?php echo $link_cat_2 ?>">
-                <?php echo $label_cat_2 ?>
-            </a>
-        </li>
-        <li>
-            <a id="col-2-link-3" href="<?php echo $link_cat_3 ?>">
-                <?php echo $label_cat_3 ?>
-            </a>
-        </li>
-        <li>
-            <a id="col-2-link-4" href="<?php echo $link_cat_4 ?>">
-                <?php echo $label_cat_4 ?>
+            <a id="col-2-link-2" href="<?php echo $link_clinical_cat_2 ?>">
+                <?php echo $label_clinical_cat_2 ?>
             </a>
         </li>
     </ul>

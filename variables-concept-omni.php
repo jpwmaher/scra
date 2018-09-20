@@ -29,4 +29,6 @@ $label_alerts = "Alerts";
 $label_flags = "Flags";
 $label_clinical_cat_1 = "Summary Care Record";
 $link_clinical_cat_1 = "omni-concept-1-clinical.php";
+$label_clinical_cat_2 = "GP Connect Record";
+$link_clinical_cat_2 = "omni-concept-1-clinical-gpc.php";
 ?>
