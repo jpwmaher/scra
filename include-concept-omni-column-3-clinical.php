@@ -45,7 +45,7 @@
             <h4>Acute Medication (issued in the last 12 months)</h4>
             <br />
             <div class="table-scroll">
-                <table id="AcuteMeds" summary="This table includes information about this patient's acute medications.">
+                <table id="AcuteMeds" summary="This table includes information about this patient's acute medications." class="hover">
                     <thead>
                         <tr>
                             <th>Type</th>
@@ -109,7 +109,7 @@
             <h4>Current Repeat Medication</h4>
             <br />
             <div class="table-scroll">
-                <table id="RepeatMeds" summary="This table includes information about this patient\'s current repeat medications.">
+                <table id="RepeatMeds" summary="This table includes information about this patient\'s current repeat medications." class="hover">
                     <thead>
                         <tr>
                             <th>Type</th>
@@ -194,7 +194,7 @@
             <h4>Past Repeat Medication (discontinued in the last 6 months)</h4>
             <br />
             <div class="table-scroll">
-                <table id="DiscRepeatMeds" summary="This table includes information about this patient\'s past repeat medications.">
+                <table id="DiscRepeatMeds" summary="This table includes information about this patient\'s past repeat medications." class="hover">
                     <tbody>
                         <tr>
                             <td>The Discontinued Repeat Medications are not included in this summary. This patient may have had repeat medications discontinued that are not shown here.</td>
@@ -210,7 +210,7 @@
             <h4>Diagnoses</h4>
             <br />
             <div class="table-scroll">
-                <table id="Diagnoses">
+                <table id="Diagnoses" class="hover">
                     <thead>
                         <tr>
                             <th>Date</th>
@@ -363,7 +363,7 @@
             <h4>Problems &amp; issues</h4>
             <br />
             <div class="table-scroll">
-                <table id="Problems">
+                <table id="Problems" class="hover">
                     <thead>
                         <tr>
                             <th>Date</th>
@@ -456,7 +456,7 @@
             <h4>Observations</h4>
             <br />
             <div class="table-scroll">
-                <table id="Observations">
+                <table id="Observations" class="hover">
                     <thead>
                         <tr>
                             <th>Date</th>
@@ -483,7 +483,7 @@
             <h4>Treatments</h4>
             <br />
             <div class="table-scroll">
-                <table id="Treatments">
+                <table id="Treatments" class="hover">
                     <thead>
                         <tr>
                             <th>Date</th>
@@ -600,7 +600,7 @@
             <h4>Results</h4>
             <br />
             <div class="table-scroll">
-                <table id="Results">
+                <table id="Results" class="hover">
                     <thead>
                         <tr>
                             <th>Date</th>
@@ -627,7 +627,7 @@
             <h4>Care events</h4>
             <br />
             <div class="table-scroll">
-                <table id="Events">
+                <table id="Events" class="hover">
                     <thead>
                         <tr>
                             <th>Date</th>
@@ -649,13 +649,6 @@
             <br />
         </section>
 
-
-
-        <p id="SendTime">Summary Sent: 27 May 2015 16:42</p>
-
-        <div class="cell">
-            <hr>
-        </div>
     </div>
 
 </div>
