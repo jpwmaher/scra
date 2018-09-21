@@ -1,7 +1,7 @@
 <div id="third-column" class="cell medium-auto medium-cell-block-y content-column">
 
     <h2>
-        <?php echo $label_clinical_cat_1 ?>
+        <?php echo $label_clinical_cat_2 ?>
     </h2>
 
     <div class="cell">
