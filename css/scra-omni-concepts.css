@@ -166,3 +166,7 @@ h4,
 h5 {
     font-size: 1.15rem;
 }
+
+.menu a {
+    padding: 0.65rem 0rem !important;
+}
