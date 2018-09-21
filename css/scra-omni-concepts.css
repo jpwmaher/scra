@@ -153,7 +153,8 @@
     right: -15px;
 }
 
-.table-scroll {
+.table-scroll,
+.table {
     font-size: 12px;
 }
 
