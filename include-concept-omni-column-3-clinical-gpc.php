@@ -456,9 +456,6 @@
 
         <p id="SendTime">Summary Sent: 27 May 2015 16:42</p>
 
-        <div class="cell">
-            <hr>
-        </div>
     </div>
 
 </div>
