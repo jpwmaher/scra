@@ -21,7 +21,7 @@
             <a id="col-2-link-2" href="<?php echo $link_clinical_cat_2 ?>">
                 <?php echo $label_clinical_cat_2 ?>
             </a>
-            <ul class="menu vertical nested is-active">
+            <ul class="menu vertical nested">
                 <li> <a href="#second">Appointments</a> </li>
                 <li> <a href="#third">Encounters (Journal)</a> </li>
                 <li> <a href="#fourth">Clinical Items</a> </li>
@@ -30,6 +30,15 @@
                 <li> <a href="#seventh">Medications</a> </li>
                 <li> <a href="#eighth">Referrals</a> </li>
                 <li> <a href="#ninth">Observations</a> </li>
+            </ul>
+        </li>
+        <li>
+            <a id="col-2-link-3" href="#">
+                Care Plans
+            </a>
+            <ul class="menu vertical nested">
+                <li> <a href="#second">Mental Health Crisis Plan</a> </li>
+                <li> <a href="#third">End of Life</a> </li>
             </ul>
         </li>
     </ul>
