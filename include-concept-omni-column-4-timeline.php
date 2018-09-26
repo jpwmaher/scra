@@ -4,7 +4,6 @@
             <div class="grid-x grid-padding-x">
                 <div class="cell" style="float: right;">
                     <a class="button hollow tiny expanded" style="font-weight: 300;"><i class="fi-magnifying-glass"></i>&nbsp;Search timeline</a>
-                    <br/>
                 </div>
                 <fieldset class="cell">
                     <input id="checkbox1" type="checkbox" checked><label for="checkbox1">Care events</label><br/>
