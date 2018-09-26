@@ -3,12 +3,8 @@
 <?php include("variables-concept-omni.php"); ?>
 
 <style>
-    #vert-tab-3 {
+    #vert-tab-4 {
         background: #F2F3F4;
-        font-weight: bold;
-    }
-
-    #col-2-link-1 {
         font-weight: bold;
     }
 
