@@ -4,6 +4,8 @@
         <?php echo $label_provider_cat_1 ?>
     </h2>
 
+    <br/>
+
     <div id="name" class="cell" data-magellan-target="name">
         <h5>GP contact details</h5>
 
