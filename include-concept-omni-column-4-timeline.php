@@ -6,6 +6,7 @@
                     <a class="button hollow tiny expanded" style="font-weight: 300;"><i class="fi-magnifying-glass"></i>&nbsp;Search timeline</a>
                 </div>
                 <fieldset class="cell">
+                    <span class="summary-label">Filter timeline:</span>
                     <input id="checkbox1" type="checkbox" checked><label for="checkbox1">Care events</label><br/>
                     <input id="checkbox2" type="checkbox" checked><label for="checkbox2">Diagnoses</label><br/>
                     <input id="checkbox3" type="checkbox" checked><label for="checkbox3">Medications</label><br/>
