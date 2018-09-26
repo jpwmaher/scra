@@ -9,7 +9,7 @@
                     <input id="checkbox4" type="checkbox" checked><label for="checkbox4">Results</label><br/>
                 </fieldset>
                 <div class="cell" style="float: right;">
-                    <br/><br/>
+                    <br/>
                     <a class="button hollow tiny expanded" style="font-weight: 300;"><i class="fi-magnifying-glass"></i>&nbsp;Search timeline</a>
                 </div>
             </div>
