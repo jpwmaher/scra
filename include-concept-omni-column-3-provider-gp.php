@@ -14,7 +14,7 @@
                 <div class="grid-x grid-padding-x">
                     <div class="medium-6 small-6 large-4 cell">
                         <div class="panel-info-group cell">
-                            <span class="panel-label">Primary GP:</span><br/><span>Dr Matt Noble</span><br/><span>07234 567890</span><br/><span><a href="#">matt@thesurgery.co.uk</a></span><br/><span class="panel-info-note">William's GP since: 17-Apr-1969</span>
+                            <span class="panel-label">Primary GP:</span><br/><span>Dr Matt Noble</span><br/><span>07234 567890</span><br/><span><a href="#">matt@thesurgery.co.uk</a></span><br/><span class="panel-info-note">William's GP since: <?php echo $dob ?></span>
                         </div>
                     </div>
                     <div class="medium-6 small-6 large-4 cell">
