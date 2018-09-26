@@ -1,6 +1,6 @@
 <div id="third-column" class="cell medium-auto medium-cell-block-y content-column">
 
-    <div class="grid-x grid-padding-x grid-margin-x">
+    <!-- <div class="grid-x grid-padding-x grid-margin-x">
         <div id="timeline-filters" class="cell">
             <div class="grid-x grid-padding-x">
                 <fieldset class="large-10 medium-9 small-12 cell">
@@ -14,7 +14,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <h2>
         <?php echo $label_tab_4 ?>
@@ -22,7 +22,7 @@
 
     <br/>
 
-    <div class="">
+    <div class="timeline">
 
         <div id="first" class="timeline-item" data-magellan-target="first">
             <div class="timeline-icon">
