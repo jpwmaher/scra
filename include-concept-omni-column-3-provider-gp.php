@@ -208,7 +208,7 @@
                     <div class="cell marbot"><span class="summary-label">Created on:</span><br/><span>16-Aug-18</span><br/>
                     </div>
                     <div class="cell marbot"><span class="summary-label">Telephone:</span><br/><span>01234 567890</span><br/></div>
-                    <div class="cell marbot"><span class="summary-label">Email: </span><br/><span>admin@thesurgery.co.uk</span><br/></div>
+                    <div class="cell marbot"><span class="summary-label">Email: </span><br/><span>admin@email</span><br/></div>
                 </div>
             </div>
             <div class="cell">
@@ -221,7 +221,7 @@
                     <div class="cell marbot"><span class="summary-label">Created on:</span><br/><span>16-Aug-18</span><br/>
                     </div>
                     <div class="cell marbot"><span class="summary-label">Telephone:</span><br/><span>01234 567890</span><br/></div>
-                    <div class="cell marbot"><span class="summary-label">Email: </span><br/><span>admin@thesurgery.co.uk</span><br/></div>
+                    <div class="cell marbot"><span class="summary-label">Email: </span><br/><span>admin@email</span><br/></div>
                 </div>
             </div>
             <div class="cell">
