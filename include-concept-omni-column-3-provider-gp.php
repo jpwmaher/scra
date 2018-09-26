@@ -9,26 +9,23 @@
         <br/>
 
         <div id="name" class="cell" data-magellan-target="name">
-            <h5>Contacts</h5>
+            <h5>GP contact details</h5>
 
             <div class="grid-x grid-padding-x">
                 <div class="cell">
                     <div class="grid-x grid-padding-x">
                         <div class="medium-6 small-6 large-4 cell">
                             <div class="panel-info-group cell">
-                                <img src="img/doctor-headshot.jpg" style="max-width: 180px; width: 100%;"><br/><br/>
                                 <span class="panel-label">Primary GP:</span><br/><span>Dr Matt Noble</span><br/><span>07234 567890</span><br/><span><a href="#">matt@thesurgery.co.uk</a></span><br/><span class="panel-info-note">William's GP since: 17-Apr-1969</span>
                             </div>
                         </div>
                         <div class="medium-6 small-6 large-4 cell">
                             <div class="panel-info-group cell">
-                                <img src="img/doctor-headshot-2.png" style="max-width: 180px; width: 100%;"><br/><br/>
                                 <span class="panel-label">Secondary GP:</span><br/><span>Dr Ryan Scanlon</span><br/><span>07234 567890</span><br/><span><a href="#">ryan@thesurgery.co.uk</a></span><br/><span class="panel-info-note">William's GP since: 17-Apr-1969</span>
                             </div>
                         </div>
                         <div class="medium-6 small-6 large-4 cell">
                             <div class="panel-info-group cell">
-                                <img src="img/doctor-headshot-3.png" style="max-width: 180px; width: 100%;"><br/><br/>
                                 <span class="panel-label">Locum GP:</span><br/><span>Dr Ruth Wright</span><br/><span>07234 567890</span><br/><span><a href="#">ruth@thesurgery.co.uk</a></span><br/><span class="panel-info-note">William's GP since: 17-Apr-1969</span>
                             </div>
                         </div>
@@ -141,7 +138,7 @@
             </div>
         </div>
 
-        <div id="address" class="cell" data-magellan-target="address">
+        <!--   <div id="address" class="cell" data-magellan-target="address">
             <br/><br/><br/>
             <h5>Medications</h5>
 
@@ -199,7 +196,7 @@
                     <hr>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div id="contacts" class="cell" data-magellan-target="contacts">
             <br/><br/><br/>
@@ -232,9 +229,7 @@
                 <div class="cell">
                     <hr>
                 </div>
-                <div class="cell">
-                    <span class="data-source">via GP Connect</span> <span class="small-text">on 21-Jul-2018 at 07:32</span>
-                </div>
+
             </div>
 
         </div>
