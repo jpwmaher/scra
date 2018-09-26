@@ -6,12 +6,12 @@
             </a>
         </li>
         <li>
-            <a id="col-2-link-2" href="<?php echo $link_provider_cat_2 ?>">
+            <a id="col-2-link-2" href="#">
                 <?php echo $label_provider_cat_2 ?>
             </a>
         </li>
         <li>
-            <a id="col-2-link-3" href="<?php echo $link_provider_cat_3 ?>">
+            <a id="col-2-link-3" href="#">
                 <?php echo $label_provider_cat_3 ?>
             </a>
         </li>
