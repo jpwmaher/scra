@@ -1,4 +1,4 @@
-<div id="second-column" class="cell medium-2 medium-cell-block-y content-column">
+<div id="second-column" class="cell medium-shrink medium-cell-block-y content-column">
     <ul class="menu vertical accordion-menu" data-deep-linking="true" data-accordion-menu data-submenu-toggle="true">
         <ul class="menu expanded vertical" data-deep-linking="true">
             <li><a href="#first"><strong>&nbsp;2018&nbsp;</strong></a></li>
