@@ -3,12 +3,12 @@
 <?php include("variables-concept-omni.php"); ?>
 
 <style>
-    #vert-tab-2 {
+    #vert-tab-3 {
         background: #F2F3F4;
         font-weight: bold;
     }
 
-    #col-2-link-2 {
+    #col-2-link-1 {
         font-weight: bold;
     }
 
@@ -33,16 +33,16 @@
                 <div class="grid-x grid-padding-x">
 
                     <!-- Vertical tabs icon -->
-                    <?php include("include-concept-omni-column-1-clinical.php"); ?>
+                    <?php include("include-concept-omni-column-1-provider.php"); ?>
 
                     <!-- Menu -->
-                    <?php include("include-concept-omni-column-2-clinical-gpc.php"); ?>
+                    <?php include("include-concept-omni-column-2-provider-gp.php"); ?>
 
                     <!-- Main content -->
-                    <?php include("include-concept-omni-column-3-clinical-gpc.php"); ?>
+                    <?php include("include-concept-omni-column-3-provider-gp.php"); ?>
 
                     <!-- Info bar -->
-                    <?php include("include-concept-omni-column-4-gpc.php"); ?>
+                    <?php include("include-concept-omni-column-4-provider-gp.php"); ?>
 
                 </div>
 

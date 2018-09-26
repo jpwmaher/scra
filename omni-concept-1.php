@@ -48,13 +48,11 @@
 
             </div>
 
-
             <!-- Footer -->
             <?php include("include-concept-omni-footer.php"); ?>
 
         </div>
     </div>
-
 
     <?php include("include-concept-a-javascripts.php"); ?>
 
