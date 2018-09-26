@@ -19,12 +19,12 @@
                     </div>
                     <div class="medium-6 small-6 large-4 cell">
                         <div class="panel-info-group cell">
-                            <span class="panel-label">Secondary GP:</span><br/><span>Dr Ryan Scanlon</span><br/><span>07234 567890</span><br/><span><a href="#">ryan@thesurgery.co.uk</a></span><br/><span class="panel-info-note">William's GP since: 17-Apr-1969</span>
+                            <span class="panel-label">Secondary GP:</span><br/><span>Dr Ryan Scanlon</span><br/><span>07234 567890</span><br/><span><a href="#">ryan@thesurgery.co.uk</a></span><br/>
                         </div>
                     </div>
                     <div class="medium-6 small-6 large-4 cell">
                         <div class="panel-info-group cell">
-                            <span class="panel-label">Locum GP:</span><br/><span>Dr Ruth Wright</span><br/><span>07234 567890</span><br/><span><a href="#">ruth@thesurgery.co.uk</a></span><br/><span class="panel-info-note">William's GP since: 17-Apr-1969</span>
+                            <span class="panel-label">Locum GP:</span><br/><span>Dr Ruth Wright</span><br/><span>07234 567890</span><br/><span><a href="#">ruth@thesurgery.co.uk</a></span><br/>
                         </div>
                     </div>
                 </div>
