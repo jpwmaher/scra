@@ -22,7 +22,7 @@
 
     <br/>
 
-    <div class="timeline">
+    <div class="">
 
         <div id="first" class="timeline-item" data-magellan-target="first">
             <div class="timeline-icon">
