@@ -15,7 +15,8 @@
     color: white !important;
 }
 
-#third-column .summary-label {
+#third-column .summary-label,
+#fourth-column .summary-label {
     color: #a0a0a0 !important;
 }
 
