@@ -2,7 +2,7 @@
     <ul class="menu vertical accordion-menu" data-deep-linking="true" data-accordion-menu data-submenu-toggle="true">
         <ul class="menu expanded vertical" data-deep-linking="true">
             <li><a href="#first"><strong>&nbsp;2018&nbsp;</strong></a>
-                <ul>
+                <ul class="menu vertical nested">
                     <li><a href="#jul18">&nbsp;- July&nbsp;</a></li>
                     <li><a href="#apr18">&nbsp;- April&nbsp;</a></li>
                 </ul>
