@@ -1,112 +1,168 @@
 <div id="third-column" class="cell medium-auto medium-cell-block-y content-column">
 
-    <h2>
-        <?php echo $label_cat_1 ?>
-    </h2>
+    <div id="centre-col" class="grid-x grid-padding-x">
 
-    <div id="name" class="cell" data-magellan-target="name">
-        <br/>
-        <h5>Name</h5>
+        <div class="cell">
 
-        <div class="grid-x grid-padding-x">
-            <div class="cell">
-                <div class="grid-x">
-                    <div class="medium-6 small-12 large-3 cell">
-                        <div class="panel-info-group cell">
-                            <span class="panel-label">Usual name:</span><br/><span><?php echo $firstname ?> <?php echo $surname ?></span><br/><span class="panel-info-note">Effective since: <?php echo $dob ?></span>
-                        </div>
-                    </div>
-                    <div class="medium-6 small-12 large-3 cell">
-                        <div class="panel-info-group cell">
-                            <span class="panel-label">Preferred name:</span><br/><span class="panel-info-none">Not recorded</span>
-                        </div>
-                    </div>
-                    <div class="medium-6 small-12 large-3 cell">
-                        <div class="panel-info-group cell">
-                            <span class="panel-label">Other names:</span><br/><span class="panel-info-none">Not recorded</span>
-                        </div>
-                    </div>
-                    <div class="medium-6 small-12 large-3 cell">
-                        <div class="panel-info-group cell">
-                            <span class="panel-label">Previous names:</span><br/><span class="panel-info-none">Not recorded</span>
-                        </div>
-                    </div>
+            <div class="grid-x grid-padding-x grid-margin-x small-up-1 medium-up-3 large-up-4">
+                <div class="cell dashboard-panel alert-panel">
+                    <span class="panel-title">
+                                    <div class="grid-x">
+                                        <div class="large-auto medium-auto small-11 cell"><?php echo $label_alerts ?></div>
+                                        <div class="large-shrink medium-shrink small-1  cell"><i class="fi-alert" style="color: white"></i></div>
+                                    </div>
+                                </span>
+                    <ul class="alert-panel-list">
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-auto medium-auto small-11 cell"><strong><a href="#" style="color: white;">Child Care Alert</a></strong></div>
+                                <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-auto medium-auto small-11 cell"><strong><a href="#" style="color: white;">Violent Behaviour</a></strong></div>
+                                <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-auto medium-auto small-11 cell">Add an alert</div>
+                                <div class="large-shrink medium-shrink small-1  cell"><i class="fi-plus" style="color: white"></i></div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <div class="cell">
-                <hr>
+                <div class="cell dashboard-panel flag-panel">
+                    <span class="panel-title">
+                                    <div class="grid-x">
+                                        <div class="large-auto medium-auto small-11 cell"><?php echo $label_flags ?></div>
+                                        <div class="large-shrink medium-shrink small-1  cell"><i class="fi-flag" style="color: white"></i></div>
+                                    </div>
+                                </span>
+                    <ul class="alert-panel-list">
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-auto medium-auto small-11 cell"><strong><a href="#" style="color: white;">Reasonable Adjustments (2)</a></strong></div>
+                                <div class="large-shrink medium-shrink small-1 cell"><i class="fi-arrow-right" style="color: white"></i></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-auto medium-auto small-11 cell"><strong><a href="#" style="color: white;"><?php echo $label_mhcp ?></a></strong></div>
+                                <div class="large-shrink medium-shrink small-1 cell"><i class="fi-arrow-right" style="color: white"></i></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-auto medium-auto small-11 cell">Add a flag</div>
+                                <div class="large-shrink medium-shrink small-1  cell"><i class="fi-plus" style="color: white"></i></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cell dashboard-panel">
+                    <span class="panel-title">
+                                    <div class="grid-x">
+                                        <div class="large-auto medium-auto small-11 cell">Clinical</div>
+                                        <div class="large-shrink medium-shrink small-1  cell"><img src="img/pill.svg" style="height: 24px;"></div>
+                                    </div>
+                                </span>
+                    <ul class="alert-panel-list">
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-auto medium-auto small-11 cell"><a href="#" data-open="exampleModal1">Summary Care Record - enhanced</a></div>
+                                <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-auto medium-auto small-11 cell"><a href="concept-b-patient-clinical-gp-connect.php#title">GP Connect</a></div>
+                                <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cell dashboard-panel">
+                    <span class="panel-title">
+                                    <div class="grid-x">
+                                        <div class="large-auto medium-auto small-11 cell">Care plans</div>
+                                        <div class="large-shrink medium-shrink small-1  cell"><img src="img/plan.svg" style="height: 24px;"></div>
+                                    </div>
+                                </span>
+                    <ul class="alert-panel-list">
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-auto medium-auto small-11 cell">
+                                    <a href="#">
+                                        <?php echo $label_mhcp ?>
+                                    </a>
+                                </div>
+                                <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cell dashboard-panel">
+                    <span class="panel-title">
+                                    <div class="grid-x">
+                                        <div class="large-auto medium-auto small-11 cell">Patient details</div>               
+                                <div class="large-shrink medium-shrink small-1  cell"><img src="img/demographic.svg" style="height: 24px;"></div>
+                            </div>
+                            </span>
+                    <ul class="alert-panel-list">
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-12 medium-12 small-12 cell">
+                                    <a href="#">
+                                        <?php echo $label_cat_1 ?>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-12 medium-12 small-12 cell">
+                                    <a href="#">
+                                        <?php echo $label_cat_2 ?>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-12 medium-12 small-12 cell"><a href="#">Power of Attorney</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cell dashboard-panel">
+                    <span class="panel-title">
+                                    <div class="grid-x">
+                                        <div class="large-auto medium-auto small-11 cell">Care providers</div>               
+                                <div class="large-shrink medium-shrink small-1  cell"><img src="img/steth.svg" style="height: 24px;"></div>
+                            </div>
+                            </span>
+                    <ul class="alert-panel-list">
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-12 medium-12 small-12 cell"><a href="#">GP</a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-12 medium-12 small-12 cell"><a href="#">Nominated Pharmacy</a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-12 medium-12 small-12 cell"><a href="#">Mental Health Care Provider</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div id="key-details" class="cell" data-magellan-target="key-details">
-        <br/>
-        <h5>Key details</h5>
-
-        <div id="panel-key" class="grid-x">
-            <div class="medium-6 large-3 cell">
-                <div class="panel-info-group cell">
-                    <span class="panel-label">Gender:</span><br/><span><?php echo $gender ?></span>
-                </div>
-            </div>
-            <div class="medium-6 large-3 cell">
-                <div class="panel-info-group cell">
-                    <span class="panel-label">NHS Number:</span><br/><span>123 454 545</span>
-                </div>
-            </div>
-            <div class="medium-6 large-3 cell">
-                <div class="panel-info-group cell">
-                    <span class="panel-label">Date of birth:</span><br/><span><?php echo $dob ?></span>
-                </div>
-            </div>
-            <div class="medium-6 large-3 cell">
-                <div class="panel-info-group cell">
-                    <span class="panel-label">Place of birth:</span><br/><span>Stratford-Upon-Avon</span>
-                </div>
-            </div>
-            <div class="cell">
-                <hr>
-            </div>
-        </div>
-    </div>
-
-    <div id="address" class="cell" data-magellan-target="address">
-        <br/>
-        <h5>Address</h5>
-
-        <div id="panel-address" class="grid-x">
-
-            <div class="panel-info-group medium-6 large-3 cell">
-                <span class="panel-label">Usual address:</span><br/><span><a target="_blank"  href="https://goo.gl/maps/eWABxM6Y8Ut">101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</a></span><br/>
-                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/><br/>
-            </div>
-            <div class="panel-info-group medium-6 large-3 cell">
-                <span class="panel-label">Temporary address:</span><br/>
-                <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
-                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
-            </div>
-            <div class="panel-info-group medium-6 large-3 cell">
-                <span class="panel-label">Temporary address:</span><br/>
-                <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
-                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
-            </div>
-
-            <div id="address-history" class="medium-6 small-12 large-12 cell" style="display: none;">
-                <div class="panel-info-group cell">
-                    <span class="panel-label">Previous  address:</span><br/>
-                    <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
-                    <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
-                </div>
-            </div>
-            <div class="cell">
-                <hr>
-            </div>
-            <div class="cell">
-                <div class="responsive-embed">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.7381736166885!2d-1.7100520842046711!3d52.193631779753744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870ce339784b357%3A0xd44312aac27f785a!2sHenley+St%2C+Stratford-upon-Avon!5e0!3m2!1sen!2suk!4v1537450477928" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-            </div>
-        </div>
-
     </div>
 
 </div>
