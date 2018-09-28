@@ -1,6 +1,6 @@
 <div id="third-column" class="cell medium-auto medium-cell-block-y content-column">
 
-    <h2>Patient summary</h2>
+    <h2>Patient summary</h2><br/>
 
     <div id="centre-col" class="grid-x grid-padding-x">
 
@@ -97,7 +97,7 @@
                             <div class="grid-x">
                                 <div class="large-auto medium-auto small-11 cell">
                                     <a href="#">
-                                        <?php echo $label_mhcp ?>
+                                        Mental Health Crisis Plan
                                     </a>
                                 </div>
                                 <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
