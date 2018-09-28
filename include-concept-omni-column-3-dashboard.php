@@ -1,5 +1,7 @@
 <div id="third-column" class="cell medium-auto medium-cell-block-y content-column">
 
+    <h2>Patient summary</h2>
+
     <div id="centre-col" class="grid-x grid-padding-x">
 
         <div class="cell">
