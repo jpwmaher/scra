@@ -39,7 +39,7 @@
                     <?php include("include-concept-omni-column-2.php"); ?> -->
 
                     <!-- Main content -->
-                    <?php include("include-concept-omni-column-3.php"); ?>
+                    <?php include("include-concept-omni-column-3-dashboard.php"); ?>
 
                     <!-- Info bar -->
                     <?php include("include-concept-omni-column-4.php"); ?>
