@@ -93,9 +93,7 @@
 
             <div id="address-history" class="medium-6 small-12 large-12 cell" style="display: none;">
                 <div class="panel-info-group cell">
-                    <span class="panel-label">Previous  address:</span><br/>
-                    <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
-                    <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
+                    <a data-toggle="panel">Toggle Panel</a>
                 </div>
             </div>
             <div class="cell">
