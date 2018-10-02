@@ -11,9 +11,9 @@
             <hr>
         </div>
     </div>
-    <div id="address-history" class="hide" data-toggler=".hide">
+    <div id="address-history" class="hide callout success" data-toggler=".hide">
         <div class="grid-x grid-padding-x">
-            <div class="cell callout success">
+            <div class="cell">
                 <h6>Address history</h6>
             </div>
             <div class="panel-info-group cell">
