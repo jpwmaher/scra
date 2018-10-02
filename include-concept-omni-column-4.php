@@ -32,18 +32,37 @@
                 <h6>Address history</h6>
             </div>
             <div class="panel-info-group cell">
-                <span class="panel-label">Usual address:</span><br/><span><a target="_blank"  href="https://goo.gl/maps/eWABxM6Y8Ut">101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</a></span><br/>
-                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/><br/>
-            </div>
-            <div class="panel-info-group cell">
-                <span class="panel-label">Temporary address:</span><br/>
+                <span class="panel-label">Previous address 1:</span><br/>
                 <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
                 <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
             </div>
             <div class="panel-info-group cell">
-                <span class="panel-label">Temporary address:</span><br/>
+                <span class="panel-label">Previous address 2:</span><br/>
                 <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
                 <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
+            </div>
+            <div class="panel-info-group cell">
+                <span class="panel-label">Previous address 3:</span><br/>
+                <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
+                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
+            </div>
+            <div class="panel-info-group cell">
+                <span class="panel-label">Previous address 4:</span><br/>
+                <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
+                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
+            </div>
+            <div class="panel-info-group cell">
+                <span class="panel-label">Previous address 5:</span><br/>
+                <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
+                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
+            </div>
+            <div class="panel-info-group cell">
+                <span class="panel-label">Previous address 6:</span><br/>
+                <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
+                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
+            </div>
+            <div class="cell">
+                <a href="#" data-close>Close address history</a>
             </div>
             <hr>
         </div>
