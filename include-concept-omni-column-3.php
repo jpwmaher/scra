@@ -92,7 +92,7 @@
             </div>
             <div class="panel-info-group medium-6 large-3 cell">
                 <div class="panel-info-group cell">
-                    <a data-toggle="address-history">Address history</a>
+                    <a data-toggle="address-history" class="button hollow small">Address history</a>
                 </div>
             </div>
             <div class="cell">
