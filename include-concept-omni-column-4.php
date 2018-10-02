@@ -15,7 +15,9 @@
     </div>
     <div id="address-history" class="hide" data-toggler=".hide">
         <div class="grid-x grid-padding-x">
-            <h6>Address history</h6>
+            <div class="cell">
+                <h6>Address history</h6>
+            </div>
             <div class="panel-info-group cell">
                 <span class="panel-label">Usual address:</span><br/><span><a target="_blank"  href="https://goo.gl/maps/eWABxM6Y8Ut">101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</a></span><br/>
                 <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/><br/>
