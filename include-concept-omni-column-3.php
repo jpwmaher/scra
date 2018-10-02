@@ -91,7 +91,7 @@
                 <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
             </div>
 
-            <div id="address-history" class="medium-6 small-12 large-12 cell" style="display: none;">
+            <div id="address-history" class="medium-6 small-12 large-12 cell">
                 <div class="panel-info-group cell">
                     <a data-toggle="panel">Toggle Panel</a>
                 </div>
