@@ -5,7 +5,7 @@
     </div>
     <div id="comment-123" class="comment" data-toggler=".expanded">
         <p class="first text">Lorem ipsum dolor sit amet,
-            <a class="read-more-link" data-toggle="comment-123">Read More...</a>
+<a class="read-more-link" data-toggle="comment-123">Show address history</a>
         </p>
         <p class="second-text">
             Duis aute irure dolor
