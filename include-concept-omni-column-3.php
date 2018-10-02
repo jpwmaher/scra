@@ -90,8 +90,7 @@
                 <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
                 <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
             </div>
-
-            <div id="address-history" class="medium-6 small-12 large-12 cell">
+            <div class="panel-info-group medium-6 large-3 cell">
                 <div class="panel-info-group cell">
                     <a data-toggle="panel">Toggle Panel</a>
                 </div>
