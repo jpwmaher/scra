@@ -22,6 +22,7 @@
                 <p>Created by: RADFORD, Michelle (Mrs)</p>
                 <p>DR DK NANDI'S PRACTICE, 342 Troy Road, Horsforth, Leeds LS18 5TN</p>
             </div>
+            <hr>
         </div>
     </div>
     <div id="address-history" class="hide" data-toggler=".hide" data-closable>
@@ -44,6 +45,7 @@
                 <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
                 <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
             </div>
+            <hr>
         </div>
     </div>
 </div>
