@@ -25,9 +25,8 @@
             <hr>
         </div>
     </div>
-    <div id="address-history" class="hide" data-toggler=".hide" data-closable>
+    <div id="address-history" class="hide" data-toggler=".hide">
         <div class="grid-x grid-padding-x">
-            <button class="close-button" data-close>&times;</button>
             <div class="cell">
                 <h6>Address history</h6>
             </div>
@@ -62,7 +61,7 @@
                 <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
             </div>
             <div class="cell">
-                <a href="#" data-close>Close address history</a>
+                <a data-toggle="summary-info address-history">Close address history</a>
             </div>
             <hr>
         </div>
