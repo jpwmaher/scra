@@ -13,7 +13,7 @@
     </div>
     <div id="poa-info" class="" data-toggler=".hide">
         <div class="grid-x grid-padding-x">
-            <div class="cell callout">
+            <div class="cell callout success">
                 <h6>What is Power of Attorney?</h6>
                 <p>A lasting power of attorney (LPA) is a legal document that lets you (the ‘donor’) appoint one or more people (known as ‘attorneys’) to help you make decisions or to make decisions on your behalf.</p>
                 <p>This gives you more control over what happens to you if you have an accident or an illness and can’t make your own decisions (you ‘lack mental capacity’).</p>
