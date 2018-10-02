@@ -44,6 +44,9 @@
                     <!-- Info bar -->
                     <?php include("include-concept-omni-column-4-poa.php"); ?>
 
+                    <!-- Overlay -->
+                    <?php include("include-concept-omni-poa-overlay.php"); ?>
+
                 </div>
 
             </div>
