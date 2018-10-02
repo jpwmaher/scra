@@ -24,8 +24,9 @@
             </div>
         </div>
     </div>
-    <div id="address-history" class="hide" data-toggler=".hide">
+    <div id="address-history" class="hide" data-toggler=".hide" data-closable>
         <div class="grid-x grid-padding-x">
+            <button class="close-button" data-close>&times;</button>
             <div class="cell">
                 <h6>Address history</h6>
             </div>
