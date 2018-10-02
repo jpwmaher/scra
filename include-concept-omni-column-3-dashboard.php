@@ -66,6 +66,39 @@
                 <div class="cell dashboard-panel">
                     <span class="panel-title">
                                     <div class="grid-x">
+                                        <div class="large-auto medium-auto small-11 cell">Patient details</div>               
+                                <div class="large-shrink medium-shrink small-1  cell"><img src="img/demographic.svg" style="height: 24px;"></div>
+                            </div>
+                            </span>
+                    <ul class="alert-panel-list">
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-12 medium-12 small-12 cell">
+                                    <a href="#">
+                                        <?php echo $label_cat_1 ?>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-12 medium-12 small-12 cell">
+                                    <a href="#">
+                                        <?php echo $label_cat_2 ?>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-12 medium-12 small-12 cell"><a href="#">Power of Attorney</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cell dashboard-panel">
+                    <span class="panel-title">
+                                    <div class="grid-x">
                                         <div class="large-auto medium-auto small-11 cell">Clinical</div>
                                         <div class="large-shrink medium-shrink small-1  cell"><img src="img/pill.svg" style="height: 24px;"></div>
                                     </div>
@@ -101,39 +134,6 @@
                                     </a>
                                 </div>
                                 <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="cell dashboard-panel">
-                    <span class="panel-title">
-                                    <div class="grid-x">
-                                        <div class="large-auto medium-auto small-11 cell">Patient details</div>               
-                                <div class="large-shrink medium-shrink small-1  cell"><img src="img/demographic.svg" style="height: 24px;"></div>
-                            </div>
-                            </span>
-                    <ul class="alert-panel-list">
-                        <li>
-                            <div class="grid-x">
-                                <div class="large-12 medium-12 small-12 cell">
-                                    <a href="#">
-                                        <?php echo $label_cat_1 ?>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="grid-x">
-                                <div class="large-12 medium-12 small-12 cell">
-                                    <a href="#">
-                                        <?php echo $label_cat_2 ?>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="grid-x">
-                                <div class="large-12 medium-12 small-12 cell"><a href="#">Power of Attorney</a></div>
                             </div>
                         </li>
                     </ul>
