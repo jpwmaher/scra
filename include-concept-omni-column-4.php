@@ -1,15 +1,14 @@
 <div id="fourth-column" class="cell medium-2 medium-cell-block-y content-column">
     <div id="info-1">
         <form>
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x">
-                    <div class="cell">
-                        <label>Search demographics
+            <div class="grid-x grid-padding-x">
+                <div class="cell">
+                    <label>Search demographics
           <input type="text" placeholder="Search">
         </label>
-                    </div>
-                    <div class="cell"> <input type="submit" class="button" value="Submit"></div>
                 </div>
+                <div class="cell">
+                    <input type="submit" class="button" value="Submit"></div>
             </div>
         </form>
         <hr>
