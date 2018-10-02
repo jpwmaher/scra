@@ -159,6 +159,24 @@
     font-size: 0.8rem;
 }
 
+.second-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.read-more-link {
+    transition: 1s opacity ease;
+}
+
+.expanded .read-more-link {
+    opacity: 0;
+}
+
+.expanded .second-text {
+    max-height: 40px;
+}
+
 
 h2 {
     font-size: 2.0rem;
