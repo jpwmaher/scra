@@ -1,5 +1,5 @@
 <div id="fourth-column" class="cell medium-2 medium-cell-block-y content-column">
-    <div id="info-1">
+    <!-- <div id="info-1">
         <form>
             <div class="grid-x grid-padding-x">
                 <div class="cell">
@@ -12,7 +12,7 @@
             </div>
         </form>
         <hr>
-    </div>
+    </div> -->
     <div id="summary-info" class="" data-toggler=".hide">
         <div class="grid-x grid-padding-x">
             <div class="cell">
