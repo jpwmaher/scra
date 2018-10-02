@@ -20,6 +20,9 @@
     color: #a0a0a0 !important;
 }
 
+.callout .success {
+    background: #DFEDF8 !important;
+}
 
 .summary-info {
     color: white !important;
