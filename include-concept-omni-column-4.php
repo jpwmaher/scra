@@ -13,7 +13,7 @@
     </div>
     <div id="address-history" class="hide" data-toggler=".hide">
         <div class="grid-x grid-padding-x">
-            <div class="cell">
+            <div class="cell callout success">
                 <h6>Address history</h6>
             </div>
             <div class="panel-info-group cell">
