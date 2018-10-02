@@ -3,8 +3,8 @@
         <form>
             <div class="grid-x grid-padding-x">
                 <div class="cell">
-                    <label>Search demographics
-          <input type="text" placeholder="Search">
+                    <label>
+          <input type="text" placeholder="Search demographics">
         </label>
                 </div>
                 <div class="cell">
