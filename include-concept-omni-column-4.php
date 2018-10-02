@@ -1,18 +1,4 @@
 <div id="fourth-column" class="cell medium-2 medium-cell-block-y content-column">
-    <!-- <div id="info-1">
-        <form>
-            <div class="grid-x grid-padding-x">
-                <div class="cell">
-                    <label>
-          <input type="text" placeholder="Search demographics">
-        </label>
-                </div>
-                <div class="cell">
-                    <input type="submit" class="button small" value="Search"></div>
-            </div>
-        </form>
-        <hr>
-    </div> -->
     <div id="summary-info" class="" data-toggler=".hide">
         <div class="grid-x grid-padding-x">
             <div class="cell">
