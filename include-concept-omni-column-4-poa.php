@@ -1,37 +1,33 @@
 <div id="fourth-column" class="cell medium-2 medium-cell-block-y content-column">
-    <div id="info-1">
-        <form>
-            <div class="grid-x grid-padding-x">
-                <div class="cell">
-                    <label>
-          <input type="text" placeholder="Search demographics">
-        </label>
-                </div>
-                <div class="cell">
-                    <input type="submit" class="button small" value="Search"></div>
-            </div>
-        </form>
-        <hr>
-    </div>
-    <div id="address-history" class="hide" data-toggler=".hide">
+    <div id="summary-info" class="" data-toggler=".hide">
         <div class="grid-x grid-padding-x">
             <div class="cell">
-                <h6>Address history</h6>
+                <h6>Summary</h6>
+                <p>Sourced from the patient's General Practice record. This summary may not include all the information pertinent to this patient.</p>
+                <p>Summary created: 27 May 2015 16:42</p>
+                <p>Created by: RADFORD, Michelle (Mrs)</p>
+                <p>DR DK NANDI'S PRACTICE, 342 Troy Road, Horsforth, Leeds LS18 5TN</p>
             </div>
-            <div class="panel-info-group cell">
-                <span class="panel-label">Usual address:</span><br/><span><a target="_blank"  href="https://goo.gl/maps/eWABxM6Y8Ut">101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</a></span><br/>
-                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/><br/>
+            <hr>
+        </div>
+    </div>
+    <div id="poa" class="hide" data-toggler=".hide">
+        <div class="grid-x grid-padding-x">
+            <div class="cell">
+                <h6>What is Power of Attorney?</h6>
+                <p>A lasting power of attorney (LPA) is a legal document that lets you (the ‘donor’) appoint one or more people (known as ‘attorneys’) to help you make decisions or to make decisions on your behalf.</p>
+                <p>This gives you more control over what happens to you if you have an accident or an illness and can’t make your own decisions (you ‘lack mental capacity’).</p>
+                <br/>
+                <h6>Health &amp; Welfare Power of Attorney</h6>
+                <p>A Health &amp; Welfare POA make decisions about things like:</p>
+                <ul>
+                    <li>your daily routine, for example washing, dressing, eating</li>
+                    <li>medical care</li>
+                    <li>moving into a care home</li>
+                    <li>life-sustaining treatment</li>
+                </ul>
             </div>
-            <div class="panel-info-group cell">
-                <span class="panel-label">Temporary address:</span><br/>
-                <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
-                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
-            </div>
-            <div class="panel-info-group cell">
-                <span class="panel-label">Temporary address:</span><br/>
-                <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
-                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
-            </div>
+            <hr>
         </div>
     </div>
 </div>
