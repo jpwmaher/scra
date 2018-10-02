@@ -8,7 +8,7 @@
         </label>
                 </div>
                 <div class="cell">
-                    <input type="submit" class="button" value="Submit"></div>
+                    <input type="submit" class="button small" value="Search"></div>
             </div>
         </form>
         <hr>
