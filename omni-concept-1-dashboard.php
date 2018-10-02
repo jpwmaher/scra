@@ -34,9 +34,6 @@
                     <!-- Main content -->
                     <?php include("include-concept-omni-column-3-dashboard.php"); ?>
 
-                    <!-- Info bar -->
-                    <?php include("include-concept-omni-column-4.php"); ?>
-
                 </div>
 
             </div>
