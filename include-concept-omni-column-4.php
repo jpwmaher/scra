@@ -14,22 +14,24 @@
         <hr>
     </div>
     <div id="comment-123" class="comment" data-toggler=".expanded">
-        <p class="first text">
+        <p class="first text">&nbsp;
         </p>
         <p class="second-text">
-            <div class="panel-info-group cell">
-                <span class="panel-label">Usual address:</span><br/><span><a target="_blank"  href="https://goo.gl/maps/eWABxM6Y8Ut">101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</a></span><br/>
-                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/><br/>
-            </div>
-            <div class="panel-info-group cell">
-                <span class="panel-label">Temporary address:</span><br/>
-                <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
-                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
-            </div>
-            <div class="panel-info-group cell">
-                <span class="panel-label">Temporary address:</span><br/>
-                <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
-                <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
+            <div class="grid-x grid-padding-x">
+                <div class="panel-info-group cell">
+                    <span class="panel-label">Usual address:</span><br/><span><a target="_blank"  href="https://goo.gl/maps/eWABxM6Y8Ut">101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</a></span><br/>
+                    <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/><br/>
+                </div>
+                <div class="panel-info-group cell">
+                    <span class="panel-label">Temporary address:</span><br/>
+                    <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
+                    <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
+                </div>
+                <div class="panel-info-group cell">
+                    <span class="panel-label">Temporary address:</span><br/>
+                    <span>101 Other Street<br/>Stratford-upon-Avon<br/>Warwickshire<br/>AB12 3DE</span><br/>
+                    <span class="panel-info-note">Effective: 01-Aug-2017 - 01-Sep-2017</span><br/>
+                </div>
             </div>
             <a class="read-less-link" data-toggle="comment-123">Read Less</a>
         </p>
