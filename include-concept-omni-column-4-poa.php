@@ -11,7 +11,7 @@
             <hr>
         </div>
     </div>
-    <div id="poa-info" class="hide" data-toggler=".hide">
+    <div id="poa-info" class="" data-toggler=".hide">
         <div class="grid-x grid-padding-x">
             <div class="cell">
                 <h6>What is Power of Attorney?</h6>
