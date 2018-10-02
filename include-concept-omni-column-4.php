@@ -12,6 +12,7 @@
                 </div>
             </div>
         </form>
+        <hr>
     </div>
     <div id="comment-123" class="comment" data-toggler=".expanded">
         <p class="first text">Lorem ipsum dolor sit amet,
