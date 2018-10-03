@@ -11,7 +11,7 @@
             </div>
         </div>
     </div>
-    <div id="address-history" class="hide callout success" data-toggler=".hide">
+    <div id="address-history" class="hide success" data-toggler=".hide">
         <div class="grid-x grid-padding-x">
             <div class="cell">
                 <h6>Address history</h6>
