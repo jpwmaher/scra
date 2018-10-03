@@ -7,8 +7,8 @@
                 <p>Summary created: 27 May 2015 16:42</p>
                 <p>Created by: RADFORD, Michelle (Mrs)</p>
                 <p>DR DK NANDI'S PRACTICE, 342 Troy Road, Horsforth, Leeds LS18 5TN</p>
+                <hr>
             </div>
-            <hr>
         </div>
     </div>
     <div id="address-history" class="hide callout success" data-toggler=".hide">
