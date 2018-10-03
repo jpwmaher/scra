@@ -94,6 +94,11 @@
                                 <div class="large-12 medium-12 small-12 cell"><a href="#">Power of Attorney</a></div>
                             </div>
                         </li>
+                        <li>
+                            <div class="grid-x">
+                                <div class="large-12 medium-12 small-12 cell"><a href="#">Chargeability status</a></div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div class="cell dashboard-panel">
