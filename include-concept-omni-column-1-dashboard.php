@@ -65,9 +65,9 @@
     <div class="grid-x  small-up-6">
 
         <div class="cell">
-            <div class="tab-icon tab-icon-active">
+            <div class="tab-icon">
                 <a id="vert-tab-1" href="<?php echo $link_tab_1 ?>" class=" tab-icon-button button tab-icon-button-small">
-                                <img src="img/Torso.svg" class="tab-icon-img tab-icon-img-active"><br/>
+                                <img src="img/Torso.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label"><?php echo $label_tab_1 ?></span>
                                 </a>
             </div>
