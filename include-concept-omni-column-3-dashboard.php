@@ -67,7 +67,7 @@
                     <span class="panel-title">
                                     <div class="grid-x">
                                         <div class="large-auto medium-auto small-11 cell">Patient details</div>               
-                                <div class="large-shrink medium-shrink small-1  cell"><img src="img/demographic.svg" style="height: 24px;"></div>
+                                <div class="large-shrink medium-shrink small-1  cell"><img src="img/Torso.svg" style="height: 24px;"></div>
                             </div>
                             </span>
                     <ul class="alert-panel-list">
