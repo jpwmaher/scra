@@ -118,15 +118,14 @@
     color: #415564;
 }
 
+#third-column {
+    padding-top: 10px;
+}
 
 @media screen and (max-width: 639px) {
     #third-column {
         padding-top: 20px;
     }
-}
-
-#third-column {
-    padding-top: 10px;
 }
 
 #fourth-column {
