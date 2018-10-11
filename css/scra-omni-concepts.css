@@ -131,6 +131,12 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .tab-icon-label {
+        font-size: 8px;
+    }
+}
+
 #fourth-column {
     font-size: 0.7rem;
     border-left: #efefef 1px solid;
