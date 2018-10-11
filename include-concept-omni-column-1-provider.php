@@ -42,7 +42,7 @@
             <div class="tab-icon tab-icon-alert">
                 <a id="vert-tab-5" href="<?php echo $link_tab_alerts ?>" class="expanded tab-icon-button button">
                                 <img src="img/Alert.svg" class="tab-icon-img"><br/>
-                                <span class="tab-icon-label">                <?php echo $label_alerts ?></span>
+                                <span class="tab-icon-label">                <?php echo $label_alerts ?> (2)</span>
                                 </a>
             </div>
         </div>
@@ -51,7 +51,7 @@
             <div class="tab-icon tab-icon-flag">
                 <a id="vert-tab-6" href="<?php echo $link_tab_flags ?>" class="expanded tab-icon-button button">
                                 <img src="img/flag-2.svg" class="tab-icon-img"><br/>
-                                <span class="tab-icon-label">                <?php echo $label_flags ?></span>
+                                <span class="tab-icon-label">                <?php echo $label_flags ?> (3)</span>
                                 </a>
             </div>
         </div>
@@ -104,7 +104,7 @@
             <div class="tab-icon tab-icon-alert">
                 <a id="vert-tab-5" href="<?php echo $link_tab_alerts ?>" class=" tab-icon-button button tab-icon-button-small">
                                 <img src="img/Alert.svg" class="tab-icon-img"><br/>
-                                <span class="tab-icon-label">                <?php echo $label_alerts ?></span>
+                                <span class="tab-icon-label">                <?php echo $label_alerts ?> (2)</span>
                                 </a>
             </div>
         </div>
@@ -113,7 +113,7 @@
             <div class="tab-icon tab-icon-flag">
                 <a id="vert-tab-6" href="<?php echo $link_tab_flags ?>" class=" tab-icon-button button tab-icon-button-small">
                                 <img src="img/flag-2.svg" class="tab-icon-img"><br/>
-                                <span class="tab-icon-label">                <?php echo $label_flags ?></span>
+                                <span class="tab-icon-label">                <?php echo $label_flags ?> (3)</span>
                                 </a>
             </div>
         </div>
