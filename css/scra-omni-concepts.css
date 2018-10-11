@@ -126,6 +126,9 @@
     #third-column {
         padding-top: 20px;
     }
+    #second-column {
+        border-bottom: 2px solid #d8dde0;
+    }
 }
 
 #fourth-column {
