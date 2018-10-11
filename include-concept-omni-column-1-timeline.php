@@ -5,7 +5,7 @@
         <div class="cell">
             <div class="tab-icon">
                 <a id="vert-tab-1" href="<?php echo $link_tab_1 ?>" class="expanded tab-icon-button button">
-                                <img src="img/Torso.svg" class="tab-icon-img"><br/>
+                                <img src="img/Torso.svg" class="tab-icon-img tab-icon-img-active"><br/>
                                 <span class="tab-icon-label"><?php echo $label_tab_1 ?></span>
                                 </a>
             </div>
@@ -32,7 +32,7 @@
         <div class="cell">
             <div class="tab-icon  tab-icon-active">
                 <a id="vert-tab-4" href="<?php echo $link_tab_4 ?>" class="expanded tab-icon-button button">
-                                <img src="img/clock-2.svg" class="tab-icon-img tab-icon-img-active"><br/>
+                                <img src="img/clock-2.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label"><?php echo $label_tab_4 ?></span>
                                 </a>
             </div>
@@ -67,7 +67,7 @@
         <div class="cell">
             <div class="tab-icon">
                 <a id="vert-tab-1" href="<?php echo $link_tab_1 ?>" class=" tab-icon-button button tab-icon-button-small">
-                                <img src="img/Torso.svg" class="tab-icon-img"><br/>
+                                <img src="img/Torso.svg" class="tab-icon-img tab-icon-img-active"><br/>
                                 <span class="tab-icon-label"><?php echo $label_tab_1 ?></span>
                                 </a>
             </div>
@@ -85,7 +85,7 @@
         <div class="cell">
             <div class="tab-icon">
                 <a id="vert-tab-3" href="<?php echo $link_tab_3 ?>" class=" tab-icon-button button tab-icon-button-small">
-                                <img src="img/steth.svg" class="tab-icon-img "><br/>
+                                <img src="img/steth.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label"><?php echo $label_tab_3 ?></span>
                                 </a>
             </div>
@@ -94,7 +94,7 @@
         <div class="cell">
             <div class="tab-icon tab-icon-active">
                 <a id="vert-tab-4" href="<?php echo $link_tab_4 ?>" class=" tab-icon-button button tab-icon-button-small">
-                                <img src="img/clock-2.svg" class="tab-icon-img  tab-icon-img-active"><br/>
+                                <img src="img/clock-2.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label"><?php echo $label_tab_4 ?></span>
                                 </a>
             </div>
