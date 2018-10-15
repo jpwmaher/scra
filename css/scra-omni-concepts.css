@@ -98,6 +98,10 @@
     padding-top: 0px;
 }
 
+#patient-summary:hover {
+    background: red !important;
+}
+
 #first-column {
     background: #425563;
     padding: 0px;
