@@ -42,7 +42,7 @@
                     <?php include("include-concept-omni-column-3-contacts.php"); ?>
 
                     <!-- Info bar -->
-                    <?php include("include-concept-omni-column-4-contacts.php"); ?>
+                    <?php include("include-concept-omni-column-4.php"); ?>
 
                 </div>
 
