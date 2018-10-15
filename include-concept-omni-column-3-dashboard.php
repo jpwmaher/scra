@@ -74,7 +74,7 @@
                         <li>
                             <div class="grid-x">
                                 <div class="large-12 medium-12 small-12 cell">
-                                    <a href="#">
+                                    <a href="<?php echo $link_cat_1 ?>">
                                         <?php echo $label_cat_1 ?>
                                     </a>
                                 </div>
@@ -83,7 +83,7 @@
                         <li>
                             <div class="grid-x">
                                 <div class="large-12 medium-12 small-12 cell">
-                                    <a href="#">
+                                    <a href="<?php echo $link_cat_2 ?>">
                                         <?php echo $label_cat_2 ?>
                                     </a>
                                 </div>
@@ -91,7 +91,7 @@
                         </li>
                         <li>
                             <div class="grid-x">
-                                <div class="large-12 medium-12 small-12 cell"><a href="#">Power of Attorney</a></div>
+                                <div class="large-12 medium-12 small-12 cell"><a href="<?php echo $link_cat_3 ?>">Power of Attorney</a></div>
                             </div>
                         </li>
                         <li>
@@ -153,12 +153,12 @@
                     <ul class="alert-panel-list">
                         <li>
                             <div class="grid-x">
-                                <div class="large-12 medium-12 small-12 cell"><a href="#">GP</a></div>
+                                <div class="large-12 medium-12 small-12 cell"><a href="<?php echo $link_provider_cat_1 ?>">GP</a></div>
                             </div>
                         </li>
                         <li>
                             <div class="grid-x">
-                                <div class="large-12 medium-12 small-12 cell"><a href="#">Nominated Pharmacy</a></div>
+                                <div class="large-12 medium-12 small-12 cell"><a href="<?php echo $link_provider_cat_2 ?>">Nominated Pharmacy</a></div>
                             </div>
                         </li>
                         <li>
