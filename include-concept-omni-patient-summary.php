@@ -1,6 +1,6 @@
 <div id="patient-summary" class="grid-x grid-padding-x">
     <div class="cell">
-        <a href="omni-concept-1-dashboard.php">
+        <a href="omni-concept-1-dashboard.php" alt="Back to patient summary" title="Back to patient summary">
             <div class="grid-x grid-padding-x">
                 <div id="summary-name" class="large-shrink medium-shrink small-6 cell summary-panel">
                     <div class="grid-x">
