@@ -2,11 +2,6 @@
 
 <?php include("variables-concept-omni.php"); ?>
 
-<style>
-
-
-</style>
-
 <body>
 
     <?php include("include-concept-b-scrolltotop.php"); ?>
