@@ -14,7 +14,7 @@
 #patient-summary:hover {
     background-image: linear-gradient(-180deg, #00468a 0%, #005EB8 50%, #00468a 100%);
     background: #00468a !important;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 
 .summary-label {
