@@ -11,6 +11,10 @@
     border-bottom: 2px solid #d8dde0;
 }
 
+#patient-summary:hover {
+    background: red !important;
+}
+
 .summary-label {
     color: white !important;
 }
@@ -98,9 +102,7 @@
     padding-top: 0px;
 }
 
-#patient-summary:hover {
-    background: red !important;
-}
+
 
 #first-column {
     background: #425563;
