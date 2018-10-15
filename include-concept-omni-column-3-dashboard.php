@@ -111,13 +111,13 @@
                     <ul class="alert-panel-list">
                         <li>
                             <div class="grid-x">
-                                <div class="large-auto medium-auto small-11 cell"><a href="#" data-open="exampleModal1">Summary Care Record - enhanced</a></div>
+                                <div class="large-auto medium-auto small-11 cell"><a href="<?php echo $link_clinical_cat_1 ?>">Summary Care Record - enhanced</a></div>
                                 <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
                             </div>
                         </li>
                         <li>
                             <div class="grid-x">
-                                <div class="large-auto medium-auto small-11 cell"><a href="concept-b-patient-clinical-gp-connect.php#title">GP Connect</a></div>
+                                <div class="large-auto medium-auto small-11 cell"><a href="<?php echo $link_clinical_cat_2 ?>">GP Connect</a></div>
                                 <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
                             </div>
                         </li>
