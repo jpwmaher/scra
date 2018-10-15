@@ -12,7 +12,8 @@
 }
 
 #patient-summary:hover {
-    background: red !important;
+    background: #00468a !important;
+    transition: 0.5s;
 }
 
 .summary-label {
