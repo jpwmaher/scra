@@ -5,7 +5,7 @@
                 <div id="summary-name" class="large-shrink medium-shrink small-6 cell summary-panel">
                     <div class="grid-x">
                         <div class="auto cell">
-                            <span class="summary-label">Full name:</span><br/><span class="summary-info"><?php echo $firstname ?> <?php echo $surname ?></span>
+                            <span class="summary-label">Full name:</span><br/><span class="summary-info"><?php echo $firstname ?> J. <?php echo $surname ?></span>
                         </div>
                     </div>
                 </div>
