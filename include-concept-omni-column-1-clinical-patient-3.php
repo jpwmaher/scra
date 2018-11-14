@@ -12,7 +12,7 @@
         </div>
 
         <div class="cell">
-            <div class="tab-icon">
+            <div class="tab-icon tab-icon-active">
                 <a id="vert-tab-2" href="<?php echo $link_tab_2 ?>" class="expanded tab-icon-button button">
                                 <img src="img/pill.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label"><?php echo $label_tab_2 ?></span>
@@ -30,7 +30,7 @@
         </div>
 
         <div class="cell">
-            <div class="tab-icon  tab-icon-active">
+            <div class="tab-icon">
                 <a id="vert-tab-4" href="<?php echo $link_tab_4 ?>" class="expanded tab-icon-button button">
                                 <img src="img/clock-2.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label"><?php echo $label_tab_4 ?></span>
@@ -74,7 +74,7 @@
         </div>
 
         <div class="cell">
-            <div class="tab-icon">
+            <div class="tab-icon  tab-icon-active">
                 <a id="vert-tab-2" href="<?php echo $link_tab_2 ?>" class=" tab-icon-button button tab-icon-button-small">
                                 <img src="img/pill.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label"><?php echo $label_tab_2 ?></span>
@@ -92,7 +92,7 @@
         </div>
 
         <div class="cell">
-            <div class="tab-icon tab-icon-active">
+            <div class="tab-icon">
                 <a id="vert-tab-4" href="<?php echo $link_tab_4 ?>" class=" tab-icon-button button tab-icon-button-small">
                                 <img src="img/clock-2.svg" class="tab-icon-img"><br/>
                                 <span class="tab-icon-label"><?php echo $label_tab_4 ?></span>

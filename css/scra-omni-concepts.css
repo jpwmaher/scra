@@ -36,15 +36,15 @@
 
 .tab-icon {
     text-align: center;
-    border-right: 0px rgba(255, 255, 255, 0.2) solid;
-    border-left: 0px rgba(255, 255, 255, 0.0) solid;
+    border-right: 0 rgba(255, 255, 255, 0.2) solid;
+    border-left: 0 rgba(255, 255, 255, 0.0) solid;
     border-bottom: 1px rgba(255, 255, 255, 0.05) solid;
 }
 
 .tab-icon-button {
-    border-radius: 0px;
+    border-radius: 0;
     background: #425563;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .tab-icon-button-small {
@@ -70,7 +70,7 @@
 
 .tab-icon-active {
     background: #F2F3F4;
-    border-right: 0px #F2F3F4 solid;
+    border-right: 0 #F2F3F4 solid;
     color: #415564;
 }
 
@@ -101,15 +101,16 @@
 }
 
 .content-column {
-    padding-top: 0px;
+    padding-top: 0;
 }
-
 
 
 #first-column {
     background: #425563;
-    padding: 0px;
+    padding: 0;
     width: 80px;
+    overflow-x: hidden;
+    height: 100vh;
 }
 
 #second-column {
@@ -173,18 +174,18 @@
 }
 
 .second-column-menu {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .accordion-menu li {
     background: transparent;
-    padding: 0px;
-    border-top: 0px solid rgba(188, 196, 211, 0.6);
+    padding: 0;
+    border-top: 0 solid rgba(188, 196, 211, 0.6);
     border-bottom: 1px solid rgba(188, 196, 211, 0.2);
 }
 
 .accordion-menu li .is-accordion-submenu-item {
-    border-bottom: 0px solid rgba(188, 196, 211, 0.3);
+    border-bottom: 0 solid rgba(188, 196, 211, 0.3);
 }
 
 .submenu-toggle {
@@ -230,7 +231,7 @@ h5 {
 }
 
 table {
-    -webkit-box-shadow: 0px 0px 0px 0px rgba(224, 224, 224, 1);
-    -moz-box-shadow: 0px 0px 0px 0px rgba(224, 224, 224, 1);
-    box-shadow: 0px 0px 0px 0px rgba(224, 224, 224, 1);
+    -webkit-box-shadow: 0 0 0 0 rgba(224, 224, 224, 1);
+    -moz-box-shadow: 0 0 0 0 rgba(224, 224, 224, 1);
+    box-shadow: 0 0 0 0 rgba(224, 224, 224, 1);
 }
