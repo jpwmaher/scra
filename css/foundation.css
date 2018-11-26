@@ -28,7 +28,8 @@ html {
   -ms-text-size-adjust: 100%;
   /* 3 */
   -webkit-text-size-adjust: 100%;
-  /* 3 */ }
+  /* 3 */
+}
 
 /* Sections
        ========================================================================== */
@@ -36,7 +37,8 @@ html {
      * Remove the margin in all browsers (opinionated).
      */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /**
      * Add the correct display in IE 9-.
@@ -998,7 +1000,7 @@ legend {
 .fieldset {
   margin: 1.125rem 0;
   padding: 1.25rem;
-  border: 1px solid #cacaca; 
+  border: 1px solid #cacaca;
 border-radius: 5px;}
   .fieldset legend {
     margin: 0;
@@ -2478,7 +2480,7 @@ width: 100%;}
       align-items: center;
   padding: 0.5rem;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; 
+      flex-wrap: wrap;
         width: 100%;}
   .top-bar,
   .top-bar ul {
