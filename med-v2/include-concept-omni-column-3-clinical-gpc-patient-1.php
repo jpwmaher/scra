@@ -108,7 +108,7 @@
                                     <div>
                                         <p>All relevant items subject to patient preferences and/or RCGP exclusions</p>
                                     </div>
-                                    <div>
+                                    <div class="table-scroll">
                                         <table>
                                             <thead>
                                                 <tr>
@@ -142,7 +142,7 @@
                                     </div>
                                 </div>
                                 <Br/>
-                                <div>
+                                <div class="table-scroll">
                                     <h5>Inactive Problems and Issues</h5>
                                     <div>
                                         <p>All relevant items subject to patient preferences and/or RCGP exclusions</p>
@@ -269,7 +269,7 @@
                                     <div>
                                         <p>All relevant items subject to patient preferences and/or RCGP exclusions</p>
                                     </div>
-                                    <div>
+                                    <div class="table-scroll">
                                         <table>
                                             <thead>
                                                 <tr>
@@ -300,7 +300,7 @@
                                     <div>
                                         <p>All relevant items subject to patient preferences and/or RCGP exclusions</p>
                                     </div>
-                                    <div>
+                                    <div class="table-scroll">
                                         <table>
                                             <thead>
                                                 <tr>
@@ -342,7 +342,7 @@
                                     <div>
                                         <p>All relevant items subject to patient preferences and/or RCGP exclusions</p>
                                     </div>
-                                    <div>
+                                    <div class="table-scroll">
                                         <table>
                                             <thead>
                                                 <tr>
@@ -390,7 +390,7 @@
                 <div>
                     <p>For the period '06-Aug-2015' to '06-Aug-2018'</p>
                 </div>
-                <div>
+                <div class="table-scroll">
                     <table>
                         <thead>
                             <tr>
@@ -424,7 +424,7 @@
                 <div>
                     <p>All relevant items subject to patient preferences and/or RCGP exclusions</p>
                 </div>
-                <div>
+                <div class="table-scroll">
                     <table>
                         <thead>
                             <tr>
