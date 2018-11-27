@@ -1517,7 +1517,7 @@ a.button:hover, a.button:focus {
 
 .close-button {
   position: absolute;
-  color: #8a8a8a;
+  color: #425563;
   cursor: pointer; }
   [data-whatinput='mouse'] .close-button {
     outline: 0; }
