@@ -120,6 +120,9 @@ screen and (min-width: 40em) {
         opacity: 1.0;
         transition: 0.7s;
     }
+    .tab-label-info {
+      color: #425563;
+    }
 }
 
 @media print,

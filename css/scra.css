@@ -123,7 +123,6 @@ body {
 .tab-label-info {
   font-size: 9px;
   text-transform: uppercase;
-  color: #425563;
   font-weight: bold;
   line-height: 1;
 }
@@ -441,7 +440,7 @@ h3 {
 
 th {
     text-align: left;
-    background-color: #768692;
+    background-color: #425563;
     color: white;
     font-size: 90%;
     vertical-align: top !important;
