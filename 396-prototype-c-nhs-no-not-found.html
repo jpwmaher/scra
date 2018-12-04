@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>396 SCRa - responsive prototype concepts</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/scra.css">
+  <link rel="stylesheet" href="css/scra-396.css">
+  <link rel="stylesheet" href="css/foundation-icons.css" />
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<style>
+  /* Webkit browsers like Safari and Chrome */
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+</style>
+
+<body>
+
+  <div id="masthead-2" class="grid-container full">
+    <div id="masthead-menu" class="grid-container">
+      <div class="grid-x grid-padding-x grid-margin-x">
+
+        <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="large">
+          <!-- <button class="menu-icon" type="button" data-toggle="responsive-menu"></button> -->
+          <div class="title-bar-title"><a href="index.html"><img src="/img/nhs-digital-logo-left.jpg" alt="NHS-logo" style="height: 20px;"> </a> &nbsp; Summary Care Record application</div>
+          <div class="auto cell" style="text-align: right;"><a data-open="mobilemenu"><i class="fi-list" style="color: #005EB8; font-size: 24px;"></i></a>
+          </div>
+          <div class="reveal full" id="mobilemenu" data-reveal style="opacity: 0.95;">
+            <div class="grid-x grid-padding-x grid-margin-x small-up-1 medium-up-1 large-up-1" style="padding-top: 60px;">
+              <div class="cell nav-panel"><a class="button hollow expanded big-font" href="396-prototype-c-nhs.html">Find patient</a></div>
+              <div class="cell nav-panel"><a class="button hollow expanded big-font" href="396-prototype-c-fingerprint.html">Log out</a></div>
+            </div>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="top-bar" id="responsive-menu">
+          <div class="top-bar-left">
+            <ul class="dropdown menu show-for-large">
+              <li><a href="index.html" style="padding: 0px;"><img src="/img/nhs-digital-logo-left.jpg" alt="NHS-logo" style="height: 40px;"></a></li>
+              <li class="menu-text">Summary Care Record application</li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li><a href="396-prototype-c-fingerprint.html" style="padding: 0px;"><button class="button hollow show-for-medium" style="border-color: white;">Log out</button></a></li>
+              <li><a href="396-prototype-c-nhs.html" style="padding: 0px;"><button class="button hollow show-for-medium">Find patient</button></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <br />
+    <div class="grid-x">
+      <h1>Patient not found</h1>
+    </div>
+
+    <hr />
+
+    <div class="grid-x grid-padding-x">
+      <div class="large-8 medium-6 cell">
+        <p>
+          Sorry, there were no patient records matching the NHS Number '123 456 7890'.
+        </p>
+        <p>
+          This may be due to input errors and you may wish to try again.
+        </p>
+        <br />
+        <a class="button" href="396-prototype-c-nhs.html">Return to patient search</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="sticky-footer-outer" class="grid-container full show-for-large" data-sticky-container>
+    <div id="footer-inner" class="grid-x grid-padding-x grid-margin-x sticky" data-sticky data-stick-to="bottom">
+      <div class="cell">
+        <strong>CONFIDENTIAL:</strong> PERSONAL PATIENT DATA acccessed by Inspector Clouseau - KIRKBY MANOR NH (8A819)
+      </div>
+    </div>
+  </div>
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/vendor/top.js"></script>
+  <script src="js/vendor/patient-float.js"></script>
+</body>
+
+</html>
