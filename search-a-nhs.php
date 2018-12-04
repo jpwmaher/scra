@@ -20,7 +20,7 @@
     <!-- Masthead -->
     <?php include("include-search-a-masthead.php"); ?>
 
-    <!-- Privacy alert 
+    <!-- Privacy alert
     <div id="privacy" class="grid-container">
         <div class="grid-x grid-padding-x">
             <div class="large-12 medium-12 cell">
@@ -59,7 +59,7 @@
         <div class="grid-x grid-padding-x">
 
             <div id="main-form" class="large-6 medium-8 cell">
-                <form data-abide novalidate action="https://scra-prototypes.herokuapp.com/403-prototype-a-spinny.html" method="get">
+                <form data-abide novalidate action="403-prototype-a-spinny.html" method="get">
                     <div data-abide-error class="alert callout" style="display: none;">
                         <p><i class="fi-alert"></i> There are some errors in your form.</p>
                     </div>
