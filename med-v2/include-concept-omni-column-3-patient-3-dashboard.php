@@ -17,14 +17,7 @@
                     <ul class="alert-panel-list">
                         <li>
                             <div class="grid-x">
-                                <div class="large-auto medium-auto small-11 cell"><strong><a href="#" style="color: white;">Child Care Alert</a></strong></div>
-                                <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="grid-x">
-                                <div class="large-auto medium-auto small-11 cell"><strong><a href="#" style="color: white;">Violent Behaviour</a></strong></div>
-                                <div class="large-shrink medium-shrink small-1  cell"><i class="fi-arrow-right" style="color: white"></i></div>
+                                <div class="large-auto medium-auto small-11 cell"><strong><a style="color: white;">No alerts</a></strong></div>
                             </div>
                         </li>
                         <li>
@@ -66,7 +59,7 @@
                 <div class="cell dashboard-panel">
                     <span class="panel-title">
                                     <div class="grid-x">
-                                        <div class="large-auto medium-auto small-11 cell">Patient details</div>               
+                                        <div class="large-auto medium-auto small-11 cell">Patient details</div>
                                 <div class="large-shrink medium-shrink small-1  cell"><img src="../img/Torso.svg" style="height: 24px;"></div>
                             </div>
                             </span>
@@ -146,7 +139,7 @@
                 <div class="cell dashboard-panel">
                     <span class="panel-title">
                                     <div class="grid-x">
-                                        <div class="large-auto medium-auto small-11 cell">Care providers</div>               
+                                        <div class="large-auto medium-auto small-11 cell">Care providers</div>
                                 <div class="large-shrink medium-shrink small-1  cell"><img src="../img/steth.svg" style="height: 24px;"></div>
                             </div>
                             </span>
