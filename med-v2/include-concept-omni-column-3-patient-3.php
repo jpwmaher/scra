@@ -95,10 +95,6 @@
                     <a data-toggle="summary-info address-history" class="button hollow small">Address history</a>
                 </div>
             </div>
-            <div class="cell">
-                <div class="responsive-embed">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.7381736166885!2d-1.7100520842046711!3d52.193631779753744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870ce339784b357%3A0xd44312aac27f785a!2sHenley+St%2C+Stratford-upon-Avon!5e0!3m2!1sen!2suk!4v1537450477928" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-            </div>
         </div>
 
     </div>

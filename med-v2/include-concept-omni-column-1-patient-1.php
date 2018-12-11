@@ -30,15 +30,6 @@
         </div>
 
         <div class="cell">
-            <div class="tab-icon">
-                <a id="vert-tab-4" href="<?php echo $link_tab_4 ?>" class="expanded tab-icon-button button">
-                                <img src="../img/clock-2.svg" class="tab-icon-img"><br/>
-                                <span class="tab-icon-label"><?php echo $label_tab_4 ?></span>
-                                </a>
-            </div>
-        </div>
-
-        <div class="cell">
             <div class="tab-icon tab-icon-alert">
                 <a id="vert-tab-5" href="<?php echo $link_tab_alerts ?>" class="expanded tab-icon-button button">
                                 <img src="../img/Alert.svg" class="tab-icon-img"><br/>

@@ -126,8 +126,7 @@
             </div>
             <div class="medium-12 large-6 cell">
                 <div class="panel-info-group cell">
-                    <span class="panel-label">Summary:</span><br/><span>Nullam sagittis odio urna, finibus commodo turpis porttitor in. Pellentesque id varius dui</span><br/>
-                    <img src="../img/bruise.jpg" style="max-height: 100px;">&nbsp;<img src="../img/bruise-2.jpg" style="max-height: 100px;">
+                    <span class="panel-label">Summary:</span><br/><span>Nullam sagittis odio urna, finibus commodo turpis porttitor in. Pellentesque id varius dui</span>
                 </div>
             </div>
             <div class="cell">
